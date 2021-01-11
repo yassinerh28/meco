@@ -82,10 +82,6 @@ body {
     box-shadow: inset 0px 0px 0px 5px var(--meco-accent-blue);
 }
 
-.navigation-bar-scroll .drop-down {
-    height: 60px;
-}
-
 .drop-down-title {
     color: var(--meco-gray-dark);
     margin-right: 15px;
