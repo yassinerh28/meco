@@ -11,6 +11,7 @@ body {
     align-items: center;
     background-color: var(--meco-off-white);
 }
+
 .navigation-bar {
     display: flex;
     justify-content: center;
@@ -152,4 +153,8 @@ body {
     width: 100%;
     border-bottom: 2px solid gray;
     background-color: var(--meco-gray-light);
+}
+
+.page-section#page-footer {
+    height: 300px;
 }
