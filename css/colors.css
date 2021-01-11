@@ -1,0 +1,17 @@
+
+:root {
+    --meco-blue: #3333ff;
+    --meco-orange: #ff5533;
+    --meco-gray: #707070;
+    --meco-white: #ffffff;
+    
+    --meco-blue-light: #e5e5ff;
+    --meco-orange-light: #ffeae5;
+    --meco-gray-light: #e6e6e6;
+    --meco-accent-blue: #CCCCFF;
+    --meco-off-white: #fafafa;
+
+    --meco-blue-dark: #292966;
+    --meco-orange-dark: #663329;
+    --meco-gray-dark: #333333;
+}
