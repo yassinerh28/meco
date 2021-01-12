@@ -11,7 +11,8 @@
 <body onscroll="scrollfunction();" id="page">
 <nav id="navigation-bar" class="navigation-bar">
     <div id="content-box-nav">
-        <svg version="1.1" id="logo-nav" tabindex="0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <a id="logo-nav-link" href="# "tabindex="0" aria-label="Acceuil">
+        <svg version="1.1" id="logo-nav" aria-label="Mêco logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 1400 500" style="enable-background:new 0 0 1400 500;" xml:space="preserve">
             <style type="text/css">
                 .letter {fill:#333333;}
@@ -25,19 +26,14 @@
                     transition: box-shadow 0.2s;
                 }
 
-                #logo-nav:focus {
-                    box-shadow: inset 0px 0px 0px 5px #CCCCFF;
-                    transition: box-shadow 0.2s;
-                }
-
-                #logo-nav:hover #letter-e, #logo-nav:focus #letter-e {
+                #logo-nav:hover #letter-e {
                     transform: rotateZ(45deg);
                     transition: transform 0.3s;
                 }
                 #chapeau {
                     transition: transform 0.3s;
                 }
-                #logo-nav:hover #chapeau, #logo-nav:focus #chapeau {
+                #logo-nav:hover #chapeau {
                     transform: translateY(-7%);
                     transition: transform 0.3s;
                 }
@@ -61,12 +57,21 @@
                 </g>
             </g>
         </svg>
+        </a>
         <ul id="navigation-bar-list">
-            <li id="services" class="text-clickable drop-down" tabindex="0">
-                <span class="drop-down-title">Nos services</span><span class="drop-down-arrow"></span>
+            <li id="services">
+                <a id="services-link" class="drop-down" href="#" tabindex="0" aria-label="Services">
+                    <span class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
+                </a>
             </li>
-            <li id="about" class="text-clickable link" tabindex="0">Qui sommes nous?</li>
-            <li><button id="cta-nav" class="text-button button-special-private">Réaliser mon projet</button></li>
+            <li id="about">
+                <a id="about-link" class="text-clickable link" href="#" tabindex="0" aria-label="Qui sommes nous?">Qui sommes nous?</a>
+            </li>
+            <li>
+                <a id="cta-nav-link" href="#" aria-label="Réaliser mon projet" tabindex="0">
+                    <button id="cta-nav" class="text-button button-special-private" tabindex="-1">Réaliser mon projet</button>
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
