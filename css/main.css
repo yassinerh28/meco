@@ -209,6 +209,7 @@ body {
     border-width: 0;
     border-radius: 30px;
     box-shadow: inset 0px 0px 0px 1px var(--meco-blue), 0px 0px 0px 0px var(--meco-blue);
+    transition: box-shadow 0.2s;
 }
 
 #cta-nav-link {
@@ -274,6 +275,10 @@ body {
     mask-size: 4000px;
     mask-position: center right, center left;
     mask-composite: intersect;
+    -webkit-mask-image: url(../images/visuals/circle-right.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 4000px;
+    -webkit-mask-position: center right;
 }
 
 #content-box-heading {
@@ -285,6 +290,10 @@ body {
 
 #heading-title, #heading-body{
     text-align: center;
+}
+
+#heading-title {
+    color: var(--meco-gray-dark);
 }
 
 #heading-body {
