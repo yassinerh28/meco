@@ -262,6 +262,7 @@ body {
 
 .page-section#page-footer {
     height: 300px;
+    background-color: rgba(51, 51, 255, 0.8);
 }
 
 .content-box-page-section {
@@ -278,15 +279,15 @@ body {
 }
 
 #page-heading {
+    -webkit-mask-image: url(../images/visuals/circle-right.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 4000px;
+    -webkit-mask-position: center right;
     mask-image: url(../images/visuals/circle-right.svg), url(../images/visuals/circle-left.svg);
     mask-repeat: no-repeat;
     mask-size: 4000px;
     mask-position: center right, center left;
     mask-composite: intersect;
-    -webkit-mask-image: url(../images/visuals/circle-right.svg);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 4000px;
-    -webkit-mask-position: center right;
 }
 
 #content-box-heading {
