@@ -236,7 +236,7 @@ body {
     background-image: url(../images/patterns/arrow-pattern.svg);
     background-size: 150px;
     position: fixed;
-    height: 100vh;
+    height: 6000px;
     width: 100vw;
     z-index: -1;
 }

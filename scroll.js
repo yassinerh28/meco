@@ -1,4 +1,5 @@
 var navigation_bar = document.getElementById("navigation-bar");
+var pattern = document.getElementById("pattern");
 
 function scrollfunction() {
     if (window.pageYOffset == 0) {
@@ -6,4 +7,5 @@ function scrollfunction() {
     } else {
         navigation_bar.classList.add("navigation-bar-scroll");
     }
+    pattern.style.transform = "translateY(-"+(window.pageYOffset/2)+"px)";
 }
