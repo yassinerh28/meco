@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200.002" height="170.024" viewBox="0 0 200.002 170.024">
+  <g id="confort-illustration" transform="translate(0.002 0.024)">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Isolation_Mode" data-name="Isolation Mode">
+        <path id="Path_54" data-name="Path 54" d="M200,100a99.63,99.63,0,0,1-28.6,70H28.6A100,100,0,1,1,200,100Z" fill="#fff"/>
+        <rect id="Rectangle_60" data-name="Rectangle 60" width="11" height="22.39" transform="translate(116.901 108.331) rotate(-71.49)" fill="#ffeae5"/>
+        <rect id="Rectangle_61" data-name="Rectangle 61" width="11" height="22.39" transform="translate(116.901 108.331) rotate(-71.49)" fill="#ffeae5" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_55" data-name="Path 55" d="M131,160.27l-9.49-9.5,29.67-29.68-17.71-5.93,4.26-12.73,31.36,10.49a4.48,4.48,0,0,1,1.75,7.41Z" fill="#e5e5ff"/>
+        <rect id="Rectangle_62" data-name="Rectangle 62" width="4.48" height="13.43" transform="translate(137.747 102.433) rotate(18.51)" fill="#33f"/>
+        <rect id="Rectangle_63" data-name="Rectangle 63" width="22.39" height="11" transform="translate(58.388 105.001) rotate(-18.51)" fill="#ffeae5"/>
+        <rect id="Rectangle_64" data-name="Rectangle 64" width="22.39" height="11" transform="translate(58.388 105.001) rotate(-18.51)" fill="#ffeae5" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_56" data-name="Path 56" d="M69,160.27l9.5-9.5L48.79,121.09l17.71-5.93-4.26-12.73L30.88,112.92a4.48,4.48,0,0,0-1.75,7.41Z" fill="#e5e5ff"/>
+        <rect id="Rectangle_65" data-name="Rectangle 65" width="4.48" height="13.43" transform="translate(66.502 115.169) rotate(161.49)" fill="#33f"/>
+        <rect id="Rectangle_66" data-name="Rectangle 66" width="20.04" height="8.95" transform="translate(89.98 120.29)" fill="#ffeae5"/>
+        <rect id="Rectangle_67" data-name="Rectangle 67" width="20.04" height="8.95" transform="translate(89.98 120.29)" fill="#ffeae5" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <path id="Path_57" data-name="Path 57" d="M139.08,165.06H60.92L58.81,138.3l-3.37-4.51,31.33-2.41h26.46l31.64,2.41-3.68,4.4Z" fill="#e5e5ff"/>
+        <rect id="Rectangle_68" data-name="Rectangle 68" width="13.43" height="4.48" transform="translate(87.551 126.982) rotate(10)" fill="#33f"/>
+        <rect id="Rectangle_69" data-name="Rectangle 69" width="13.43" height="4.48" transform="translate(99.225 129.314) rotate(-10)" fill="#33f"/>
+        <rect id="Rectangle_70" data-name="Rectangle 70" width="78.16" height="4.94" transform="translate(60.92 165.06)" fill="#e5e5ff"/>
+        <path id="Path_58" data-name="Path 58" d="M132.56,92.2a32.56,32.56,0,0,1-65.12,0V55.57h65.12Z" fill="#ffeae5"/>
+        <path id="Path_59" data-name="Path 59" d="M82.8,84.17,81.58,83a9.84,9.84,0,0,1,13.9,0l-1.21,1.22A8.11,8.11,0,0,0,82.8,84.17Z" fill="#f53"/>
+        <path id="Path_60" data-name="Path 60" d="M90.18,101.93l1.22-1.21a12.16,12.16,0,0,0,17.2,0l1.22,1.21a13.89,13.89,0,0,1-19.64,0Z" fill="#f53"/>
+        <path id="Path_61" data-name="Path 61" d="M105.73,84.17,104.52,83a9.84,9.84,0,0,1,13.9,0l-1.22,1.22a8.11,8.11,0,0,0-11.47-.05Z" fill="#f53"/>
+        <path id="Path_62" data-name="Path 62" d="M67.44,80h0a8.13,8.13,0,0,0,8.14-8.14V63.71h52.91c4.5,0,8.14-7.71,8.14-12.21V35.22H83.72A16.28,16.28,0,0,0,67.44,51.5Z" fill="#f53"/>
+        <path id="Path_63" data-name="Path 63" d="M132.56,80h0V43.36h-8.14V71.85A8.14,8.14,0,0,0,132.56,80Z" fill="#f53"/>
+        <circle id="Ellipse_161" data-name="Ellipse 161" cx="4.48" cy="4.48" r="4.48" transform="translate(128.08 80.53)" fill="#ffeae5"/>
+        <circle id="Ellipse_162" data-name="Ellipse 162" cx="4.48" cy="4.48" r="4.48" transform="translate(62.96 80.53)" fill="#ffeae5"/>
+        <rect id="Rectangle_71" data-name="Rectangle 71" width="200" height="5" transform="translate(0 165)" fill="#33f"/>
+        <rect id="Rectangle_72" data-name="Rectangle 72" width="200" height="5" transform="translate(0 165)" fill="#33f"/>
+      </g>
+    </g>
+  </g>
+</svg>

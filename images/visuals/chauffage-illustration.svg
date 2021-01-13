@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="96.99" viewBox="0 0 200 96.99">
+  <g id="chauffage-illustration" transform="translate(0 -73.01)">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Isolation_Mode" data-name="Isolation Mode">
+        <rect id="Rectangle_97" data-name="Rectangle 97" width="200" height="5" transform="translate(0 165)" fill="#e5e5ff"/>
+        <path id="Path_86" data-name="Path 86" d="M145.84,89.85v48.84H54.16V89.85L100,44.01Z" transform="translate(0 29)" fill="#e5e5ff"/>
+        <path id="Path_87" data-name="Path 87" d="M100,72.31a17.55,17.55,0,1,0,17.55,17.54A17.55,17.55,0,0,0,100,72.31Zm0,22.56a5,5,0,1,1,5-5,5,5,0,0,1-5,5Z" transform="translate(0 29)" fill="#33f"/>
+        <rect id="Rectangle_98" data-name="Rectangle 98" width="200" height="5" transform="translate(0 165)" fill="#33f"/>
+      </g>
+    </g>
+  </g>
+</svg>
