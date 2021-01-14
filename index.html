@@ -11,7 +11,7 @@
 <body onscroll="scrollfunction();" id="page">
 <nav id="navigation-bar" class="navigation-bar">
     <div id="content-box-nav">
-        <a id="logo-nav-link" href="#" tabindex="0" aria-label="Acceuil">
+        <a id="logo-nav-link" href="#" tabindex="0" aria-label="Acceuil" onfocus="drop_down_services_out()">
             <svg version="1.1" id="logo-nav" aria-label="Mêco logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 1400 500" style="enable-background:new 0 0 1400 500;" xml:space="preserve">
                 <style type="text/css">
@@ -59,18 +59,18 @@
             </svg>
         </a>
         <ul id="navigation-bar-list">
-            <li id="services" class="nav-item">
-                <a id="services-link" class="drop-down" href="#services-link" tabindex="0" aria-label="Services" onclick="drop_down_services()">
+            <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
+                <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onfocus="drop_down_services_over()">
                     <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
-                </a>
+                </div>
                 <ul id="drop-down-content">
-                    <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="#" aria-label="Isoler ma maison">Isoler ma maison</a></li>
-                    <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="#" aria-label="Changer mon chauffage">Changer mon chauffage</a></li>
-                    <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="#" aria-label="Energie solaire">Energie solaire</a></li>
+                    <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="#" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
+                    <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="#" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
+                    <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="#" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
                 </ul>
             </li>
             <li id="about" class="nav-item">
-                <a id="about-link" class="text-clickable link" href="#" tabindex="0" aria-label="Qui sommes nous?">Qui sommes nous?</a>
+                <a id="about-link" class="text-clickable link" href="#" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
             </li>
             <li id="cta-nav" class="nav-item">
                 <a id="cta-nav-link" class="text-button button-special-private" href="#" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
@@ -78,19 +78,19 @@
         </ul>
     </div>
 </nav>
-<header id="page-heading" class="page-section">
+<header id="page-heading" class="page-section" tabindex="0">
     <div id="content-box-heading" class="content-box-page-section">
         <h1 id="heading-title" class="text-page-title">Rénover votre maison<br/>sans vous inquiêter du coût</h1>
         <p id="heading-body" class="text-title-body">Mêco aide la famille française le long de son parcours vers la transition énergitique.</p>
-        <a id="cta-heading-link" class="text-button button-special-private" href="#" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
+        <a id="cta-heading-link" class="text-button button-special-private" href="#" aria-label="Réaliser mon projet" tabindex="0" onfocus="document.getElementById('page-heading').scrollIntoView();">Réaliser mon projet</a>
     </div>
 </header>
-<section id="values-intro" class="page-section">
+<section id="values-intro-section" class="page-section" tabindex="0">
     <div id="content-box-values-intro" class="content-box-page-section">
         <h2 id="values-intro-title" class="text-big-header section-title">Vivez dans la maison que vous méritez avec Mêco.</h2>
     </div>
 </section>
-<section id="values" class="page-section">
+<section id="values-section" class="page-section" tabindex="0">
     <div id="content-box-values" class="content-box-page-section">
         <ul id="values-list">
             <li class="values-list-item">
@@ -111,41 +111,41 @@
         </ul>
     </div>
 </section>
-<section id="services" class="page-section">
+<section id="services-section" class="page-section" tabindex="0">
     <div id="content-box-services" class="content-box-page-section">
-        <h2 id="services-title" class="text-big-header section-title">Nous vous proposons des travaux de renovation énergetique de qualité</h2>
-        <ul id="services-list">
-            <li class="services-list-item">
+        <h2 id="services-section-title" class="text-big-header section-title">Nous vous proposons des travaux de renovation énergetique de qualité.</h2>
+        <ul id="services-section-list">
+            <li class="services-section-list-item">
                 <img src="images/visuals/isolation-illustration.svg" alt="isolation-illustration"/>
-                <h3 class="services-list-item-title text-small-header">Isolation thermique</h3>
-                <p class="services-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="#" class="services-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
+                <h3 class="services-section-list-item-title text-small-header">Isolation thermique</h3>
+                <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
+                <a href="#" class="services-section-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0";>En savoir plus</a>
             </li>
-            <li class="services-list-item">
+            <li class="services-section-list-item">
                 <img src="images/visuals/chauffage-illustration.svg" alt="chauffage-illustration"/>
-                <h3 class="services-list-item-title text-small-header">Chauffage</h3>
-                <p class="services-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="#" class="services-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
+                <h3 class="services-section-list-item-title text-small-header">Chauffage</h3>
+                <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
+                <a href="#" class="services-section-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
             </li>
-            <li class="services-list-item">
+            <li class="services-section-list-item">
                 <img src="images/visuals/énergie-illustration.svg" alt="énergie-illustration"/>
-                <h3 class="services-list-item-title text-small-header">Energie solaire</h3>
-                <p class="services-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="#" class="services-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
+                <h3 class="services-section-list-item-title text-small-header">Energie solaire</h3>
+                <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
+                <a href="#" class="services-section-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0" onfocus="document.getElementById('services-section').scrollIntoView();">En savoir plus</a>
             </li>
         </ul>
     </div>
 </section>
-<section id="faq" class="page-section">
+<section id="faq-section" class="page-section" tabindex="0">
     <div id="content-box-faq" class="content-box-page-section">
         <h2 id="faq-title" class="text-big-header section-title">Avez vous des questions?<br/>Ne cherchez pas dehors!</h2>
         <div id="faq-box">
             <ul id="faq-questions-list">
-                <li id="faq-question-1" class="text-clickable faq-question faq-question-active" aria-label="Question 1" onclick="show_answer(1)">Comment se font les travaux d'installation des pompes à chaleur?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-2" class="text-clickable faq-question" aria-label="Question 2" onclick="show_answer(2)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-3" class="text-clickable faq-question" aria-label="Question 3" onclick="show_answer(3)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-4" class="text-clickable faq-question" aria-label="Question 4" onclick="show_answer(4)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
+                <li id="faq-question-1" class="text-clickable faq-question faq-question-active" aria-label="Question 1" onclick="show_answer(1)" onkeydown="show_answer(1)" tabindex="0">Comment se font les travaux d'installation des pompes à chaleur?<span class="faq-question-arrow"></span></li>
+                <li id="faq-question-2" class="text-clickable faq-question" aria-label="Question 2" onclick="show_answer(2)" onkeydown="show_answer(2)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
+                <li id="faq-question-3" class="text-clickable faq-question" aria-label="Question 3" onclick="show_answer(3)" onkeydown="show_answer(3)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
+                <li id="faq-question-4" class="text-clickable faq-question" aria-label="Question 4" onclick="show_answer(4)" onkeydown="show_answer(4)"tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
+                <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" onkeydown="show_answer(5)"tabindex="0" onfocus="document.getElementById('faq-section').scrollIntoView();">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
             </ul>
             <ul id="faq-answers-list">
                 <li id="faq-answer-1" class="text-small-body faq-answer faq-answer-active"><b>Reponse:</b><br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.</li>
@@ -157,11 +157,11 @@
         </div>
     </div>
 </section>
-<section id="reviews" class="page-section">
+<section id="reviews-section" class="page-section" tabindex="0">
     <div id="content-box-reviews" class="content-box-page-section">
         <h2 id="reviews-title" class="text-big-header section-title">Nos clients parlent de nous!</h2>
         <div id="reviews-slider">
-            <span id="reviews-slider-arrow-left" class="reviews-slider-arrow"></span>
+            <span id="reviews-slider-arrow-left" class="reviews-slider-arrow reviews-slider-arrow-not-active" onclick="reviews_slide(-1)" onkeydown="reviews_slide(-1)" tabindex="0"></span>
             <ul id="reviews-list">
                 <li class="reviews-list-item">
                     <div class="reviews-list-item-top">
@@ -174,17 +174,65 @@
                         </div>
                     </div>
                 </li>
+                <li class="reviews-list-item">
+                    <div class="reviews-list-item-top">
+                        <span class="top-stars text-notification" data-review_mark="4"></span><time class="top-date text-notification" datetime="2021-01-11" data-review_date="2021-01-11"></time>
+                    </div>
+                    <div class="reviews-list-item-body">
+                        <div class="reviews-list-item-body-content-box">
+                            <blockquote class="review-quote text-small-body" cite="#">Travaux de qualité et bon service client.</blockquote>
+                            <address class="review-author text-notification" data-review_author="Jean Gaume"></address>
+                        </div>
+                    </div>
+                </li>
+                <li class="reviews-list-item">
+                    <div class="reviews-list-item-top">
+                        <span class="top-stars text-notification" data-review_mark="4.5"></span><time class="top-date text-notification" datetime="2021-01-10" data-review_date="2021-01-10"></time>
+                    </div>
+                    <div class="reviews-list-item-body">
+                        <div class="reviews-list-item-body-content-box">
+                            <blockquote class="review-quote text-small-body" cite="#">Ils arrivent au rendez-vous et ils font un excelent travail!</blockquote>
+                            <address class="review-author text-notification" data-review_author="Gautier Leloup"></address>
+                        </div>
+                    </div>
+                </li>
             </ul>
-            <span id="reviews-slider-arrow-right" class="reviews-slider-arrow"></span>
+            <span id="reviews-slider-arrow-right" class="reviews-slider-arrow" onclick="reviews_slide(1)" onkeydown="reviews_slide(1)" tabindex="0"  onfocus="document.getElementById('reviews-section').scrollIntoView();"></span>
         </div>
     </div>
 </section>
-<section id="newsletter" class="page-section"></section>
-<footer id="page-footer" class="page-section"></footer>
+<section id="newsletter-section" class="page-section" tabindex="0">
+    <div id="content-box-newsletter" class="content-box-page-section">
+        <h2 id="newsletter-title" class="text-small-header section-title">Restez toujours au courant des nouveautés de renovation.</h2>
+        <img src="images/visuals/newsletter-illustration.svg" alt="newsletter-illustration"/>
+        <p id="newsletter-description" class="text-small-body">Inscrivez vous à notre Newsletter et serez le premier à recevoir toutes nos actualiés et toute nouveauté de renovation énergetique.</p>
+        <form id="newsletter-form" action="">
+            <div id="email-input-box" class="email-input-box">
+                <label id="newsletter-email-input-label" for="newsletter-email-input" class="text-label">Email</label>
+                <input type="email" name="newsletter-email-input" id="newsletter-email-input" class="text-input" placeholder="Entrer votre email" onchange="email_input_validation()">
+                <p id="newsletter-email-input-hint" class="text-input-hint">Entrer une adresse electronique valide</p>
+            </div>
+            <input type="submit" id="newsletter-email-submit" value="S'inscrire" class="button-special-private text-clickable" tabindex="0" onfocus="document.getElementById('newsletter-section').scrollIntoView();">
+        </form>
+    </div>
+</section>
+<footer id="page-footer" class="page-section" tabindex="0">
+    <div id="content-box-footer" class="content-box-page-section">
+        <img id="logo-footer" src="images/logo/mêco-white.svg" alt="logo mêco blanc"/>
+        <ul id="footer-list">
+            <li><a href="#" class="important-link text-footer" area-label="Mentions légales" tabindex="0">Mentions légales</a></li>
+            <li><a href="#" class="important-link text-footer" area-label="Politique de la vie privée" tabindex="0">Politique de la vie privée</a></li>
+            <li><a href="#" class="important-link text-footer" area-label="Qui sommes nous?" tabindex="0">Qui sommes nous?</a></li>
+            <li><a href="#" class="important-link text-footer" area-label="Nous contacter" tabindex="0">Nous contacter</a></li>
+        </ul>
+        <small id="copyright-notice" class="text-footer">copyright &copy;2021</small>
+    </div>
+</footer>
 <div id="pattern"></div>
 <script src="scroll.js"></script>
 <script src="drop-down.js"></script>
 <script src="faq.js"></script>
 <script src="reviews.js"></script>
+<script src="newsletter.js"></script>
 </body>
 </html>

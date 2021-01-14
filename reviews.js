@@ -24,11 +24,33 @@ function update_reviews() {
             value += (empty_stars_number > 0) ? ", url(images/graphic-elements/star-empty.svg)".repeat(empty_stars_number) : "";
             return value.slice(1, value.length);
         }
-        // top_stars_item.style.setProperty('--star-whole', "url(../images/graphic-elements/star-whole.svg)");
-        // top_stars_item.style.setProperty('--star-half', "url(../images/graphic-elements/star-half.svg)");
-        // top_stars_item.style.setProperty('--star-whole', "url(../images/graphic-elements/star-empty.svg)");
         top_stars_item.style.backgroundImage = background_image_value(review_mark);
     }
 }
 
 update_reviews();
+
+var  actual_review_index = 1;
+function reviews_slide(increment) {
+    if (!(actual_review_index == 1 && increment == -1) && !(actual_review_index == reviews_list.length && increment == 1)) {
+        actual_review_index += increment;
+        var arrow_left = document.getElementById("reviews-slider-arrow-left");
+        var arrow_right = document.getElementById("reviews-slider-arrow-right");
+        if (actual_review_index == 1) {
+            arrow_left.classList.add("reviews-slider-arrow-not-active");
+        }
+        if (actual_review_index == reviews_list.length) {
+            arrow_right.classList.add("reviews-slider-arrow-not-active");
+        }
+        if (actual_review_index == 2) {
+            arrow_left.classList.remove("reviews-slider-arrow-not-active");
+        }
+        if (actual_review_index == reviews_list.length-1) {
+            arrow_right.classList.remove("reviews-slider-arrow-not-active");
+        }
+        for (let index = 0; index < reviews_list.length; index++) {
+            const reviews_list_item = reviews_list[index];
+            reviews_list_item.style.transform = "translateX(" + 620 * (1 -actual_review_index) + "px)";
+        }
+    }
+}
