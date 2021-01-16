@@ -1,5 +1,22 @@
 body {
     height: 100vh;
+    background-image: url(../images/patterns/arrow-pattern.svg);
+    background-size: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#white {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(250, 250, 250, 0.9);
 }
 
 #content-box-nav {
@@ -91,11 +108,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
 }
 
 .choice-image {
     border: solid 10px var(--meco-gray-light);
     border-radius: 100%;
+    background-repeat: no-repeat;
 }
 
 .choice-caption {
@@ -112,29 +131,58 @@ body {
     border-color: var(--meco-blue-dark);
 }
 
-/* choices-3 */
+/* choices-2 choices-3 choices-4*/
 
-.choices-3 .choice {
+.choices-2 .choice, .choices-3 .choice, .choices-4 .choice {
     max-width: 250px;
 }
 
-.choices-3 .choice-image {
+.choices-2 .choice-image, .choices-3 .choice-image, .choices-4 .choice-image {
     height: 200px;
     width: 200px;
-    background-repeat: no-repeat;
     background-size: 170px;
     background-position: center, 250px, 250px;
 }
 
-.choices-3 .choice:hover .choice-image {
+.choices-2 .choice:hover .choice-image, .choices-3 .choice:hover .choice-image, .choices-4 .choice:hover .choice-image {
     background-position: 250px, center, 250px;
 }
 
-.choices-3 .choice-selected .choice-image {
+.choices-2 .choice-selected .choice-image, .choices-3 .choice-selected .choice-image, .choices-4 .choice-selected .choice-image {
     background-position: 250px, 250px, center;
 }
 
-.choices-3 .choice-caption {
+.choices-2 .choice-caption, .choices-3 .choice-caption, .choices-4 .choice-caption {
     line-height: 24px;
 }
 
+/* choices-6 */
+
+.choices-6 .choices-box {
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+.choices-6 .choice {
+    flex-basis: 33%;
+    padding: 10px 0;
+}
+
+.choices-6 .choice-image {
+    border-width: 5px;
+    height: 100px;
+    width: 100px;
+    background-size: 70px;
+    background-position: center, 150px, 150px;
+}
+
+.choices-6 .choice:hover {
+    background-position: 150px, center, 150px;
+}
+
+.choices-6 .choice-caption {
+    margin-top: 10px;
+}
+
+.choices-6 .choice-selected .choice-image {
+    background-position: 150px, 150px, center;
+}

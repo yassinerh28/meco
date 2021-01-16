@@ -24,7 +24,6 @@ function go_to_page(number) {
                 choice_image.style.backgroundImage = "url(../images/app/" + choice_image.dataset.image_src + "-unselected.svg)";
                 choice_image.style.backgroundImage += ", url(../images/app/" + choice_image.dataset.image_src + "-hover.svg)";
                 choice_image.style.backgroundImage += ", url(../images/app/" + choice_image.dataset.image_src + "-selected.svg)";
-                
             }
             button_left.innerHTML = app_page.dataset.button_left;
             button_right.innerHTML = app_page.dataset.button_right;
@@ -43,4 +42,4 @@ function update_app(e) {
     
 }
 
-go_to_page(current_app_page);
+go_to_page(7);

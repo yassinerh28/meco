@@ -209,11 +209,11 @@
         <h2 id="newsletter-title" class="text-small-header section-title">Restez toujours au courant des nouveautés de renovation.</h2>
         <img src="images/visuals/newsletter-illustration.svg" alt="newsletter-illustration"/>
         <p id="newsletter-description" class="text-small-body">Inscrivez vous à notre Newsletter et serez le premier à recevoir toutes nos actualiés et toute nouveauté de renovation énergetique.</p>
-        <form id="newsletter-form" action="">
-            <div id="email-input-box" class="email-input-box">
-                <label id="newsletter-email-input-label" for="newsletter-email-input" class="text-label email-input-label">Email</label>
-                <input type="email" name="newsletter-email-input" id="newsletter-email-input" class="text-input email-input" placeholder="Entrer votre email" onchange="email_input_validation(this)">
-                <p id="newsletter-email-input-hint" class="text-input-hint email-input-hint">Entrer une adresse electronique valide</p>
+        <form class="input-email-form" id="newsletter-form" action="">
+            <div id="email-input-box" class="input-box">
+                <label id="newsletter-email-input-label" for="newsletter-email-input" class="text-label input-label">Email</label>
+                <input type="email" name="newsletter-email-input" id="newsletter-email-input" class="text-input input input-email" placeholder="Entrer votre email" onchange="input_validation(this)">
+                <p id="newsletter-email-input-hint" class="text-input-hint input-hint">Entrer une adresse electronique valide</p>
             </div>
             <div id="email-submit-box"><input type="submit" id="newsletter-email-submit" value="S'inscrire" class="text-button button button-primary-special-private" tabindex="0" aria-label="s'inscrire" onfocus="document.getElementById('newsletter-section').scrollIntoView();"></div>
         </form>

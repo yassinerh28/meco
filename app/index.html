@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../css/colors.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/buttons.css">
-    <link rel="stylesheet" href="../css/formulaire-main.css">
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="../css/app-main.css">
 </head>
 <body>
 <nav id="navigation-bar" class="navigation-bar">
@@ -65,23 +66,24 @@
 <section id="wizard">
     <div id="content-box-wizard">
         <div id="questions-box">
-            <h2 id="question-title" class="text-small-header">question-title</h2>
-            <p id="question-description" class="text-small-body">question-description</p>
+            <h2 id="question-title" class="text-small-header"></h2>
+            <p id="question-description" class="text-small-body"></p>
             <div id="choices-container">
                 <!-- choices go here -->
             </div>
         </div>
         <div id="buttons-box">
-            <button id="button-left" class="text-clickable button">button left</button>
+            <button id="button-left" class="text-clickable button button-display-none"></button>
             <div id="between-buttons"></div>
-            <button id="button-right" class="text-clickable button">button right</button>
+            <button id="button-right" class="text-clickable button button-display-none" onclick="myfunction()"></button>
         </div>
     </div>
     <div id="progress-bar">
         <div id="progress" data-progress="30"></div>
     </div>
 </section>
+<div id="white"></div>
 </body>
-<script src="scripts/update.js"></script>
-<script src="../scripts/progress-bar.js"></script>
+<script src="../scripts/update.js"></script>
+<script src="../scripts/input.js"></script>
 </html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="210" viewBox="0 0 210 210">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_131" data-name="Rectangle 131" width="16.17" height="32.341" fill="#ccc"/>
+    </clipPath>
+  </defs>
+  <g id="appartement-unselected" transform="translate(-20 -5)">
+    <circle id="ellipse" cx="105" cy="105" r="105" transform="translate(20 5)" fill="#fff"/>
+    <g id="icon" transform="translate(66.507 45.876)">
+      <rect id="Rectangle_119" data-name="Rectangle 119" width="64.681" height="122.894" transform="translate(6.468 5.395)" fill="#fafafa"/>
+      <rect id="Rectangle_120" data-name="Rectangle 120" width="38.809" height="122.894" transform="translate(71.149 5.395)" fill="#e6e6e6"/>
+      <path id="Path_106" data-name="Path 106" d="M177.272,0H132V5.39l45.277.005Z" transform="translate(-60.851)" fill="#999"/>
+      <path id="Path_107" data-name="Path 107" d="M77.612,0H0V5.39L77.618,5.4Z" fill="#ccc"/>
+      <rect id="Rectangle_121" data-name="Rectangle 121" width="12.936" height="19.404" transform="translate(84.086 11.864)" fill="#e6e6e6" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <rect id="Rectangle_122" data-name="Rectangle 122" width="12.936" height="19.404" transform="translate(84.086 37.736)" fill="#e6e6e6" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <rect id="Rectangle_123" data-name="Rectangle 123" width="12.936" height="19.404" transform="translate(19.404 11.864)" fill="#e6e6e6"/>
+      <rect id="Rectangle_124" data-name="Rectangle 124" width="12.936" height="19.404" transform="translate(19.404 37.736)" fill="#e6e6e6"/>
+      <rect id="Rectangle_125" data-name="Rectangle 125" width="12.936" height="19.404" transform="translate(19.404 63.609)" fill="#e6e6e6"/>
+      <rect id="Rectangle_126" data-name="Rectangle 126" width="12.936" height="19.404" transform="translate(45.277 11.864)" fill="#e6e6e6"/>
+      <rect id="Rectangle_127" data-name="Rectangle 127" width="12.936" height="19.404" transform="translate(45.277 37.736)" fill="#e6e6e6"/>
+      <rect id="Rectangle_128" data-name="Rectangle 128" width="12.936" height="19.404" transform="translate(45.277 63.609)" fill="#e6e6e6"/>
+      <rect id="Rectangle_129" data-name="Rectangle 129" width="16.17" height="32.341" transform="translate(30.724 95.949)" fill="#e6e6e6"/>
+      <g id="Group_136" data-name="Group 136" transform="translate(30.724 95.949)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_130" data-name="Rectangle 130" width="16.17" height="32.341" transform="translate(2.156)" fill="#ccc"/>
+      </g>
+      <rect id="Rectangle_132" data-name="Rectangle 132" width="12.936" height="19.404" transform="translate(84.086 63.609)" fill="#e6e6e6" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

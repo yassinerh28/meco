@@ -1,16 +1,16 @@
 
 /* Email */
 
-.email-input-label {
+.input-label {
     color: var(--meco-gray-dark);
 }
 
-.email-input-box {
+.input-box {
     display: flex;
     flex-direction: column;
 }
 
-.email-input {
+.input {
     box-shadow: 0px 0px 0px 3px var(--meco-accent-blue);
     border: none;
     color: var(--meco-gray-dark);
@@ -19,37 +19,79 @@
     text-indent: 20px;
 }
 
-.email-input::placeholder {
+.input::placeholder {
     color: var(--meco-white);
 }
 
-.email-input:hover::placeholder, .email-input:focus::placeholder {
+.input:hover::placeholder, .input:focus::placeholder {
     color: var(--meco-blue);
 }
 
-.email-input-box-invalid:not(:focus) {
+.input-box-invalid:not(:focus) {
     color: red;
     box-shadow: 0px 0px 0px 3px red;
 }
 
-.email-input-box-valid:not(:focus) {
+.input-box-valid:not(:focus) {
     color: var(--meco-blue);
     box-shadow: 0px 0px 0px 3px var(--meco-blue);
 }
 
-.email-input:focus {
+.input:focus {
     box-shadow: 0px 0px 0px 3px var(--meco-gray-dark);
 }
 
-.email-input-hint {
+.input-hint {
     opacity: 0;
     color: red;
     transition: all 0.2s;
 }
 
-.email-input-box-valid + .email-input-hint {
+.input-box-valid + .-input-hint {
     opacity: 0;
 }
-.email-input-box-invalid + .email-input-hint {
+.input-box-invalid + .input-hint {
     opacity: 1;
+}
+
+/* number */
+
+.input-number::-webkit-outer-spin-button,
+.input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-number[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* drop-down */
+
+.input-drop-down {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 10px;
+  font-weight: 500;
+  background-image: url(../images/graphic-elements/drop-down-arrow-input.svg), url(../images/graphic-elements/drop-down-arrow-input-focus.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center right, -30px;
+}
+
+.input-drop-down-box {
+
+}
+
+.input-drop-down:focus {
+    background-position:  -30px, center right;
+}
+
+.input-drop-down-choice {
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.input-drop-down-group option {
+    padding-left: 20px;
+    margin-top: -50px;
 }
