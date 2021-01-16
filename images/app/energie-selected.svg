@@ -1,0 +1,5 @@
+<svg id="energie-selected" xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
+  <circle id="ellipse" cx="105" cy="105" r="105" fill="#fff"/>
+  <rect id="panneau" width="10.45" height="50.14" transform="translate(117.807 56.836) rotate(-45)" fill="#414199"/>
+  <path id="maison" d="M155.84,109.99v45.85H64.16V109.99L110,64.16Z" transform="translate(-5 -5)" fill="#e5e5ff"/>
+</svg>

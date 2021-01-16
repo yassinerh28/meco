@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
+  <g id="energie-unselected" transform="translate(-20 -5)">
+    <circle id="ellipse" cx="105" cy="105" r="105" transform="translate(20 5)" fill="#fff"/>
+    <path id="maison" d="M155.84,109.99v45.85H64.16V109.99L110,64.16Z" transform="translate(15 0)" fill="#e5e5e5"/>
+    <rect id="panneau" width="10.45" height="50.14" transform="translate(137.807 61.836) rotate(-45)" fill="#ccc"/>
+  </g>
+</svg>

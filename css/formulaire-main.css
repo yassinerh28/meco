@@ -1,0 +1,140 @@
+body {
+    height: 100vh;
+}
+
+#content-box-nav {
+    padding: 0 20px;
+}
+
+#navigation-bar {
+    position: relative;
+}
+
+#wizard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#content-box-wizard {
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#progress-bar {
+    background-color: var(--meco-gray-light);
+    height: 10px;
+    width: 100%;
+}
+
+#questions-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#buttons-box {
+    width: 1000px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#between-buttons {
+    width: 100%;
+    height: 100%;
+}
+
+#choices-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#question-title {
+    color: var(--meco-gray-dark);
+    width: 1000px;
+    text-align: center;
+}
+
+#progress {
+    height: 100%;
+    background-color: var(--meco-blue);
+    background-image: url(../images/graphic-elements/progress-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 11px;
+    background-position-x: right;
+}
+
+/* choices general */
+
+.choices-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.choice-image {
+    border: solid 10px var(--meco-gray-light);
+    border-radius: 100%;
+}
+
+.choice-caption {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--meco-gray-dark);
+}
+
+.choice:hover .choice-image {
+    border-color: var(--meco-accent-blue);
+}
+    
+.choice-selected .choice-image {
+    border-color: var(--meco-blue-dark);
+}
+
+/* choices-3 */
+
+.choices-3 .choice {
+    max-width: 250px;
+}
+
+.choices-3 .choice-image {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center, 250px, 250px;
+}
+
+.choices-3 .choice:hover .choice-image {
+    background-position: 250px, center, 250px;
+}
+
+.choices-3 .choice-selected .choice-image {
+    background-position: 250px, 250px, center;
+}
+
+.choices-3 .choice-caption {
+    line-height: 24px;
+}
+

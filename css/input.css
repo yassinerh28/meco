@@ -1,0 +1,55 @@
+
+/* Email */
+
+.email-input-label {
+    color: var(--meco-gray-dark);
+}
+
+.email-input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-input {
+    box-shadow: 0px 0px 0px 3px var(--meco-accent-blue);
+    border: none;
+    color: var(--meco-gray-dark);
+    width: 540px;
+    height: 50px;
+    text-indent: 20px;
+}
+
+.email-input::placeholder {
+    color: var(--meco-white);
+}
+
+.email-input:hover::placeholder, .email-input:focus::placeholder {
+    color: var(--meco-blue);
+}
+
+.email-input-box-invalid:not(:focus) {
+    color: red;
+    box-shadow: 0px 0px 0px 3px red;
+}
+
+.email-input-box-valid:not(:focus) {
+    color: var(--meco-blue);
+    box-shadow: 0px 0px 0px 3px var(--meco-blue);
+}
+
+.email-input:focus {
+    box-shadow: 0px 0px 0px 3px var(--meco-gray-dark);
+}
+
+.email-input-hint {
+    opacity: 0;
+    color: red;
+    transition: all 0.2s;
+}
+
+.email-input-box-valid + .email-input-hint {
+    opacity: 0;
+}
+.email-input-box-invalid + .email-input-hint {
+    opacity: 1;
+}

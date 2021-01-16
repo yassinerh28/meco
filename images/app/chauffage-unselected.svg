@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
+  <g id="chauffage" transform="translate(-20 -5)">
+    <circle id="ellipse" cx="105" cy="105" r="105" transform="translate(20 5)" fill="#fff"/>
+    <path id="maison" d="M155.84,109.99v45.85H64.16V109.99L110,64.16Z" transform="translate(15 0)" fill="#e5e5e5"/>
+    <path id="PAC" d="M110,92.45A17.55,17.55,0,1,0,127.55,110,17.55,17.55,0,0,0,110,92.45ZM110,115a5,5,0,1,1,5-5A5,5,0,0,1,110,115Z" transform="translate(15 0)" fill="#ccc"/>
+  </g>
+</svg>

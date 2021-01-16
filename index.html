@@ -6,7 +6,10 @@
     <title>Mêco</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/index-main.css">
 </head>
 <body onscroll="scrollfunction();" id="page">
 <nav id="navigation-bar" class="navigation-bar">
@@ -73,7 +76,7 @@
                 <a id="about-link" class="text-clickable link" href="#" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
             </li>
             <li id="cta-nav" class="nav-item">
-                <a id="cta-nav-link" class="text-button button-special-private" href="#" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
+                <a id="cta-nav-link" class="text-button button button-primary-special-private" href="app/index.html" target="_blank" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
             </li>
         </ul>
     </div>
@@ -82,7 +85,7 @@
     <div id="content-box-heading" class="content-box-page-section">
         <h1 id="heading-title" class="text-page-title">Rénover votre maison<br/>sans vous inquiêter du coût</h1>
         <p id="heading-body" class="text-title-body">Mêco aide la famille française le long de son parcours vers la transition énergitique.</p>
-        <a id="cta-heading-link" class="text-button button-special-private" href="#" aria-label="Réaliser mon projet" tabindex="0" onfocus="document.getElementById('page-heading').scrollIntoView();">Réaliser mon projet</a>
+        <a id="cta-heading-link" class="text-button button button-primary-special-private" href="app/index.html"  target="_blank" aria-label="Réaliser mon projet" tabindex="0" onfocus="document.getElementById('page-heading').scrollIntoView();">Réaliser mon projet</a>
     </div>
 </header>
 <section id="values-intro-section" class="page-section" tabindex="0">
@@ -119,19 +122,19 @@
                 <img src="images/visuals/isolation-illustration.svg" alt="isolation-illustration"/>
                 <h3 class="services-section-list-item-title text-small-header">Isolation thermique</h3>
                 <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="#" class="services-section-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0";>En savoir plus</a>
+                <a href="#" class="services-section-list-item-link text-clickable button button-secondary-normal aria-label="En savoir plus" tabindex="0";>En savoir plus</a>
             </li>
             <li class="services-section-list-item">
                 <img src="images/visuals/chauffage-illustration.svg" alt="chauffage-illustration"/>
                 <h3 class="services-section-list-item-title text-small-header">Chauffage</h3>
                 <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="#" class="services-section-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
+                <a href="#" class="services-section-list-item-link text-clickable button button-secondary-normal" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
             </li>
             <li class="services-section-list-item">
                 <img src="images/visuals/énergie-illustration.svg" alt="énergie-illustration"/>
                 <h3 class="services-section-list-item-title text-small-header">Energie solaire</h3>
                 <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="#" class="services-section-list-item-link text-clickable button-normal-public" aria-label="En savoir plus" tabindex="0" onfocus="document.getElementById('services-section').scrollIntoView();">En savoir plus</a>
+                <a href="#" class="services-section-list-item-link text-clickable button button-secondary-normal" aria-label="En savoir plus" tabindex="0" onfocus="document.getElementById('services-section').scrollIntoView();">En savoir plus</a>
             </li>
         </ul>
     </div>
@@ -208,11 +211,11 @@
         <p id="newsletter-description" class="text-small-body">Inscrivez vous à notre Newsletter et serez le premier à recevoir toutes nos actualiés et toute nouveauté de renovation énergetique.</p>
         <form id="newsletter-form" action="">
             <div id="email-input-box" class="email-input-box">
-                <label id="newsletter-email-input-label" for="newsletter-email-input" class="text-label">Email</label>
-                <input type="email" name="newsletter-email-input" id="newsletter-email-input" class="text-input" placeholder="Entrer votre email" onchange="email_input_validation()">
-                <p id="newsletter-email-input-hint" class="text-input-hint">Entrer une adresse electronique valide</p>
+                <label id="newsletter-email-input-label" for="newsletter-email-input" class="text-label email-input-label">Email</label>
+                <input type="email" name="newsletter-email-input" id="newsletter-email-input" class="text-input email-input" placeholder="Entrer votre email" onchange="email_input_validation(this)">
+                <p id="newsletter-email-input-hint" class="text-input-hint email-input-hint">Entrer une adresse electronique valide</p>
             </div>
-            <input type="submit" id="newsletter-email-submit" value="S'inscrire" class="button-special-private text-clickable" tabindex="0" aria-label="s'inscrire" onfocus="document.getElementById('newsletter-section').scrollIntoView();">
+            <div id="email-submit-box"><input type="submit" id="newsletter-email-submit" value="S'inscrire" class="text-button button button-primary-special-private" tabindex="0" aria-label="s'inscrire" onfocus="document.getElementById('newsletter-section').scrollIntoView();"></div>
         </form>
     </div>
 </section>
@@ -229,10 +232,10 @@
     </div>
 </footer>
 <div id="pattern"></div>
-<script src="scroll.js"></script>
-<script src="drop-down.js"></script>
-<script src="faq.js"></script>
-<script src="reviews.js"></script>
-<script src="newsletter.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/drop-down.js"></script>
+<script src="scripts/faq.js"></script>
+<script src="scripts/reviews.js"></script>
+<script src="scripts/input.js"></script>
 </body>
 </html>
