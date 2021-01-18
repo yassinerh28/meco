@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#7E7ECC;}
+	.st2{fill:#E5E5FF;}
+	.st3{fill:#9E9EFF;}
+	.st4{fill:#B3B3FF;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FF5533;}
+</style>
+<g id="plafond-plancher-chauffant-hover-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
+	<g id="icon" transform="translate(64.736 45.5)">
+		<rect id="Rectangle_225" x="86.4" y="51.6" class="st1" width="22.4" height="8.7"/>
+		<rect id="Rectangle_226" x="0.6" y="51.6" class="st1" width="22.4" height="8.7"/>
+		<path id="Path_151" class="st2" d="M7.3,51.9L54.7,4.5l47.4,47.4v66.4H7.3V51.9z"/>
+		<path id="Path_152" class="st3" d="M114.4,54.7l-5.6,5.6l-6.7-6.7L54.7,6.2L0.6,60.3L-5,54.7L54.4-4.6L54.7-5L114.4,54.7z"/>
+		<rect id="Rectangle_227" x="7.3" y="53.6" class="st4" width="94.9" height="4.7"/>
+		<rect id="Rectangle_228" x="7.3" y="113.6" class="st4" width="94.9" height="4.7"/>
+		<path id="Path_153" class="st5" d="M61.5,83.7H56l1-11.3l-9.1,15.8l6.1,0l-1.5,11.3L61.5,83.7z"/>
+	</g>
+</g>
+</svg>

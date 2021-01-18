@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#B23326;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#FF5533;}
+	.st3{fill:#CC4029;}
+	.st4{fill:#E5482E;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:url(#SVGID_2_);}
+</style>
+<pattern  y="210" width="66" height="96" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="71 -130.5 66 96" style="overflow:visible;">
+	<g>
+		<rect x="71" y="-130.5" class="st0" width="66" height="96"/>
+		<g>
+			<rect x="71" y="-130.5" class="st0" width="66" height="96"/>
+			<g>
+				<path class="st1" d="M203-130c-3.5,1.2-6,4.6-6,8.5l0,0c0,13.2-10.8,24-24,24c-13.3,0-24-10.8-24-24c0-5-4-9-9-9
+					c-0.2,0-0.4,0-0.6,0c-0.1,0-0.2,0-0.3,0c0,0,0,0-0.1,0c-0.2,0-0.3,0-0.5,0.1l0,0c-0.5,0.1-1,0.2-1.4,0.4l0,0
+					c-1.5,0.5-2.8,1.4-3.8,2.6"/>
+			</g>
+			<g>
+				<g>
+					<rect x="83" y="-130.5" class="st2" width="48" height="96"/>
+					<rect x="131" y="-130.5" class="st3" width="6" height="96"/>
+					<rect x="71" y="-130.5" class="st4" width="12" height="96"/>
+				</g>
+				<path class="st1" d="M137-130c-3.5,1.2-6,4.6-6,8.5l0,0c0,13.2-10.7,24-24,24s-24-10.8-24-24c0-5-4-9-9-9c-0.2,0-0.4,0-0.6,0
+					c-0.1,0-0.2,0-0.3,0H73c-0.2,0-0.3,0-0.5,0.1l0,0c-0.5,0.1-1,0.2-1.4,0.4l0,0c-1.5,0.5-2.8,1.4-3.8,2.6"/>
+			</g>
+			<g>
+				<path class="st1" d="M71-130c-3.5,1.2-6,4.6-6,8.5l0,0c0,13.2-10.8,24-24,24c-13.3,0-24-10.8-24-24c0-5-4-9-9-9
+					c-0.2,0-0.4,0-0.6,0c-0.1,0-0.2,0-0.3,0H7c-0.2,0-0.3,0-0.5,0.1l0,0c-0.6,0.1-1,0.3-1.5,0.4l0,0c-1.5,0.5-2.8,1.4-3.8,2.6"/>
+			</g>
+			<g>
+				<path class="st1" d="M203-34c-3.5,1.2-6,4.6-6,8.5l0,0c0,13.2-10.8,24-24,24c-13.3,0-24-10.8-24-24c0-5-4-9-9-9
+					c-0.2,0-0.4,0-0.6,0c-0.1,0-0.2,0-0.3,0c0,0,0,0-0.1,0c-0.2,0-0.3,0-0.5,0.1l0,0c-0.5,0.1-1,0.2-1.4,0.4l0,0
+					c-1.5,0.5-2.8,1.4-3.8,2.6"/>
+			</g>
+			<g>
+				<path class="st1" d="M137-34c-3.5,1.2-6,4.6-6,8.5l0,0c0,13.2-10.7,24-24,24s-24-10.8-24-24c0-5-4-9-9-9c-0.2,0-0.4,0-0.6,0
+					c-0.1,0-0.2,0-0.3,0H73c-0.2,0-0.3,0-0.5,0.1l0,0c-0.5,0.1-1,0.2-1.4,0.4l0,0c-1.5,0.5-2.8,1.4-3.8,2.6"/>
+			</g>
+			<g>
+				<path class="st1" d="M71-34c-3.5,1.2-6,4.6-6,8.5l0,0c0,13.2-10.8,24-24,24c-13.3,0-24-10.8-24-24c0-5-4-9-9-9
+					c-0.2,0-0.4,0-0.6,0c-0.1,0-0.2,0-0.3,0H7c-0.2,0-0.3,0-0.5,0.1l0,0c-0.5,0.1-1,0.2-1.4,0.4l0,0c-1.5,0.5-2.8,1.4-3.8,2.6"/>
+			</g>
+		</g>
+	</g>
+</pattern>
+<g id="tuile-hover-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st5" cx="120" cy="105" r="105"/>
+	<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 13.4991 -16344.7002)">
+	</pattern>
+	<circle class="st6" cx="120" cy="105" r="90"/>
+</g>
+</svg>

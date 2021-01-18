@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CCCCFF;}
+	.st2{fill:#E5E5FF;}
+	.st3{fill:#B3B3FF;}
+	.st4{fill:none;stroke:#B3B3FF;stroke-width:2;stroke-miterlimit:10;}
+	.st5{fill:#1F1F4C;}
+	.st6{fill:#292966;}
+	.st7{fill:#414199;}
+</style>
+<g id="_45-degree-active-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
+	<g id="icon" transform="translate(71.23 39)">
+		<path id="Path_791" class="st1" d="M42.6,53.8v61h59.9V60.5H49.3L42.6,53.8z"/>
+		<path id="Path_792" class="st2" d="M22.1,33.3L-5,6.2v108.6h47.6v-61L22.1,33.3z"/>
+		<path id="Path_793" class="st3" d="M42.6,53.8H20.6c0-5.8,2.3-11.4,6.4-15.5L42.6,53.8z"/>
+		<line id="Line_18" class="st4" x1="42.6" y1="53.8" x2="-5" y2="53.8"/>
+		<path id="Path_794" class="st5" d="M102.5,54.9H54.9l-5.6,5.6h59.9l5.6-5.6H102.5z"/>
+		<path id="Path_795" class="st6" d="M54.9-5H-5l32.8,32.7l27.1,27.1h59.9L54.9-5z"/>
+		<path id="Path_796" class="st7" d="M27.8,27.7L-5-5V6.2l27.1,27.1l20.4,20.4l6.7,6.7l5.6-5.6L27.8,27.7z"/>
+	</g>
+</g>
+</svg>

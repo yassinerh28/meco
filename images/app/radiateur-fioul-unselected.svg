@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#FAFAFA;}
+	.st2{fill:#E6E6E6;}
+	.st3{fill:#CCCCCC;}
+	.st4{clip-path:url(#SVGID_2_);fill:#CCCCCC;}
+	.st5{clip-path:url(#SVGID_4_);fill:#CCCCCC;}
+	.st6{clip-path:url(#SVGID_6_);fill:#CCCCCC;}
+	.st7{clip-path:url(#SVGID_8_);fill:#CCCCCC;}
+	.st8{clip-path:url(#SVGID_10_);fill:#CCCCCC;}
+	.st9{clip-path:url(#SVGID_12_);fill:#CCCCCC;}
+</style>
+<g id="radiateur-default-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
+	<g id="icon" transform="translate(54.63 61.62)">
+		<rect id="Rectangle_162" x="-4.6" y="-4.6" class="st1" width="132" height="88"/>
+		<rect id="Rectangle_163" x="127.4" y="-4.6" class="st2" width="8" height="88"/>
+		<rect id="Rectangle_164" x="100.4" y="21.4" class="st1" width="27" height="35"/>
+		<rect id="Rectangle_165" x="-4.6" y="83.4" class="st2" width="132" height="8"/>
+		<rect id="Rectangle_166" x="127.4" y="83.4" class="st3" width="8" height="8"/>
+		<rect id="Rectangle_167" x="3.4" y="3.4" class="st2" width="9" height="71"/>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="3.4" y="3.4" width="9" height="71"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect id="Rectangle_168" x="-1.6" y="3.4" class="st4" width="8" height="71"/>
+		</g>
+		<rect id="Rectangle_170" x="21.4" y="3.4" class="st2" width="9" height="71"/>
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="21.4" y="3.4" width="9" height="71"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect id="Rectangle_171" x="15.4" y="3.4" class="st5" width="9" height="71"/>
+		</g>
+		<rect id="Rectangle_173" x="39.4" y="3.4" class="st2" width="8" height="71"/>
+		<g>
+			<defs>
+				<rect id="SVGID_5_" x="39.4" y="3.4" width="8" height="71"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect id="Rectangle_174" x="33.4" y="3.4" class="st6" width="9" height="71"/>
+		</g>
+		<rect id="Rectangle_176" x="56.4" y="3.4" class="st2" width="9" height="71"/>
+		<g>
+			<defs>
+				<rect id="SVGID_7_" x="56.4" y="3.4" width="9" height="71"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect id="Rectangle_177" x="50.4" y="3.4" class="st7" width="9" height="71"/>
+		</g>
+		<rect id="Rectangle_179" x="74.4" y="3.4" class="st2" width="9" height="71"/>
+		<g>
+			<defs>
+				<rect id="SVGID_9_" x="74.4" y="3.4" width="9" height="71"/>
+			</defs>
+			<clipPath id="SVGID_10_">
+				<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect id="Rectangle_180" x="68.4" y="3.4" class="st8" width="9" height="71"/>
+		</g>
+		<rect id="Rectangle_182" x="91.4" y="3.4" class="st2" width="9" height="71"/>
+		<g>
+			<defs>
+				<rect id="SVGID_11_" x="91.4" y="3.4" width="9" height="71"/>
+			</defs>
+			<clipPath id="SVGID_12_">
+				<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect id="Rectangle_183" x="86.4" y="3.4" class="st9" width="8" height="71"/>
+		</g>
+		<path id="Path_144" class="st3" d="M122.4,42.9c0,4.9-4,8.8-8.8,8.8s-8.8-4-8.8-8.8c0-4.9,4.4-7,8.8-15.9
+			C118,35.9,122.4,38,122.4,42.9z"/>
+	</g>
+</g>
+</svg>

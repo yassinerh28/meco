@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#B3B3FF;}
+	.st2{fill:#E5E5FF;}
+	.st3{fill:#CCCCFF;}
+	.st4{fill:#414199;}
+	.st5{clip-path:url(#SVGID_2_);}
+</style>
+<g id="comble-perdu-active-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
+	<g id="icon" transform="translate(49.92 62)">
+		<rect id="Rectangle_270" x="110.7" y="66.6" class="st1" width="28.3" height="11"/>
+		<rect id="Rectangle_271" x="2.1" y="66.6" class="st1" width="28.3" height="11"/>
+		<path id="Path_188" class="st2" d="M10.5,67l60-60l60,60v24h-120L10.5,67z"/>
+		<path id="Path_189" class="st3" d="M146.1,70.5l-7.1,7.1l-8.5-8.5l-60-60L2.1,77.6L-5,70.5L70.1-4.6L70.5-5L146.1,70.5z"/>
+		<path id="Path_190" class="st4" d="M119.6,68.2H21.5l48.8-48.8l0.3-0.3L119.6,68.2z"/>
+		<g>
+			<defs>
+				<polygon id="SVGID_1_" points="119.6,68.2 21.5,68.2 70.3,19.5 70.5,19.2 				"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Group_171" class="st5">
+				
+					<rect id="Rectangle_272" x="-18.2" y="32.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5515 39.7729)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_273" x="-10.5" y="37.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5561 48.7729)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_274" x="-2.7" y="41.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5495 57.7723)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_275" x="5.1" y="46.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5541 66.7724)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_276" x="12.9" y="50.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5484 75.7723)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_277" x="20.7" y="55.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.553 84.7724)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_278" x="28.5" y="59.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5473 93.7723)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_279" x="36.3" y="64.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5505 102.7727)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_280" x="44.1" y="68.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.555 111.7728)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_281" x="51.9" y="73.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5493 120.7727)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_282" x="59.7" y="77.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5539 129.7728)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_283" x="67.5" y="82.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5473 138.7722)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_284" x="75.3" y="86.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5519 147.7722)" class="st2" width="88.8" height="3"/>
+				
+					<rect id="Rectangle_285" x="83.1" y="91.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5462 156.7721)" class="st2" width="88.8" height="3"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

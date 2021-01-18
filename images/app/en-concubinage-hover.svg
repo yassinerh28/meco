@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#B3B3FF;}
+	.st2{fill:#E5E5FF;}
+	.st3{fill:#CCCCFF;}
+	.st4{fill:#9999FF;}
+	.st5{fill:#FFA799;}
+</style>
+<g id="en-concubinage-hover-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
+	<g id="icon" transform="translate(62 45)">
+		<rect id="Rectangle_1215" x="91.4" y="54.7" class="st1" width="23.6" height="9.1"/>
+		<rect id="Rectangle_1216" x="0.9" y="54.7" class="st1" width="23.6" height="9.1"/>
+		<path id="Path_932" class="st2" d="M7.9,55L58,5l50,50v70H7.9V55z"/>
+		<path id="Path_933" class="st3" d="M120.9,57.9l-5.9,5.9l-7-7l-50-50l-57.1,57L-5,57.9L57.6-4.6L58-5L120.9,57.9z"/>
+		<circle id="Ellipse_248" class="st4" cx="36.2" cy="79.5" r="9.2"/>
+		<path id="Path_934" class="st4" d="M36.2,91.3c-10.1,0-18.4,8.3-18.4,18.4h36.8C54.6,99.5,46.4,91.3,36.2,91.3z"/>
+		<circle id="Ellipse_249" class="st5" cx="79.7" cy="79.5" r="9.2"/>
+		<path id="Path_935" class="st5" d="M79.7,91.3c-10.1,0-18.4,8.3-18.4,18.4h36.8C98,99.6,89.8,91.3,79.7,91.3z"/>
+	</g>
+</g>
+</svg>

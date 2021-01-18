@@ -175,7 +175,7 @@ body {
     background-position: center, 150px, 150px;
 }
 
-.choices-6 .choice:hover {
+.choices-6 .choice:hover .choice-image {
     background-position: 150px, center, 150px;
 }
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E5E5FF;}
+	.st2{fill:#B3B3FF;}
+	.st3{fill:#CCCCFF;}
+	.st4{fill:#7E7ECC;}
+</style>
+<g id="vide-sanitaire-hover-state" transform="translate(-15 0)">
+	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
+	<g id="icon" transform="translate(63.587 28.486)">
+		<rect id="Rectangle_306" x="7.6" y="127.2" class="st1" width="97.3" height="30.8"/>
+		<rect id="Rectangle_307" x="88.8" y="53.1" class="st2" width="23" height="8.9"/>
+		<rect id="Rectangle_308" x="0.7" y="53.1" class="st2" width="23" height="8.9"/>
+		<path id="Path_209" class="st1" d="M7.6,53.4L56.3,4.7l48.7,48.7v68.1H7.6V53.4z"/>
+		<path id="Path_210" class="st3" d="M117.5,56.3l-5.7,5.7l-6.9-6.9L56.3,6.5L0.7,62L-5,56.3L55.9-4.6L56.3-5L117.5,56.3z"/>
+		<rect id="Rectangle_309" x="7.6" y="121.5" class="st3" width="97.3" height="5.7"/>
+		<rect id="Rectangle_310" x="13.3" y="132.9" class="st4" width="86" height="19.5"/>
+	</g>
+</g>
+</svg>
