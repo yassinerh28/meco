@@ -85,6 +85,12 @@ body {
     text-align: center;
 }
 
+#question-description {
+    color: var(--meco-gray-dark);
+    width: 1000px;
+    text-align: center;
+}
+
 #progress {
     height: 100%;
     background-color: var(--meco-blue);
@@ -98,7 +104,7 @@ body {
 
 .choices-box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     width: 1000px;
 }

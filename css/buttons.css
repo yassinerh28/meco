@@ -43,7 +43,7 @@
     border-color: var(--meco-blue);
 }
 
-.button-primary-special-public:hover, .button-primary-special-private:hover {
+.button-primary-special-public:hover, .button-primary-special-private:hover, .button-primary-special-public:focus, .button-primary-special-private:focus {
     border-width: 2px;
 }
 
@@ -62,7 +62,7 @@
     border-color: var(--meco-gray-light);
 }
 
-.button-secondary-special:hover {
+.button-secondary-special:hover, .button-secondary-special:focus {
     border-width: 2px;
 }
 
