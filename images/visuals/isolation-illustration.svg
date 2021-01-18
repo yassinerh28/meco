@@ -1,17 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="97.023" viewBox="0 0 200 97.023">
-  <g id="isolation-illustration" transform="translate(0 -72.977)">
-    <g id="Layer_2" data-name="Layer 2">
-      <g id="Isolation_Mode" data-name="Isolation Mode">
-        <rect id="Rectangle_95" data-name="Rectangle 95" width="200" height="5" transform="translate(0 165)" fill="#e5e5ff"/>
-        <g id="Group_107" data-name="Group 107" transform="translate(0 -0.183)">
-          <path id="Path_84" data-name="Path 84" d="M145.84,84.99v48.85H54.16V84.99L100,39.16Z" transform="translate(0 34)" fill="#e5e5ff"/>
-          <circle id="Ellipse_167" data-name="Ellipse 167" cx="8.86" cy="8.86" r="8.86" transform="translate(124.36 126.46)" fill="#33f"/>
-          <circle id="Ellipse_168" data-name="Ellipse 168" cx="8.86" cy="8.86" r="8.86" transform="translate(149.6 126.46)" fill="#e5e5ff"/>
-          <circle id="Ellipse_169" data-name="Ellipse 169" cx="8.86" cy="8.86" r="8.86" transform="translate(32.68 126.46)" fill="#e5e5ff"/>
-          <circle id="Ellipse_170" data-name="Ellipse 170" cx="8.86" cy="8.86" r="8.86" transform="translate(57.92 126.46)" fill="#33f"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="200.002" height="127.633" viewBox="0 0 200.002 127.633">
+  <g id="isolation-illustration" transform="translate(0.002 -42.367)">
+    <rect id="Rectangle_95" data-name="Rectangle 95" width="200" height="5" transform="translate(-0.002 165)" fill="#e5e5ff"/>
+    <g id="Group_425" data-name="Group 425" transform="translate(-13909.638 -1555.396)">
+      <g id="Group_369" data-name="Group 369" transform="translate(13949.039 1597.763)">
+        <g id="Group_368" data-name="Group 368">
+          <g id="Group_367" data-name="Group 367">
+            <rect id="Rectangle_345" data-name="Rectangle 345" width="22.778" height="8.815" transform="translate(92.538 57.388)" fill="#b3b3ff"/>
+            <rect id="Rectangle_346" data-name="Rectangle 346" width="22.778" height="8.815" transform="translate(28.472 66.202) rotate(-180)" fill="#b3b3ff"/>
+            <path id="Path_515" data-name="Path 515" d="M13985.527,1667.727l48.01-48.062,48,48.062v67.287h-96.014Z" transform="translate(-13973.029 -1610.014)" fill="#e5e5ff"/>
+            <g id="Group_366" data-name="Group 366">
+              <path id="Path_516" data-name="Path 516" d="M14078.175,1658.509l-5.671,5.686-6.776-6.8-48.057-48.256-54.835,55.06-5.672-5.686,60.145-60.384.362-.362Z" transform="translate(-13957.164 -1597.763)" fill="#ccf"/>
+            </g>
+          </g>
         </g>
-        <rect id="Rectangle_96" data-name="Rectangle 96" width="200" height="5" transform="translate(0 165)" fill="#33f"/>
+        <path id="Path_517" data-name="Path 517" d="M14091.787,1788.689v34.583h-24.129v-34.583a12.064,12.064,0,0,1,24.129,0Z" transform="translate(-14019.217 -1698.272)" fill="#ccf"/>
+      </g>
+      <g id="Group_372" data-name="Group 372" transform="translate(13942.637 1686.904)">
+        <g id="Group_370" data-name="Group 370" transform="translate(96.014)">
+          <circle id="Ellipse_167" data-name="Ellipse 167" cx="7.796" cy="7.796" r="7.796" fill="#ff7f66"/>
+          <circle id="Ellipse_168" data-name="Ellipse 168" cx="7.796" cy="7.796" r="7.796" transform="translate(22.209)" fill="#66f"/>
+        </g>
+        <g id="Group_371" data-name="Group 371">
+          <circle id="Ellipse_169" data-name="Ellipse 169" cx="7.796" cy="7.796" r="7.796" fill="#66f"/>
+          <circle id="Ellipse_170" data-name="Ellipse 170" cx="7.796" cy="7.796" r="7.796" transform="translate(22.209)" fill="#ff7f66"/>
+        </g>
       </g>
     </g>
+    <rect id="Rectangle_96" data-name="Rectangle 96" width="200" height="5" transform="translate(0 165)" fill="#33f"/>
   </g>
 </svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="127.26" viewBox="0 0 200 127.26">
+  <g id="énergie-illustration" transform="translate(0 -42.74)">
+    <rect id="Rectangle_99" data-name="Rectangle 99" width="200" height="5" transform="translate(0 165)" fill="#e5e5ff"/>
+    <g id="Group_427" data-name="Group 427" transform="translate(-14909.002 -1555.023)">
+      <g id="Group_377" data-name="Group 377" transform="translate(14948.645 1597.763)">
+        <g id="Group_376" data-name="Group 376">
+          <g id="Group_375" data-name="Group 375">
+            <rect id="Rectangle_347" data-name="Rectangle 347" width="22.685" height="8.782" transform="translate(92.655 57.404)" fill="#b3b3ff"/>
+            <rect id="Rectangle_348" data-name="Rectangle 348" width="22.685" height="8.782" transform="translate(28.355 66.186) rotate(-180)" fill="#b3b3ff"/>
+            <path id="Path_518" data-name="Path 518" d="M14977.006,1667.742l48.063-48.077,48.055,48.077v67.308h-96.117Z" transform="translate(-14964.559 -1610.049)" fill="#e5e5ff"/>
+            <g id="Group_374" data-name="Group 374">
+              <path id="Path_519" data-name="Path 519" d="M15069.654,1658.284l-5.67,5.665-6.777-6.779-48.058-48.077-54.835,54.856-5.67-5.665,60.145-60.16.36-.361Z" transform="translate(-14948.645 -1597.763)" fill="#ccf"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_520" data-name="Path 520" d="M15083.166,1788.644V1823.1h-24.029v-34.455a12.015,12.015,0,1,1,24.029,0Z" transform="translate(-15010.646 -1698.099)" fill="#ccf"/>
+      </g>
+      <rect id="Rectangle_101" data-name="Rectangle 101" width="9.151" height="43.945" transform="translate(15023.867 1612.479) rotate(-45)" fill="#66f"/>
+    </g>
+    <rect id="Rectangle_100" data-name="Rectangle 100" width="200" height="5" transform="translate(0 165)" fill="#33f"/>
+  </g>
+</svg>
