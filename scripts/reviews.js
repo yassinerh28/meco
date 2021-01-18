@@ -50,7 +50,7 @@ function reviews_slide(increment) {
         }
         for (let index = 0; index < reviews_list.length; index++) {
             const reviews_list_item = reviews_list[index];
-            reviews_list_item.style.transform = "translateX(" + 620 * (1 -actual_review_index) + "px)";
+            reviews_list_item.style.transform = "translateX(" + 620 * (1 - actual_review_index) + "px)";
         }
     }
 }
