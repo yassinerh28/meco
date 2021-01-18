@@ -4,618 +4,362 @@
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{clip-path:url(#SVGID_2_);}
-	.st1{clip-path:url(#SVGID_4_);}
-	.st2{fill:none;}
-	.st3{fill:#9999FF;}
+	.st1{fill:#9999FF;}
+	.st2{fill:#414199;}
+	.st3{fill:#8080FF;}
 	.st4{fill:#B3B3FF;}
-	.st5{fill:#8080FF;}
-	.st6{fill:#414199;}
-	.st7{clip-path:url(#SVGID_6_);}
-	.st8{clip-path:url(#SVGID_8_);}
-	.st9{clip-path:url(#SVGID_10_);}
-	.st10{clip-path:url(#SVGID_12_);}
-	.st11{clip-path:url(#SVGID_14_);}
-	.st12{clip-path:url(#SVGID_16_);}
-	.st13{clip-path:url(#SVGID_18_);}
-	.st14{clip-path:url(#SVGID_20_);}
-	.st15{clip-path:url(#SVGID_22_);}
-	.st16{clip-path:url(#SVGID_24_);}
-	.st17{clip-path:url(#SVGID_26_);}
 </style>
 <g>
-	<g>
-		<defs>
-			<circle id="SVGID_1_" cx="105" cy="105" r="105"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st0">
+	<defs>
+		<circle id="SVGID_1_" cx="105" cy="105" r="105"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<rect x="239.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="195.9" y="-29.9" class="st1" width="84" height="48"/>
+		<rect x="239.4" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="239.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="195.9" y="76.1" class="st1" width="84" height="48"/>
+		<rect x="239.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="239.4" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="195.9" y="182.1" class="st1" width="84" height="48"/>
+		<rect x="239.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="108.9" y="-29.9" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="108.9" y="76.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="108.9" y="182.1" class="st1" width="84" height="48"/>
+		<rect x="152.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="21.9" y="-29.9" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="21.9" y="76.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="21.9" y="182.1" class="st1" width="84" height="48"/>
+		<rect x="65.4" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="-108.6" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="-65.1" y="-29.9" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="-108.6" y="-82.9" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="-108.6" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="-65.1" y="76.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="-108.6" y="23.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="-108.6" y="235.1" class="st1" width="84" height="48"/>
+		<rect x="-65.1" y="182.1" class="st1" width="84" height="48"/>
+		<rect x="-21.6" y="129.1" class="st1" width="84" height="48"/>
+		<rect x="-108.6" y="129.1" class="st1" width="84" height="48"/>
+	</g>
+	<g class="st0">
+		<rect x="236.4" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="195.9" y="18.1" class="st2" width="84" height="5"/>
+		<rect x="279.9" y="-29.9" class="st2" width="3" height="53"/>
+		<rect x="239.4" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="152.4" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="236.4" y="-82.9" class="st2" width="3" height="53"/>
+		<rect x="236.4" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="195.9" y="124.1" class="st2" width="84" height="5"/>
+		<rect x="279.9" y="76.1" class="st2" width="3" height="53"/>
+		<rect x="239.4" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="152.4" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="236.4" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="236.4" y="235.1" class="st2" width="3" height="53"/>
+		<rect x="195.9" y="230.1" class="st2" width="84" height="5"/>
+		<rect x="279.9" y="182.1" class="st2" width="3" height="53"/>
+		<rect x="239.4" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="152.4" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="236.4" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="149.4" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="108.9" y="18.1" class="st2" width="84" height="5"/>
+		<rect x="192.9" y="-29.9" class="st2" width="3" height="53"/>
+		<rect x="152.4" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="65.4" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="149.4" y="-82.9" class="st2" width="3" height="53"/>
+		<rect x="149.4" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="108.9" y="124.1" class="st2" width="84" height="5"/>
+		<rect x="192.9" y="76.1" class="st2" width="3" height="53"/>
+		<rect x="152.4" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="65.4" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="149.4" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="149.4" y="235.1" class="st2" width="3" height="53"/>
+		<rect x="108.9" y="230.1" class="st2" width="84" height="5"/>
+		<rect x="192.9" y="182.1" class="st2" width="3" height="53"/>
+		<rect x="152.4" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="65.4" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="149.4" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="62.4" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="21.9" y="18.1" class="st2" width="84" height="5"/>
+		<rect x="105.9" y="-29.9" class="st2" width="3" height="53"/>
+		<rect x="65.4" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="-21.6" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="62.4" y="-82.9" class="st2" width="3" height="53"/>
+		<rect x="62.4" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="21.9" y="124.1" class="st2" width="84" height="5"/>
+		<rect x="105.9" y="76.1" class="st2" width="3" height="53"/>
+		<rect x="65.4" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="-21.6" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="62.4" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="62.4" y="235.1" class="st2" width="3" height="53"/>
+		<rect x="21.9" y="230.1" class="st2" width="84" height="5"/>
+		<rect x="105.9" y="182.1" class="st2" width="3" height="53"/>
+		<rect x="65.4" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="-21.6" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="62.4" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="-24.6" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="-65.1" y="18.1" class="st2" width="84" height="5"/>
+		<rect x="18.9" y="-29.9" class="st2" width="3" height="53"/>
+		<rect x="-21.6" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="-108.6" y="-34.9" class="st2" width="84" height="5"/>
+		<rect x="-24.6" y="-82.9" class="st2" width="3" height="53"/>
+		<rect x="-24.6" y="129.1" class="st2" width="3" height="53"/>
+		<rect x="-65.1" y="124.1" class="st2" width="84" height="5"/>
+		<rect x="18.9" y="76.1" class="st2" width="3" height="53"/>
+		<rect x="-21.6" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="-108.6" y="71.1" class="st2" width="84" height="5"/>
+		<rect x="-24.6" y="23.1" class="st2" width="3" height="53"/>
+		<rect x="-24.6" y="235.1" class="st2" width="3" height="53"/>
+		<rect x="-65.1" y="230.1" class="st2" width="84" height="5"/>
+		<rect x="18.9" y="182.1" class="st2" width="3" height="53"/>
+		<rect x="-21.6" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="-108.6" y="177.1" class="st2" width="84" height="5"/>
+		<rect x="-24.6" y="129.1" class="st2" width="3" height="53"/>
+	</g>
+	<g class="st0">
+		<rect x="-108.6" y="-38.9" class="st3" width="84" height="4"/>
+		<rect x="-28.6" y="-82.9" class="st3" width="4" height="48"/>
+	</g>
+	<g class="st0">
+		<g>
+			<rect x="-65.1" y="14.1" class="st3" width="84" height="4"/>
+			<rect x="232.4" y="23.1" class="st3" width="4" height="48"/>
+			<rect x="195.9" y="14.1" class="st3" width="84" height="4"/>
+			<rect x="275.9" y="-29.9" class="st3" width="4" height="48"/>
+			<rect x="239.4" y="-38.9" class="st3" width="84" height="4"/>
 			<g>
-				<defs>
-					<rect id="SVGID_3_" x="195.9" y="-56.4" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_4_">
-					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st1">
-					<rect x="195.9" y="-56.4" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="195.9" y="-56.4" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="239.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="239.4" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="239.4" y="23.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="152.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="232.4" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="236.4" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="195.9" y="-29.9" class="st3" width="84" height="48"/>
-							<rect x="195.9" y="-29.9" class="st4" width="84" height="4"/>
-							<rect x="195.9" y="14.1" class="st5" width="84" height="4"/>
-							<rect x="195.9" y="-29.9" class="st4" width="4" height="48"/>
-							<rect x="275.9" y="-29.9" class="st5" width="4" height="48"/>
-							<rect x="195.9" y="18.1" class="st6" width="84" height="5"/>
-							<rect x="279.9" y="-29.9" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="239.4" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="239.4" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="239.4" y="-82.9" class="st4" width="4" height="48"/>
-							<rect x="239.4" y="-34.9" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="152.4" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="232.4" y="-82.9" class="st5" width="4" height="48"/>
-							<rect x="152.4" y="-34.9" class="st6" width="84" height="5"/>
-							<rect x="236.4" y="-82.9" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="152.4" y="-38.9" class="st3" width="84" height="4"/>
+				<rect x="232.4" y="-82.9" class="st3" width="4" height="48"/>
+			</g>
+			<rect x="232.4" y="129.1" class="st3" width="4" height="48"/>
+			<rect x="195.9" y="120.1" class="st3" width="84" height="4"/>
+			<rect x="275.9" y="76.1" class="st3" width="4" height="48"/>
+			<rect x="239.4" y="67.1" class="st3" width="84" height="4"/>
+			<g>
+				<rect x="152.4" y="67.1" class="st3" width="84" height="4"/>
+				<rect x="232.4" y="23.1" class="st3" width="4" height="48"/>
+			</g>
+			<rect x="232.4" y="235.1" class="st3" width="4" height="48"/>
+			<rect x="195.9" y="226.1" class="st3" width="84" height="4"/>
+			<rect x="275.9" y="182.1" class="st3" width="4" height="48"/>
+			<rect x="239.4" y="173.1" class="st3" width="84" height="4"/>
+			<rect x="145.4" y="23.1" class="st3" width="4" height="48"/>
+			<rect x="108.9" y="14.1" class="st3" width="84" height="4"/>
+			<rect x="188.9" y="-29.9" class="st3" width="4" height="48"/>
+			<rect x="152.4" y="-38.9" class="st3" width="84" height="4"/>
+			<g>
+				<rect x="65.4" y="-38.9" class="st3" width="84" height="4"/>
+				<rect x="145.4" y="-82.9" class="st3" width="4" height="48"/>
+			</g>
+			<rect x="145.4" y="129.1" class="st3" width="4" height="48"/>
+			<rect x="108.9" y="120.1" class="st3" width="84" height="4"/>
+			<rect x="188.9" y="76.1" class="st3" width="4" height="48"/>
+			<rect x="152.4" y="67.1" class="st3" width="84" height="4"/>
+			<rect x="145.4" y="235.1" class="st3" width="4" height="48"/>
+			<rect x="108.9" y="226.1" class="st3" width="84" height="4"/>
+			<rect x="188.9" y="182.1" class="st3" width="4" height="48"/>
+			<rect x="152.4" y="173.1" class="st3" width="84" height="4"/>
+			<rect x="58.4" y="23.1" class="st3" width="4" height="48"/>
+			<rect x="21.9" y="14.1" class="st3" width="84" height="4"/>
+			<rect x="101.9" y="-29.9" class="st3" width="4" height="48"/>
+			<rect x="65.4" y="-38.9" class="st3" width="84" height="4"/>
+			<g>
+				<rect x="-21.6" y="-38.9" class="st3" width="84" height="4"/>
+				<rect x="58.4" y="-82.9" class="st3" width="4" height="48"/>
+			</g>
+			<rect x="58.4" y="129.1" class="st3" width="4" height="48"/>
+			<rect x="21.9" y="120.1" class="st3" width="84" height="4"/>
+			<rect x="101.9" y="76.1" class="st3" width="4" height="48"/>
+			<rect x="65.4" y="67.1" class="st3" width="84" height="4"/>
+			<rect x="58.4" y="235.1" class="st3" width="4" height="48"/>
+			<rect x="21.9" y="226.1" class="st3" width="84" height="4"/>
+			<rect x="101.9" y="182.1" class="st3" width="4" height="48"/>
+			<rect x="65.4" y="173.1" class="st3" width="84" height="4"/>
+			<rect x="-28.6" y="23.1" class="st3" width="4" height="48"/>
+			<rect x="14.9" y="-29.9" class="st3" width="4" height="48"/>
+			<rect x="-21.6" y="-38.9" class="st3" width="84" height="4"/>
+			<rect x="-28.6" y="129.1" class="st3" width="4" height="48"/>
+			<rect x="-65.1" y="120.1" class="st3" width="84" height="4"/>
+			<rect x="14.9" y="76.1" class="st3" width="4" height="48"/>
+			<rect x="-21.6" y="67.1" class="st3" width="84" height="4"/>
+			<g>
+				<rect x="-108.6" y="67.1" class="st3" width="84" height="4"/>
+				<rect x="-28.6" y="23.1" class="st3" width="4" height="48"/>
+			</g>
+			<rect x="-28.6" y="235.1" class="st3" width="4" height="48"/>
+			<rect x="-65.1" y="226.1" class="st3" width="84" height="4"/>
+			<rect x="14.9" y="182.1" class="st3" width="4" height="48"/>
+			<rect x="-21.6" y="173.1" class="st3" width="84" height="4"/>
+			<g>
+				<rect x="-108.6" y="173.1" class="st3" width="84" height="4"/>
+				<rect x="-28.6" y="129.1" class="st3" width="4" height="48"/>
 			</g>
 		</g>
-		<g class="st0">
+		<g>
 			<g>
-				<defs>
-					<rect id="SVGID_5_" x="195.9" y="49.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_6_">
-					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st7">
-					<rect x="195.9" y="49.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="195.9" y="49.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="239.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="239.4" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="239.4" y="129.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="152.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="232.4" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="236.4" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="195.9" y="76.1" class="st3" width="84" height="48"/>
-							<rect x="195.9" y="76.1" class="st4" width="84" height="4"/>
-							<rect x="195.9" y="120.1" class="st5" width="84" height="4"/>
-							<rect x="195.9" y="76.1" class="st4" width="4" height="48"/>
-							<rect x="275.9" y="76.1" class="st5" width="4" height="48"/>
-							<rect x="195.9" y="124.1" class="st6" width="84" height="5"/>
-							<rect x="279.9" y="76.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="239.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="239.4" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="239.4" y="23.1" class="st4" width="4" height="48"/>
-							<rect x="239.4" y="71.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="152.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="232.4" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="152.4" y="71.1" class="st6" width="84" height="5"/>
-							<rect x="236.4" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="152.4" y="23.1" class="st4" width="84" height="4"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_7_" x="195.9" y="155.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_8_">
-					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st8">
-					<rect x="195.9" y="155.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="195.9" y="155.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="239.4" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="239.4" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="239.4" y="235.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="152.4" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="232.4" y="235.1" class="st5" width="4" height="48"/>
-							<rect x="236.4" y="235.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="195.9" y="182.1" class="st3" width="84" height="48"/>
-							<rect x="195.9" y="182.1" class="st4" width="84" height="4"/>
-							<rect x="195.9" y="226.1" class="st5" width="84" height="4"/>
-							<rect x="195.9" y="182.1" class="st4" width="4" height="48"/>
-							<rect x="275.9" y="182.1" class="st5" width="4" height="48"/>
-							<rect x="195.9" y="230.1" class="st6" width="84" height="5"/>
-							<rect x="279.9" y="182.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="239.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="239.4" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="239.4" y="129.1" class="st4" width="4" height="48"/>
-							<rect x="239.4" y="177.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="152.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="232.4" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="152.4" y="177.1" class="st6" width="84" height="5"/>
-							<rect x="236.4" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="195.9" y="-29.9" class="st4" width="84" height="4"/>
+				<rect x="195.9" y="-29.9" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_9_" x="108.9" y="-56.4" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_10_">
-					<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st9">
-					<rect x="108.9" y="-56.4" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="108.9" y="-56.4" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="152.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="152.4" y="23.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="65.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="145.4" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="149.4" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="108.9" y="-29.9" class="st3" width="84" height="48"/>
-							<rect x="108.9" y="-29.9" class="st4" width="84" height="4"/>
-							<rect x="108.9" y="14.1" class="st5" width="84" height="4"/>
-							<rect x="108.9" y="-29.9" class="st4" width="4" height="48"/>
-							<rect x="188.9" y="-29.9" class="st5" width="4" height="48"/>
-							<rect x="108.9" y="18.1" class="st6" width="84" height="5"/>
-							<rect x="192.9" y="-29.9" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="152.4" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="152.4" y="-82.9" class="st4" width="4" height="48"/>
-							<rect x="152.4" y="-34.9" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="65.4" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="145.4" y="-82.9" class="st5" width="4" height="48"/>
-							<rect x="65.4" y="-34.9" class="st6" width="84" height="5"/>
-							<rect x="149.4" y="-82.9" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="239.4" y="-82.9" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_11_" x="108.9" y="49.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_12_">
-					<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st10">
-					<rect x="108.9" y="49.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="108.9" y="49.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="152.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="152.4" y="129.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="65.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="145.4" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="149.4" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="108.9" y="76.1" class="st3" width="84" height="48"/>
-							<rect x="108.9" y="76.1" class="st4" width="84" height="4"/>
-							<rect x="108.9" y="120.1" class="st5" width="84" height="4"/>
-							<rect x="108.9" y="76.1" class="st4" width="4" height="48"/>
-							<rect x="188.9" y="76.1" class="st5" width="4" height="48"/>
-							<rect x="108.9" y="124.1" class="st6" width="84" height="5"/>
-							<rect x="192.9" y="76.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="152.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="152.4" y="23.1" class="st4" width="4" height="48"/>
-							<rect x="152.4" y="71.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="65.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="145.4" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="65.4" y="71.1" class="st6" width="84" height="5"/>
-							<rect x="149.4" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="152.4" y="129.1" class="st4" width="84" height="4"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_13_" x="108.9" y="155.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_14_">
-					<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st11">
-					<rect x="108.9" y="155.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="108.9" y="155.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="152.4" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="152.4" y="235.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="65.4" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="145.4" y="235.1" class="st5" width="4" height="48"/>
-							<rect x="149.4" y="235.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="108.9" y="182.1" class="st3" width="84" height="48"/>
-							<rect x="108.9" y="182.1" class="st4" width="84" height="4"/>
-							<rect x="108.9" y="226.1" class="st5" width="84" height="4"/>
-							<rect x="108.9" y="182.1" class="st4" width="4" height="48"/>
-							<rect x="188.9" y="182.1" class="st5" width="4" height="48"/>
-							<rect x="108.9" y="230.1" class="st6" width="84" height="5"/>
-							<rect x="192.9" y="182.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="152.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="152.4" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="152.4" y="129.1" class="st4" width="4" height="48"/>
-							<rect x="152.4" y="177.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="65.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="145.4" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="65.4" y="177.1" class="st6" width="84" height="5"/>
-							<rect x="149.4" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="195.9" y="76.1" class="st4" width="84" height="4"/>
+				<rect x="195.9" y="76.1" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_15_" x="21.9" y="-56.4" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_16_">
-					<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st12">
-					<rect x="21.9" y="-56.4" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="21.9" y="-56.4" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="65.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="65.4" y="23.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="58.4" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="62.4" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="21.9" y="-29.9" class="st3" width="84" height="48"/>
-							<rect x="21.9" y="-29.9" class="st4" width="84" height="4"/>
-							<rect x="21.9" y="14.1" class="st5" width="84" height="4"/>
-							<rect x="21.9" y="-29.9" class="st4" width="4" height="48"/>
-							<rect x="101.9" y="-29.9" class="st5" width="4" height="48"/>
-							<rect x="21.9" y="18.1" class="st6" width="84" height="5"/>
-							<rect x="105.9" y="-29.9" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="65.4" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="65.4" y="-82.9" class="st4" width="4" height="48"/>
-							<rect x="65.4" y="-34.9" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="58.4" y="-82.9" class="st5" width="4" height="48"/>
-							<rect x="-21.6" y="-34.9" class="st6" width="84" height="5"/>
-							<rect x="62.4" y="-82.9" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="239.4" y="235.1" class="st4" width="84" height="4"/>
+				<rect x="239.4" y="235.1" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_17_" x="21.9" y="49.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_18_">
-					<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st13">
-					<rect x="21.9" y="49.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="21.9" y="49.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="65.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="65.4" y="129.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="58.4" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="62.4" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="21.9" y="76.1" class="st3" width="84" height="48"/>
-							<rect x="21.9" y="76.1" class="st4" width="84" height="4"/>
-							<rect x="21.9" y="120.1" class="st5" width="84" height="4"/>
-							<rect x="21.9" y="76.1" class="st4" width="4" height="48"/>
-							<rect x="101.9" y="76.1" class="st5" width="4" height="48"/>
-							<rect x="21.9" y="124.1" class="st6" width="84" height="5"/>
-							<rect x="105.9" y="76.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="65.4" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="65.4" y="23.1" class="st4" width="4" height="48"/>
-							<rect x="65.4" y="71.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="58.4" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="-21.6" y="71.1" class="st6" width="84" height="5"/>
-							<rect x="62.4" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="195.9" y="182.1" class="st4" width="84" height="4"/>
+				<rect x="195.9" y="182.1" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_19_" x="21.9" y="155.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_20_">
-					<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st14">
-					<rect x="21.9" y="155.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="21.9" y="155.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="65.4" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="65.4" y="235.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="58.4" y="235.1" class="st5" width="4" height="48"/>
-							<rect x="62.4" y="235.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="21.9" y="182.1" class="st3" width="84" height="48"/>
-							<rect x="21.9" y="182.1" class="st4" width="84" height="4"/>
-							<rect x="21.9" y="226.1" class="st5" width="84" height="4"/>
-							<rect x="21.9" y="182.1" class="st4" width="4" height="48"/>
-							<rect x="101.9" y="182.1" class="st5" width="4" height="48"/>
-							<rect x="21.9" y="230.1" class="st6" width="84" height="5"/>
-							<rect x="105.9" y="182.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="65.4" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="65.4" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="65.4" y="129.1" class="st4" width="4" height="48"/>
-							<rect x="65.4" y="177.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="58.4" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="-21.6" y="177.1" class="st6" width="84" height="5"/>
-							<rect x="62.4" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="65.4" y="23.1" class="st4" width="84" height="4"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_21_" x="-65.1" y="-56.4" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_22_">
-					<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st15">
-					<rect x="-65.1" y="-56.4" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="-65.1" y="-56.4" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="-21.6" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="-21.6" y="23.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="-108.6" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="-108.6" y="23.1" class="st4" width="84" height="4"/>
-							<rect x="-28.6" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="-24.6" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="-65.1" y="-29.9" class="st3" width="84" height="48"/>
-							<rect x="-65.1" y="-29.9" class="st4" width="84" height="4"/>
-							<rect x="-65.1" y="14.1" class="st5" width="84" height="4"/>
-							<rect x="-65.1" y="-29.9" class="st4" width="4" height="48"/>
-							<rect x="14.9" y="-29.9" class="st5" width="4" height="48"/>
-							<rect x="-65.1" y="18.1" class="st6" width="84" height="5"/>
-							<rect x="18.9" y="-29.9" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="-21.6" y="-82.9" class="st4" width="4" height="48"/>
-							<rect x="-21.6" y="-34.9" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="-108.6" y="-82.9" class="st3" width="84" height="48"/>
-							<rect x="-108.6" y="-38.9" class="st5" width="84" height="4"/>
-							<rect x="-28.6" y="-82.9" class="st5" width="4" height="48"/>
-							<rect x="-108.6" y="-34.9" class="st6" width="84" height="5"/>
-							<rect x="-24.6" y="-82.9" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="108.9" y="-29.9" class="st4" width="84" height="4"/>
+				<rect x="108.9" y="-29.9" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_23_" x="-65.1" y="49.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_24_">
-					<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st16">
-					<rect x="-65.1" y="49.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="-65.1" y="49.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="-21.6" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="-21.6" y="129.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="-108.6" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="-108.6" y="129.1" class="st4" width="84" height="4"/>
-							<rect x="-28.6" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="-24.6" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="-65.1" y="76.1" class="st3" width="84" height="48"/>
-							<rect x="-65.1" y="76.1" class="st4" width="84" height="4"/>
-							<rect x="-65.1" y="120.1" class="st5" width="84" height="4"/>
-							<rect x="-65.1" y="76.1" class="st4" width="4" height="48"/>
-							<rect x="14.9" y="76.1" class="st5" width="4" height="48"/>
-							<rect x="-65.1" y="124.1" class="st6" width="84" height="5"/>
-							<rect x="18.9" y="76.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="-21.6" y="23.1" class="st4" width="4" height="48"/>
-							<rect x="-21.6" y="71.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="-108.6" y="23.1" class="st3" width="84" height="48"/>
-							<rect x="-108.6" y="67.1" class="st5" width="84" height="4"/>
-							<rect x="-28.6" y="23.1" class="st5" width="4" height="48"/>
-							<rect x="-108.6" y="71.1" class="st6" width="84" height="5"/>
-							<rect x="-24.6" y="23.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="152.4" y="-82.9" class="st4" width="4" height="48"/>
 			</g>
-		</g>
-		<g class="st0">
 			<g>
-				<defs>
-					<rect id="SVGID_25_" x="-65.1" y="155.6" width="87" height="106"/>
-				</defs>
-				<clipPath id="SVGID_26_">
-					<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
-				</clipPath>
-				<g class="st17">
-					<rect x="-65.1" y="155.6" class="st2" width="87" height="106"/>
-					<g>
-						<rect x="-65.1" y="155.6" class="st2" width="87" height="106"/>
-						<g>
-							<rect x="-21.6" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="-21.6" y="235.1" class="st4" width="4" height="48"/>
-						</g>
-						<g>
-							<rect x="-108.6" y="235.1" class="st3" width="84" height="48"/>
-							<rect x="-108.6" y="235.1" class="st4" width="84" height="4"/>
-							<rect x="-28.6" y="235.1" class="st5" width="4" height="48"/>
-							<rect x="-24.6" y="235.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="-65.1" y="182.1" class="st3" width="84" height="48"/>
-							<rect x="-65.1" y="182.1" class="st4" width="84" height="4"/>
-							<rect x="-65.1" y="226.1" class="st5" width="84" height="4"/>
-							<rect x="-65.1" y="182.1" class="st4" width="4" height="48"/>
-							<rect x="14.9" y="182.1" class="st5" width="4" height="48"/>
-							<rect x="-65.1" y="230.1" class="st6" width="84" height="5"/>
-							<rect x="18.9" y="182.1" class="st6" width="3" height="53"/>
-						</g>
-						<g>
-							<rect x="-21.6" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="-21.6" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="-21.6" y="129.1" class="st4" width="4" height="48"/>
-							<rect x="-21.6" y="177.1" class="st6" width="84" height="5"/>
-						</g>
-						<g>
-							<rect x="-108.6" y="129.1" class="st3" width="84" height="48"/>
-							<rect x="-108.6" y="173.1" class="st5" width="84" height="4"/>
-							<rect x="-28.6" y="129.1" class="st5" width="4" height="48"/>
-							<rect x="-108.6" y="177.1" class="st6" width="84" height="5"/>
-							<rect x="-24.6" y="129.1" class="st6" width="3" height="53"/>
-						</g>
-					</g>
-				</g>
+				<rect x="65.4" y="129.1" class="st4" width="84" height="4"/>
+			</g>
+			<g>
+				<rect x="108.9" y="76.1" class="st4" width="84" height="4"/>
+				<rect x="108.9" y="76.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="152.4" y="23.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="108.9" y="182.1" class="st4" width="84" height="4"/>
+				<rect x="108.9" y="182.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="152.4" y="129.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-21.6" y="23.1" class="st4" width="84" height="4"/>
+			</g>
+			<g>
+				<rect x="21.9" y="-29.9" class="st4" width="84" height="4"/>
+				<rect x="21.9" y="-29.9" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="65.4" y="-82.9" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-21.6" y="129.1" class="st4" width="84" height="4"/>
+			</g>
+			<g>
+				<rect x="21.9" y="76.1" class="st4" width="84" height="4"/>
+				<rect x="21.9" y="76.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="65.4" y="23.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="21.9" y="182.1" class="st4" width="84" height="4"/>
+				<rect x="21.9" y="182.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="65.4" y="129.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-108.6" y="23.1" class="st4" width="84" height="4"/>
+			</g>
+			<g>
+				<rect x="-65.1" y="-29.9" class="st4" width="84" height="4"/>
+				<rect x="-65.1" y="-29.9" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-21.6" y="-82.9" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-108.6" y="129.1" class="st4" width="84" height="4"/>
+			</g>
+			<g>
+				<rect x="-65.1" y="76.1" class="st4" width="84" height="4"/>
+				<rect x="-65.1" y="76.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-21.6" y="23.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-108.6" y="235.1" class="st4" width="84" height="4"/>
+			</g>
+			<g>
+				<rect x="-65.1" y="182.1" class="st4" width="84" height="4"/>
+				<rect x="-65.1" y="182.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-21.6" y="129.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="-21.6" y="235.1" class="st4" width="84" height="4"/>
+				<rect x="-21.6" y="235.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="65.4" y="235.1" class="st4" width="84" height="4"/>
+				<rect x="65.4" y="235.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="152.4" y="235.1" class="st4" width="84" height="4"/>
+				<rect x="152.4" y="235.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="239.4" y="129.1" class="st4" width="84" height="4"/>
+				<rect x="239.4" y="129.1" class="st4" width="4" height="48"/>
+			</g>
+			<g>
+				<rect x="239.4" y="23.1" class="st4" width="84" height="4"/>
+				<rect x="239.4" y="23.1" class="st4" width="4" height="48"/>
 			</g>
 		</g>
 	</g>
