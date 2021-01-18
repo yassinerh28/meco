@@ -42,4 +42,4 @@ function update_app(e) {
     
 }
 
-go_to_page(7);
+go_to_page(1);
