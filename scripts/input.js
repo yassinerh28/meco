@@ -65,10 +65,10 @@ function increment_value(sign) {
 }
 
 function update_arrows(e) {
-    if (e.value == "0" || e.value == "1") {
+    if (e.value == "0") {
         document.getElementsByClassName("input-increment-arrow-left")[0].classList.remove("input-increment-arrow-active");
     }
-    if (e.value == "1") {
+    else {
         document.getElementsByClassName("input-increment-arrow-left")[0].classList.add("input-increment-arrow-active");
     }
 }

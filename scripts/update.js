@@ -6,6 +6,8 @@ var button_right = document.getElementById("button-right");
 var progress_bar = document.getElementById("progress");
 
 var current_app_page = 1;
+var next_page = current_app_page + 1;
+var previous_page = current_app_page - 1;
 
 function go_to_page(number) {
     var xhttp = new XMLHttpRequest();
@@ -33,6 +35,8 @@ function go_to_page(number) {
             button_right.classList.add(app_page.dataset.button_right_type);
             progress_bar.style.width = app_page.dataset.progress + "%";
             current_app_page = number;
+            next_page = current_app_page + 1;
+            previous_page = current_app_page - 1;
         }
     };
     xhttp.open("GET", "app-" + number + ".html", true);
