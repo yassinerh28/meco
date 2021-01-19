@@ -32,6 +32,7 @@ function go_to_page(number) {
             button_left.classList.add(app_page.dataset.button_left_type);
             button_right.classList.add(app_page.dataset.button_right_type);
             progress_bar.style.width = app_page.dataset.progress + "%";
+            current_app_page = number;
         }
     };
     xhttp.open("GET", "app-" + number + ".html", true);
