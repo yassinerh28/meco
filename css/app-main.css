@@ -109,6 +109,7 @@ body {
     background-repeat: no-repeat;
     background-size: 11px;
     background-position-x: right;
+    transition: all 0.5s;
 }
 
 /* choices general */
