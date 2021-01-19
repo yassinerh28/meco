@@ -47,7 +47,7 @@
     transition: all 0.2s;
 }
 
-.input-box-valid + .-input-hint {
+.input-box-valid + .input-hint {
     opacity: 0;
 }
 .input-box-invalid + .input-hint {
@@ -63,6 +63,61 @@
 
 .input-number[type=number] {
   -moz-appearance: textfield;
+}
+
+/* increment */
+
+.input-increment::-webkit-outer-spin-button,
+.input-increment::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-increment[type=number] {
+  -moz-appearance: textfield;
+}
+
+.input-increment-box {
+    align-items: center;
+}
+
+.input-increment-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-increment {
+    width: 200px;
+    text-align: center;
+    text-indent: 0;
+    margin: 0 20px;
+}
+
+.input-increment-arrow {
+    display: flex;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: var(--meco-blue-light);
+    background-image: url(../images/graphic-elements/list-item-arrow-not-active.svg), url(../images/graphic-elements/list-item-arrow-active.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center, 100px;
+    opacity: 0.6;
+    transition: box-shadow 0.2s, opacity 0.2s;
+}
+
+.input-increment-arrow-active {
+    opacity: 1;
+    background-position: 100px, center;
+    cursor: pointer;
+}
+
+.input-increment-arrow-active:hover {
+    box-shadow:inset 0 0 0 5px var(--meco-accent-blue);
+}
+
+.input-increment-arrow-left {
+    transform: rotateZ(180deg);
 }
 
 /* drop-down */
