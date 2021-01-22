@@ -78,4 +78,14 @@ function update_app(e) {
     }
 }
 
+function left_button_action(e) {
+    go_to_page(previous_page);
+    selected_choices_values = [];
+}
+
+function right_button_action(e) {
+    go_to_page(next_page);
+    selected_choices_values = [];
+}
+
 go_to_page(1);
