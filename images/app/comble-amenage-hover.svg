@@ -9,14 +9,12 @@
 	.st3{fill:#CCCCFF;}
 	.st4{fill:#7E7ECC;}
 </style>
-<g id="comble-aménagé-hover-state" transform="translate(-15 0)">
-	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
-	<g id="icon" transform="translate(49 62)">
-		<rect id="Rectangle_266" x="110.6" y="66.6" class="st1" width="28.3" height="11"/>
-		<rect id="Rectangle_267" x="2" y="66.6" class="st1" width="28.3" height="11"/>
-		<path id="Path_182" class="st2" d="M10.5,67l60-60l60,60v24h-120L10.5,67z"/>
-		<path id="Path_183" class="st3" d="M146,70.5l-7.1,7.1l-8.5-8.5l-60-60L2,77.6L-5,70.5L70.1-4.6L70.5-5L146,70.5z"/>
-		<path id="Path_184" class="st4" d="M119.6,68.2H21.5l48.8-48.8l0.3-0.3L119.6,68.2z"/>
-	</g>
+<circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
+<g id="icon" transform="translate(49 62)">
+	<rect id="Rectangle_266" x="96.1" y="66.6" class="st1" width="28.3" height="11"/>
+	<rect id="Rectangle_267" x="-12.5" y="66.6" class="st1" width="28.3" height="11"/>
+	<path id="Path_182" class="st2" d="M-4,67L56,7l60,60v24H-4V67z"/>
+	<path id="Path_183" class="st3" d="M131.5,70.5l-7.1,7.1l-8.5-8.5l-60-60l-68.4,68.5l-7-7.1L55.6-4.6L56-5L131.5,70.5z"/>
+	<path id="Path_184" class="st4" d="M105.1,68.2H7l48.8-48.8l0.3-0.3L105.1,68.2z"/>
 </g>
 </svg>

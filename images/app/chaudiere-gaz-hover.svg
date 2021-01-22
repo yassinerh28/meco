@@ -10,18 +10,16 @@
 	.st4{fill:#FF5533;}
 	.st5{fill:#B3B3FF;}
 </style>
-<g id="chaudiere-gaz-hover-state" transform="translate(-15 0)">
-	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
-	<g id="icon" transform="translate(73.5 50)">
-		<rect id="Rectangle_185" x="-5" y="-5" class="st1" width="85.8" height="85.7"/>
-		<rect id="Rectangle_186" x="-5" y="80.7" class="st2" width="85.8" height="34.3"/>
-		<ellipse id="Ellipse_210" class="st3" cx="20.8" cy="97.9" rx="4.3" ry="4.3"/>
-		<ellipse id="Ellipse_211" class="st3" cx="37.9" cy="97.9" rx="4.3" ry="4.3"/>
-		<ellipse id="Ellipse_212" class="st3" cx="55.1" cy="97.9" rx="4.3" ry="4.3"/>
-		<path id="Path_145" class="st4" d="M40.2,21.1c0,0-14.2,12.7-14.2,22.1c0,6.3,3.1,10.2,7.7,11.5c-6-6.2-4.1-15.4,2.9-21.7
-			c-0.9,5.4,2.5,11.9,2.5,11.9s0.6-4.2,2.9-5.3c0,3.9,6.9,8.6,0.3,15.1c4.5-1.3,7.6-5,7.6-11.4C49.8,35.8,40.2,27.2,40.2,21.1z"/>
-		<rect id="Rectangle_187" x="80.8" y="-5" class="st2" width="17.2" height="85.7"/>
-		<rect id="Rectangle_188" x="80.8" y="80.7" class="st5" width="17.2" height="34.3"/>
-	</g>
+<circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
+<g id="icon" transform="translate(73.5 50)">
+	<rect id="Rectangle_185" x="-20" y="-5" class="st1" width="85.8" height="85.7"/>
+	<rect id="Rectangle_186" x="-20" y="80.7" class="st2" width="85.8" height="34.3"/>
+	<ellipse id="Ellipse_210" class="st3" cx="5.8" cy="97.9" rx="4.3" ry="4.3"/>
+	<ellipse id="Ellipse_211" class="st3" cx="22.9" cy="97.9" rx="4.3" ry="4.3"/>
+	<ellipse id="Ellipse_212" class="st3" cx="40.1" cy="97.9" rx="4.3" ry="4.3"/>
+	<path id="Path_145" class="st4" d="M25.2,21.1c0,0-14.2,12.7-14.2,22.1c0,6.3,3.1,10.2,7.7,11.5c-6-6.2-4.1-15.4,2.9-21.7
+		c-0.9,5.4,2.5,11.9,2.5,11.9s0.6-4.2,2.9-5.3c0,3.9,6.9,8.6,0.3,15.1c4.5-1.3,7.6-5,7.6-11.4C34.8,35.8,25.2,27.2,25.2,21.1z"/>
+	<rect id="Rectangle_187" x="65.8" y="-5" class="st2" width="17.2" height="85.7"/>
+	<rect id="Rectangle_188" x="65.8" y="80.7" class="st5" width="17.2" height="34.3"/>
 </g>
 </svg>

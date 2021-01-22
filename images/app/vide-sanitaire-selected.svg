@@ -9,16 +9,14 @@
 	.st3{fill:#CCCCFF;}
 	.st4{fill:#414199;}
 </style>
-<g id="vide-sanitaire-active-state" transform="translate(-15 0)">
-	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
-	<g id="icon" transform="translate(63.587 28.486)">
-		<rect id="Rectangle_306" x="7.6" y="127.2" class="st1" width="97.3" height="30.8"/>
-		<rect id="Rectangle_307" x="88.8" y="53.1" class="st2" width="23" height="8.9"/>
-		<rect id="Rectangle_308" x="0.7" y="53.1" class="st2" width="23" height="8.9"/>
-		<path id="Path_209" class="st1" d="M7.6,53.4L56.2,4.7l48.7,48.7v68.1H7.6V53.4z"/>
-		<path id="Path_210" class="st3" d="M117.5,56.3l-5.7,5.7l-6.9-6.9L56.2,6.5L0.7,62L-5,56.3L55.9-4.6L56.2-5L117.5,56.3z"/>
-		<rect id="Rectangle_309" x="7.6" y="121.5" class="st3" width="97.3" height="5.7"/>
-		<rect id="Rectangle_310" x="13.2" y="132.9" class="st4" width="86" height="19.5"/>
-	</g>
+<circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
+<g id="icon" transform="translate(63.587 28.486)">
+	<rect id="Rectangle_306" x="-7.2" y="127.2" class="st1" width="97.3" height="30.8"/>
+	<rect id="Rectangle_307" x="74" y="53.1" class="st2" width="23" height="8.9"/>
+	<rect id="Rectangle_308" x="-14.1" y="53.1" class="st2" width="23" height="8.9"/>
+	<path id="Path_209" class="st1" d="M-7.2,53.4L41.4,4.7l48.7,48.7v68.1H-7.2V53.4z"/>
+	<path id="Path_210" class="st3" d="M102.7,56.3L97,62l-6.9-6.9L41.4,6.5L-14.1,62l-5.7-5.7L41.1-4.6L41.4-5L102.7,56.3z"/>
+	<rect id="Rectangle_309" x="-7.2" y="121.5" class="st3" width="97.3" height="5.7"/>
+	<rect id="Rectangle_310" x="-1.6" y="132.9" class="st4" width="86" height="19.5"/>
 </g>
 </svg>

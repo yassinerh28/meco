@@ -9,14 +9,12 @@
 	.st3{fill:#E6E6E6;}
 	.st4{fill:#B3B3B3;}
 </style>
-<g id="comble-aménagé-default-state" transform="translate(-15 0)">
-	<circle id="ellipse" class="st0" cx="120" cy="104.8" r="105"/>
-	<g id="icon" transform="translate(49 62)">
-		<rect id="Rectangle_266" x="110.7" y="66.5" class="st1" width="28.3" height="11"/>
-		<rect id="Rectangle_267" x="2.1" y="66.5" class="st1" width="28.3" height="11"/>
-		<path id="Path_182" class="st2" d="M10.5,66.8l60-60l60,60v24h-120L10.5,66.8z"/>
-		<path id="Path_183" class="st3" d="M146.1,70.3l-7.1,7.1l-8.5-8.5l-60-60L2.1,77.4L-5,70.3L70.1-4.7l0.5-0.5L146.1,70.3z"/>
-		<path id="Path_184" class="st4" d="M119.6,68H21.5l48.8-48.8l0.3-0.3L119.6,68z"/>
-	</g>
+<circle id="ellipse" class="st0" cx="105" cy="104.8" r="105"/>
+<g id="icon_1_" transform="translate(49 62)">
+	<rect id="Rectangle_266_1_" x="96.1" y="66.6" class="st1" width="28.3" height="11"/>
+	<rect id="Rectangle_267_1_" x="-12.5" y="66.6" class="st1" width="28.3" height="11"/>
+	<path id="Path_182_1_" class="st2" d="M-4,67L56,7l60,60v24H-4V67z"/>
+	<path id="Path_183_1_" class="st3" d="M131.5,70.5l-7.1,7.1l-8.5-8.5l-60-60l-68.4,68.5l-7-7.1L55.6-4.6L56-5L131.5,70.5z"/>
+	<path id="Path_184_1_" class="st4" d="M105.1,68.2H7l48.8-48.8l0.3-0.3L105.1,68.2z"/>
 </g>
 </svg>

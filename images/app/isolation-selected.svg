@@ -16,25 +16,25 @@
 		<g id="Group_369" transform="translate(13948.76 1597.763)">
 			<g id="Group_368" transform="translate(0)">
 				<g id="Group_367">
-					<rect id="Rectangle_345" x="84" y="50.1" class="st1" width="21.8" height="8.4"/>
-					<rect id="Rectangle_346" x="0.4" y="50.1" class="st1" width="21.8" height="8.4"/>
-					<path id="Path_515" class="st2" d="M7,50.4L53.1,4.2l46.2,46.2V115H7V50.4z"/>
+					<rect id="Rectangle_345" x="84.3" y="50.1" class="st1" width="21.8" height="8.4"/>
+					<rect id="Rectangle_346" x="0.7" y="50.1" class="st1" width="21.8" height="8.4"/>
+					<path id="Path_515" class="st2" d="M7.3,50.4L53.4,4.2l46.2,46.2V115H7.3V50.4z"/>
 					<g id="Group_366">
-						<path id="Path_516" class="st3" d="M111.2,53.1l-5.4,5.4L99.3,52L53.1,5.9L0.4,58.5L-5,53.1L52.8-4.7L53.1-5L111.2,53.1z"/>
+						<path id="Path_516" class="st3" d="M111.5,53.1l-5.4,5.4L99.6,52L53.4,5.9L0.7,58.5l-5.4-5.4L53.1-4.7L53.4-5L111.5,53.1z"/>
 					</g>
 				</g>
 			</g>
-			<path id="Path_517" class="st3" d="M64.6,81.9V115H41.6V81.9c-0.1-6.4,5.1-11.6,11.4-11.6c6.4-0.1,11.6,5.1,11.6,11.4
-				C64.6,81.8,64.6,81.9,64.6,81.9z"/>
+			<path id="Path_517" class="st3" d="M64.9,81.9V115h-23V81.9c-0.1-6.4,5.1-11.6,11.4-11.6c6.4-0.1,11.6,5.1,11.6,11.4
+				C64.9,81.8,64.9,81.9,64.9,81.9z"/>
 		</g>
 		<g id="Group_372" transform="translate(13942.637 1683.384)">
 			<g id="Group_370" transform="translate(92.308)">
-				<circle id="Ellipse_167" class="st4" cx="2.5" cy="2.5" r="7.5"/>
-				<circle id="Ellipse_168" class="st5" cx="23.7" cy="2.5" r="7.5"/>
+				<circle id="Ellipse_167" class="st4" cx="2.8" cy="2.5" r="7.5"/>
+				<circle id="Ellipse_168" class="st5" cx="24" cy="2.5" r="7.5"/>
 			</g>
 			<g id="Group_371">
-				<circle id="Ellipse_169" class="st5" cx="2.5" cy="2.5" r="7.5"/>
-				<circle id="Ellipse_170" class="st4" cx="23.7" cy="2.5" r="7.5"/>
+				<circle id="Ellipse_169" class="st5" cx="2.8" cy="2.5" r="7.5"/>
+				<circle id="Ellipse_170" class="st4" cx="24" cy="2.5" r="7.5"/>
 			</g>
 		</g>
 	</g>
