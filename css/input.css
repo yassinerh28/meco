@@ -21,10 +21,11 @@
 
 .input::placeholder {
     color: var(--meco-white);
+    opacity: 1;
 }
 
 .input:hover::placeholder, .input:focus::placeholder {
-    color: var(--meco-blue);
+    color: var(--meco-accent-blue);
 }
 
 .input-box-invalid:not(:focus) {

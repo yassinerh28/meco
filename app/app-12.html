@@ -1,16 +1,11 @@
-<div id="app-12" class="multiple-choices" data-title="Quel(s) équipement(s) de chauffage vous utilisez?" data-description="Vous pouvez sélectionner plusieurs choix" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="20">
+<div id="app-12" class="input-number-choice" data-title="Veuillez préciser la surface de la zone à isoler" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="26" data-evident_next_page="">
     <ul class="choices-box">
-        <li class="choice multiple-choice" data-order="1" data-go_to="" onclick="update_app(this)">
-            <span class="choice-image" data-image_src="chaudiere-electricite"></span>
-            <span class="choice-caption text-clickable">Chaudière</span>
-        </li>
-        <li class="choice multiple-choice" data-order="2" data-go_to="" onclick="update_app(this)">
-            <span class="choice-image" data-image_src="radiateur-electricite"></span>
-            <span class="choice-caption text-clickable">Radiateur</span>
-        </li>
-        <li class="choice multiple-choice" data-order="3" data-go_to="" onclick="update_app(this)">
-            <span class="choice-image" data-image_src="ppc-electricite"></span>
-            <span class="choice-caption text-clickable">Plafond et (ou) Plancher Chauffant</span>
-        </li>
+        <form class="input-number-form" id="surface-zone-form" action="">
+            <div class="input-box input-number-box">
+                <label id="surface-zone-input-label" for="surface-zone-input" class="text-label input-label">Surface de zone (en m²)</label>
+                <input type="number" name="surface-zone-input" id="surface-zone-input" class="text-input input input-number" placeholder="Entrer la surface de zone" step="10" min="0" max="800" oninput="input_validation(this); update_app(this)">
+                <p id="surface-zone-input-hint" class="text-input-hint input-hint">Entrer un nombre entier positif non nul.</p>
+            </div>
+        </form>
     </ul>
 </div>

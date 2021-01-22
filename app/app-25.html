@@ -1,14 +1,13 @@
-<div id="app-25" class="input-drop-down-choice" data-title="Veuillez sélectionner la tranche où se situent vos revenus fiscaux" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="0">
+<div id="app-25" class="input-increment-choice" data-title="Veuillez preciser le nombre de personnes composant votre foyer, vous inclus" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="0" data-evident_next_page="26">
     <ul class="choices-box">
-        <form class="input-drop-down-form" id="revenues-form" action="" >
-            <div class="input-box input-drop-down-box">
-                <label id="revenues-input-label" for="revenues-input" class="text-label input-label">Revenues fiscaux</label>
-                <select name="revenues-input" id="revenues-input" class="text-clickable input input-drop-down" >
-                        <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;inférieurs à A</option>
-                        <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;entre A et B</option>
-                        <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;entre B et C</option>
-                        <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;supérieurs à C</option>
-                </select>
+        <form class="input-increment-form" id="personnes-foyer-form" action="">
+            <div class="input-box input-increment-box">
+                <label id="personnes-foyer-input-label" for="personnes-foyer-input" class="text-label input-label">Nombre de personnes</label>
+                <div class="input-increment-container">
+                    <span class="input-increment-arrow input-increment-arrow-left" onclick="increment_value(-1)"></span>
+                    <input type="number" name="personnes-foyer-input" id="personnes-foyer-input" class="text-input input input-increment" value="0" step="1" min="0" oninput="input_validation(this); update_arrows(this)">
+                    <span class="input-increment-arrow input-increment-arrow-right input-increment-arrow-active" onclick="increment_value(1)"></span>
+                </div>
             </div>
         </form>
     </ul>

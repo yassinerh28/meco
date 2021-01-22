@@ -1,15 +1,12 @@
-<div id="app-23" class="input-increment-choice" data-title="Veuillez préciser combien vous avez d'enfants en garde alternée" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="0">
+<div id="app-23" class="radio-choices" data-title="Avez-vous une imposition commune?" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="" data-evident_next_page="">
     <ul class="choices-box">
-        <form class="input-increment-form" id="enfants-garde-form" action="">
-
-            <div class="input-box input-increment-box">
-                <label id="enfants-garde-input-label" for="enfants-garde-input" class="text-label input-label">Nombre d'enfants</label>
-                <div class="input-increment-container">
-                    <span class="input-increment-arrow input-increment-arrow-left" onclick="increment_value(-1)"></span>
-                    <input type="number" name="enfants-garde-input" id="enfants-garde-input" class="text-input input input-increment" value="0" step="1" min="0" oninput="input_validation(this); update_arrows(this)">
-                    <span class="input-increment-arrow input-increment-arrow-right input-increment-arrow-active" onclick="increment_value(1)"></span>
-                </div>
-            </div>
-        </form>
+        <li class="choice radio-choice" data-order="1" data-go_to="" onclick="update_app(this)">
+            <span class="choice-image" data-image_src="oui"></span>
+            <span class="choice-caption text-clickable">Oui</span>
+        </li>
+        <li class="choice radio-choice" data-order="2" data-go_to="" onclick="update_app(this)">
+            <span class="choice-image" data-image_src="non"></span>
+            <span class="choice-caption text-clickable">Non</span>
+        </li>
     </ul>
 </div>
