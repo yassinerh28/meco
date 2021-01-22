@@ -1,13 +1,14 @@
-<div id="app-17" class="input-drop-down-choice" data-title="Veuillez préciser le montant approximatif de votre facture d'électricité" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="40" data-evident_next_page="">
+<div id="app-17" class="input-drop-down-choice" data-title="Veuillez selectionner la surface que vous estimez disponible sur votre toit" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="33" data-evident_next_page="18">
     <ul class="choices-box">
-        <form class="input-drop-down-form" id="facture-form" action="" >
-            <div class="input-box input-drop-down-box">
-                <label id="facture-input-label" for="facture-input" class="text-label input-label">Montant de la facture d'électricité</label>
-                <select name="facture-input" id="facture-input" class="text-clickable input input-drop-down" >
-                        <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;inférieur à 700€</option>
-                        <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;entre 700€ et 1500€</option>
-                        <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;entre 1500€ et 2000€</option>
-                        <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;supérieur à 2000€</option>
+        <form class="input-drop-down-form" id="surface-toit-form" action="" >
+            <div class="input-drop-down-box input-box">
+                <label id="surface-toit-input-label" for="surface-toit-input" class="text-label input-label">Surface Disponible</label>
+                <select name="surface-toit-input" id="surface-toit-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
+                    <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
+                    <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;15m²</option>
+                    <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;20m²</option>
+                    <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;30m²</option>
+                    <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;40m²</option>
                 </select>
             </div>
         </form>

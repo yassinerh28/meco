@@ -149,6 +149,10 @@ body {
     border-color: var(--meco-blue-dark);
 }
 
+.choice-selected:hover .choice-image {
+    border-color: var(--meco-blue-dark);
+}
+
 /* choices-2 choices-3 choices-4*/
 
 .choices-2 .choice, .choices-3 .choice, .choices-4 .choice {

@@ -21,6 +21,8 @@ function validate(value, type) {
     } else if (type == "increment") {
         const re = /^[0-9]\d*$/;
         return re.test(value);
+    } else if (type == "drop-down") {
+        return (value != 0) ? true: false;
     }
 }
 
@@ -39,6 +41,11 @@ function input_validation_increment(e) {
     post_validation_style(e, "increment")
 }
 
+function input_validation_drop_down(e) {
+    validate(e.value, "drop-down")
+    post_validation_style(e, "drop-down")
+}
+
 function input_validation(e) {
     if (e.classList.contains("input-email")) {
         input_validation_email(e);
@@ -46,6 +53,8 @@ function input_validation(e) {
         input_validation_number(e);
     } else if (e.classList.contains("input-increment")) {
         input_validation_increment(e);
+    } else if (e.classList.contains("input-drop-down")) {
+        input_validation_drop_down(e);
     }
 }
 
@@ -72,3 +81,6 @@ function update_arrows(e) {
         document.getElementsByClassName("input-increment-arrow-left")[0].classList.add("input-increment-arrow-active");
     }
 }
+
+/* default value */
+

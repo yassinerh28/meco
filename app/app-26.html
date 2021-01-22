@@ -1,13 +1,14 @@
-<div id="app-26" class="input-drop-down-choice" data-title="Veuillez choisir votre code postal" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="0" data-evident_next_page="">
+<div id="app-26" class="input-drop-down-choice" data-title="Veuillez sélectionner la tranche où se situent vos revenus fiscaux" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="0" data-evident_next_page="27">
     <ul class="choices-box">
-        <form class="input-drop-down-form" id="code-postal-form" action="" >
+        <form class="input-drop-down-form" id="revenues-form" action="" >
             <div class="input-box input-drop-down-box">
-                <label id="code-postal-input-label" for="code-postal-input" class="text-label input-label">Code postal</label>
-                <select name="code-postal-input" id="code-postal-input" class="text-clickable input input-drop-down" >
-                        <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;0001</option>
-                        <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;0002</option>
-                        <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;0003</option>
-                        <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;0004</option>
+                <label id="revenues-input-label" for="revenues-input" class="text-label input-label">Revenues fiscaux</label>
+                <select name="revenues-input" id="revenues-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
+                    <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
+                    <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;inférieurs à A</option>
+                    <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;entre A et B</option>
+                    <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;entre B et C</option>
+                    <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;supérieurs à C</option>
                 </select>
             </div>
         </form>

@@ -3,7 +3,7 @@
         <form class="input-number-form" id="surface-zone-form" action="">
             <div class="input-box input-number-box">
                 <label id="surface-zone-input-label" for="surface-zone-input" class="text-label input-label">Surface de zone (en m²)</label>
-                <input type="number" name="surface-zone-input" id="surface-zone-input" class="text-input input input-number" placeholder="Entrer la surface de zone" step="10" min="0" oninput="input_validation(this)">
+                <input type="number" name="surface-zone-input" id="surface-zone-input" class="text-input input input-number" placeholder="Entrer la surface de zone" step="10" min="0" max="800" oninput="input_validation(this); update_app(this)">
                 <p id="surface-zone-input-hint" class="text-input-hint input-hint">Entrer un nombre entier positif non nul.</p>
             </div>
         </form>

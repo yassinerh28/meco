@@ -3,11 +3,12 @@
         <form class="input-drop-down-form" id="department-form" action="" >
             <div class="input-box input-drop-down-box">
                 <label id="department-input-label" for="department-input" class="text-label input-label">N° de Département</label>
-                <select name="department-input" id="department-input" class="text-clickable input input-drop-down" >
-                        <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;01 - paris</option>
-                        <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;02 - paris</option>
-                        <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;03 - paris</option>
-                        <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;04 - paris</option>
+                <select name="department-input" id="department-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
+                    <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
+                    <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;01 - paris</option>
+                    <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;02 - paris</option>
+                    <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;03 - paris</option>
+                    <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;04 - paris</option>
                 </select>
             </div>
         </form>
