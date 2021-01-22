@@ -6,10 +6,8 @@
 	.st0{fill:#FFFFFF;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FF5533;}
 </style>
-<g id="électricité-active-state" transform="translate(0 0)">
-	<circle id="ellipse" class="st0" cx="52.5" cy="52.5" r="52.5"/>
-	<g id="icon" transform="translate(41.5 30.5)">
-		<path id="Path_134" class="st1" d="M26,18.6H15.4L17.3-3L0,27.3l11.6,0L8.7,49L26,18.6z"/>
-	</g>
+<circle id="ellipse" class="st0" cx="52.5" cy="52.5" r="52.5"/>
+<g id="icon" transform="translate(41.5 30.5)">
+	<path id="Path_134" class="st1" d="M24,17.6H13.4L15.3-4L-2,26.3H9.6L6.7,48L24,17.6z"/>
 </g>
 </svg>

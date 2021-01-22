@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 209.8 210" style="enable-background:new 0 0 209.8 210;" xml:space="preserve">
+	 viewBox="0 0 209.9 210" style="enable-background:new 0 0 209.9 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#B3B3B3;}
-	.st2{fill:#EDEDED;}
-	.st3{fill:#CCCCCC;}
-	.st4{fill:#999999;}
+	.st1{fill:#CCCCCC;}
+	.st2{fill:#FAFAFA;}
+	.st3{fill:#E6E6E6;}
+	.st4{fill:#B3B3B3;}
 </style>
-<g id="isolation-default-state" transform="translate(-15.001 0)">
-	<circle id="ellipse" class="st0" cx="119.9" cy="105" r="105"/>
-	<g id="icon" transform="translate(-13882.236 -1547.764)">
-		<g id="Group_369" transform="translate(13948.76 1597.763)">
-			<g id="Group_368" transform="translate(0)">
-				<g id="Group_367">
-					<rect id="Rectangle_345" x="83.9" y="50.1" class="st1" width="21.8" height="8.4"/>
-					<rect id="Rectangle_346" x="0.3" y="50.1" class="st1" width="21.8" height="8.4"/>
-					<path id="Path_515" class="st2" d="M6.8,50.4L53,4.2l46.2,46.2V115H6.8V50.4z"/>
-					<g id="Group_366">
-						<path id="Path_516" class="st3" d="M111.1,53.1l-5.4,5.4L99.1,52L53,5.9L0.3,58.5l-5.4-5.4L52.6-4.7L53-5L111.1,53.1z"/>
-					</g>
+<circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
+<g id="icon" transform="translate(-13882.236 -1547.764)">
+	<g id="Group_369" transform="translate(13948.76 1597.763)">
+		<g id="Group_368" transform="translate(0)">
+			<g id="Group_367">
+				<rect id="Rectangle_345" x="69.3" y="50.1" class="st1" width="21.8" height="8.4"/>
+				<rect id="Rectangle_346" x="-14.3" y="50.1" class="st1" width="21.8" height="8.4"/>
+				<path id="Path_515" class="st2" d="M-7.7,50.4L38.4,4.2l46.2,46.2V115H-7.7V50.4z"/>
+				<g id="Group_366">
+					<path id="Path_516" class="st3" d="M96.5,53.1l-5.4,5.4L84.6,52L38.4,5.9l-52.7,52.6l-5.4-5.4L38.1-4.7L38.4-5L96.5,53.1z"/>
 				</g>
 			</g>
-			<path id="Path_517" class="st3" d="M64.5,81.9V115H41.5V81.9c-0.1-6.4,5.1-11.6,11.4-11.6c6.4-0.1,11.6,5.1,11.6,11.4
-				C64.5,81.8,64.5,81.9,64.5,81.9z"/>
 		</g>
-		<g id="Group_372" transform="translate(13942.637 1683.384)">
-			<g id="Group_370" transform="translate(92.308)">
-				<circle id="Ellipse_167" class="st4" cx="2.3" cy="2.5" r="7.5"/>
-				<circle id="Ellipse_168" class="st3" cx="23.6" cy="2.5" r="7.5"/>
-			</g>
-			<g id="Group_371">
-				<circle id="Ellipse_169" class="st3" cx="2.3" cy="2.5" r="7.5"/>
-				<circle id="Ellipse_170" class="st4" cx="23.6" cy="2.5" r="7.5"/>
-			</g>
+		<path id="Path_517" class="st1" d="M49.9,81.9V115h-23V81.9c-0.1-6.4,5.1-11.6,11.4-11.6c6.4-0.1,11.6,5.1,11.6,11.4
+			C49.9,81.8,49.9,81.9,49.9,81.9z"/>
+	</g>
+	<g id="Group_372" transform="translate(13942.637 1683.384)">
+		<g id="Group_370" transform="translate(92.308)">
+			<circle id="Ellipse_167" class="st1" cx="-12.2" cy="2.5" r="7.5"/>
+			<circle id="Ellipse_168" class="st4" cx="9" cy="2.5" r="7.5"/>
+		</g>
+		<g id="Group_371">
+			<circle id="Ellipse_169" class="st4" cx="-12.2" cy="2.5" r="7.5"/>
+			<circle id="Ellipse_170" class="st1" cx="9" cy="2.5" r="7.5"/>
 		</g>
 	</g>
 </g>

@@ -6,11 +6,9 @@
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#333333;}
 </style>
-<g id="fioul-hover-state" transform="translate(0 0)">
-	<circle id="ellipse" class="st0" cx="52.5" cy="52.5" r="52.5"/>
-	<g id="icon" transform="translate(36.64 30.1)">
-		<path id="Path_129" class="st1" d="M34.7,29.8c-0.1,10.4-8.5,18.7-18.8,18.6C5.5,48.5-2.9,40.2-3,29.8C-3,19.6,6.4,15,15.9-3.6
-			C25.3,15,34.7,19.6,34.7,29.8z"/>
-	</g>
+<circle id="ellipse" class="st0" cx="52.5" cy="52.5" r="52.5"/>
+<g id="icon" transform="translate(36.64 30.1)">
+	<path id="Path_129" class="st1" d="M34.7,29.8c-0.1,10.4-8.5,18.7-18.8,18.6C5.5,48.5-2.9,40.2-3,29.8C-3,19.6,6.4,15,15.9-3.6
+		C25.3,15,34.7,19.6,34.7,29.8z"/>
 </g>
 </svg>

@@ -11,18 +11,16 @@
 	.st5{fill:#B3B3FF;}
 	.st6{fill:#333333;}
 </style>
-<g id="chaudiere-fioul-active-state" transform="translate(-15 0)">
-	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
-	<g id="icon" transform="translate(73.5 50)">
-		<rect id="Rectangle_149" x="-5" y="-4.8" class="st1" width="85.6" height="85.6"/>
-		<rect id="Rectangle_150" x="-5" y="80.9" class="st2" width="85.6" height="33.9"/>
-		<ellipse id="Ellipse_207" class="st3" cx="21.4" cy="97.8" rx="4.5" ry="4"/>
-		<ellipse id="Ellipse_208" class="st3" cx="38.3" cy="97.8" rx="4.5" ry="4"/>
-		<ellipse id="Ellipse_209" class="st3" cx="55.3" cy="97.8" rx="4.5" ry="4"/>
-		<rect id="Rectangle_151" x="80.9" y="-5" class="st4" width="17.1" height="85.7"/>
-		<rect id="Rectangle_152" x="80.9" y="80.7" class="st5" width="17.1" height="34.3"/>
-		<path id="Path_141" class="st6" d="M48.9,42.1c0,5.9-4.8,10.8-10.8,10.8c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,5.4-8.6,10.8-19.4
-			C43.6,33.6,48.9,36.2,48.9,42.1z"/>
-	</g>
+<circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
+<g id="icon" transform="translate(73.5 50)">
+	<rect id="Rectangle_149" x="-20" y="-4.8" class="st1" width="85.6" height="85.6"/>
+	<rect id="Rectangle_150" x="-20" y="80.9" class="st2" width="85.6" height="33.9"/>
+	<ellipse id="Ellipse_207" class="st3" cx="6.4" cy="97.8" rx="4.5" ry="4"/>
+	<ellipse id="Ellipse_208" class="st3" cx="23.3" cy="97.8" rx="4.5" ry="4"/>
+	<ellipse id="Ellipse_209" class="st3" cx="40.3" cy="97.8" rx="4.5" ry="4"/>
+	<rect id="Rectangle_151" x="65.9" y="-5" class="st4" width="17.1" height="85.7"/>
+	<rect id="Rectangle_152" x="65.9" y="80.7" class="st5" width="17.1" height="34.3"/>
+	<path id="Path_141" class="st6" d="M33.9,42.1c0,5.9-4.8,10.8-10.8,10.8c-5.9,0-10.8-4.8-10.8-10.8c0-5.9,5.4-8.6,10.8-19.4
+		C28.6,33.6,33.9,36.2,33.9,42.1z"/>
 </g>
 </svg>
