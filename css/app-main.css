@@ -130,9 +130,10 @@ body {
 }
 
 .choice-image {
-    border: solid 10px var(--meco-gray-light);
+    border: solid 7px var(--meco-gray-light);
     border-radius: 100%;
     background-repeat: no-repeat;
+    transition: border 0.1s ease-in-out;
 }
 
 .choice-caption {
@@ -141,40 +142,59 @@ body {
     color: var(--meco-gray-dark);
 }
 
-.choice:hover .choice-image {
+.choice:hover .choice-image,
+.choice:focus .choice-image {
     border-color: var(--meco-accent-blue);
+    border-width: 10px;
 }
     
 .choice-selected .choice-image {
     border-color: var(--meco-blue-dark);
 }
 
-.choice-selected:hover .choice-image {
+.choice-selected:hover .choice-image,
+.choice-selected:focus .choice-image {
     border-color: var(--meco-blue-dark);
 }
 
 /* choices-2 choices-3 choices-4*/
 
-.choices-2 .choice, .choices-3 .choice, .choices-4 .choice {
+.choices-2 .choice,
+.choices-3 .choice,
+.choices-4 .choice {
     max-width: 250px;
 }
 
-.choices-2 .choice-image, .choices-3 .choice-image, .choices-4 .choice-image {
+.choices-2 .choice-image,
+.choices-3 .choice-image,
+.choices-4 .choice-image {
     height: 200px;
     width: 200px;
     background-size: 170px;
     background-position: center, 250px, 250px;
 }
 
-.choices-2 .choice:hover .choice-image, .choices-3 .choice:hover .choice-image, .choices-4 .choice:hover .choice-image {
+.choices-2 .choice:hover .choice-image,
+.choices-3 .choice:hover .choice-image,
+.choices-4 .choice:hover .choice-image {
     background-position: 250px, center, 250px;
 }
 
-.choices-2 .choice-selected .choice-image, .choices-3 .choice-selected .choice-image, .choices-4 .choice-selected .choice-image {
+.choices-2 .choice-selected .choice-image,
+.choices-3 .choice-selected .choice-image,
+.choices-4 .choice-selected .choice-image {
     background-position: 250px, 250px, center;
 }
 
-.choices-2 .choice-caption, .choices-3 .choice-caption, .choices-4 .choice-caption {
+.choices-2 .choice-selected:hover .choice-image, .choices-2 .choice-selected:focus .choice-image,
+.choices-3 .choice-selected:hover .choice-image, .choices-3 .choice-selected:focus .choice-image,
+.choices-4 .choice-selected:hover .choice-image, .choices-4 .choice-selected:focus .choice-image {
+    background-position: 250px, 250px, center;
+}
+
+.choices-2 .choice-caption,
+.choices-3 .choice-caption,
+.choices-4 .choice-caption {
     line-height: 24px;
 }
 
@@ -199,6 +219,7 @@ body {
 
 .choices-6 .choice:hover .choice-image {
     background-position: 150px, center, 150px;
+    border-width: 7px;
 }
 
 .choices-6 .choice-caption {
@@ -206,5 +227,9 @@ body {
 }
 
 .choices-6 .choice-selected .choice-image {
+    background-position: 150px, 150px, center;
+}
+
+.choices-6 .choice-selected:hover .choice-image {
     background-position: 150px, 150px, center;
 }

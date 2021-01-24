@@ -16,7 +16,6 @@ function go_to_page(number) {
             document.getElementById("choices-container").innerHTML = this.responseText;
             var app_page = document.getElementById("app-" + number);
             var choice_images = document.getElementsByClassName("choice-image");
-            var choice_images_hover = document.querySelector(".choice-image:hover");
             var number_of_choices = document.getElementsByClassName("choice").length;
             app_page.classList.add("choices-" + number_of_choices);
             question_title.innerHTML = app_page.dataset.title;
