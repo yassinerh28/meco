@@ -1,12 +1,3 @@
-/* go to */
-
-#button-go-to {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-    z-index: 2;
-}
 
 body {
     height: 100vh;
@@ -217,7 +208,8 @@ body {
     background-position: center, 150px, 150px;
 }
 
-.choices-6 .choice:hover .choice-image {
+.choices-6 .choice:hover .choice-image,
+.choices-6 .choice:focus .choice-image {
     background-position: 150px, center, 150px;
     border-width: 7px;
 }

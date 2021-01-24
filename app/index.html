@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../css/app-main.css">
 </head>
 <body>
-<button id="button-go-to" class="text-button button button-secondary-normal" onclick="go_to_page(parseInt(prompt('Enter the page number')))">Go to</button>
 <nav id="navigation-bar" class="navigation-bar">
     <div id="content-box-nav">
         <a id="logo-nav-link" href="../index.html" target="_blank" tabindex="0" aria-label="Acceuil" onfocus="drop_down_services_out()">
@@ -74,9 +73,9 @@
             </div>
         </div>
         <div id="buttons-box">
-            <button id="button-left" class="text-clickable button button-display-none" onclick="left_button_action(this)"></button>
+            <button id="button-left" class="text-clickable button button-display-none" onclick="left_button_action()"></button>
             <div id="between-buttons"></div>
-            <button id="button-right" class="text-clickable button button-display-none" onclick="right_button_action(this)"></button>
+            <button id="button-right" class="text-clickable button button-display-none" onclick="right_button_action()"></button>
         </div>
     </div>
     <div id="progress-bar">
