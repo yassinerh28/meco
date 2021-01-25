@@ -3,6 +3,7 @@ body {
     height: 100vh;
     background-image: url(../images/patterns/arrow-pattern.svg);
     background-size: 150px;
+    overflow-x: hidden;
 }
 
 #white {

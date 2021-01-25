@@ -1,0 +1,147 @@
+/* first breakpoint 1100px width */
+
+@media screen and (max-width: 1100px) {
+    
+    .content-box-page-section {
+     max-width: 800px;
+     height: 450px;
+    }
+
+    #page-heading {
+        background-size: 100px;
+    }
+
+    .page-section#faq-section {
+        height: 100%;
+    }
+
+    .page-section#page-footer {
+        height: 200px;
+    }
+
+    .section-title {
+        max-width: 600px;
+    }
+    
+    .text-page-title {
+        font-weight: 800;
+        font-size: 34px;
+        letter-spacing: 0.034em;
+        line-height: 40px;
+    }
+
+    .text-big-header {
+        font-family: poppins, sans-serif;
+        font-weight: 800;
+        font-size: 26px;
+        letter-spacing: 0.026em;
+        line-height: 32px;
+    }
+
+    .text-small-header {
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: 0.022em;
+        line-height: 28px;
+    }
+    
+    .text-title-body {
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: 0.022em;
+        line-height: 28px;
+    }
+
+    .text-small-body {
+        font-family: bitter, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.032em;
+        line-height: 24px;
+    }
+    
+    .text-clickable {
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.032em;
+        line-height: 32px;
+    }
+    
+    .text-button {
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.032em;
+        line-height: 32px;
+    }
+
+    .text-notification {
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 0.024em;
+        line-height: 24px;
+    }
+
+    .text-footer {
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 0.024em;
+        line-height: 24px;
+    }
+    
+    #logo-nav {
+        padding: 24px 0;
+    }
+
+    #logo-footer {
+        height: 24px;
+    }
+    
+    #navigation-bar-list {
+        width: 400px;
+    }
+    
+    .navigation-bar-scroll #navigation-bar-list {
+        width: 650px;
+    }
+
+    #values-intro-section {
+        background-size: 250px, 400px, 440px;
+        background-position: center bottom, center 270px, center 250px;
+    }
+    
+    .faq-question {
+        padding: 7px 10px;
+        width: 450px;
+        margin: 0 15px;
+    }
+
+    #faq-answers-list {
+        width: 250px;
+    }
+
+    #faq-box {
+        height: 270px;
+    }
+
+    #faq-title {
+        margin-bottom: 30px;
+    }
+
+    #reviews-list {
+        width: 500px;
+    }
+
+    .reviews-list-item-body {
+        width: 500px;
+        height: 180px;
+    }
+
+    .reviews-list-item-body-content-box {
+        width: 400px;
+    }
+    }

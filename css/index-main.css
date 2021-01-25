@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--meco-off-white);
+    overflow-x: hidden;
 }
 
 #pattern {
@@ -28,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 657px;
+    height: 100%;
     width: 100%;
     background-color: rgba(250, 250, 250, 0.8);
 }
@@ -49,7 +50,7 @@ body {
 
 .content-box-page-section {
     display: flex;
-    height: 100%;
+    height: 657px;
     width: 100%;
     max-width: 1300px;
 }
