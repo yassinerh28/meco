@@ -73,6 +73,9 @@ function go_to_page(number) {
             previous_page = array_max(visited_pages.slice(0, -1));
             add_pending_pages();
             load_local_data(number);
+            var xhttp_next = new XMLHttpRequest;
+            xhttp_next.open("GET", "app-" + next_page + ".html", true);
+            xhttp_next.send();
             console.log("log--pending_pages: " + pending_pages);
             console.log("log--next_page: " + next_page);
             console.log("log--visited_pages: " + visited_pages);
@@ -141,7 +144,6 @@ function add_pending_pages() {
         }
     }
     next_page = array_min(pending_pages);
-    request_pending_pages();
     console.log("log--pending_pages: " + pending_pages);
     console.log("log--next_page: " + next_page);
     console.log("end--adding_pending_pages...");
@@ -162,15 +164,6 @@ function remove_pending_pages() {
     console.log("log--pending_pages: " + pending_pages);
     console.log("log--next_page: " + next_page);
     console.log("end--removing_pending_pages...");
-}
-
-function request_pending_pages() {
-    for (let index = 0; index < pending_pages.length; index++) {
-        const pending_page = pending_pages[index];
-        var xhttp = new XMLHttpRequest;
-        xhttp.open("GET", "app-" + pending_page + ".html", true);
-        xhttp.send();
-    }
 }
 
 function update_app(e) {
