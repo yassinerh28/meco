@@ -72,7 +72,6 @@ function go_to_page(number) {
             current_app_page = number;
             previous_page = array_max(visited_pages.slice(0, -1));
             add_pending_pages();
-            request_next_page();
             load_local_data(number);
             console.log("log--pending_pages: " + pending_pages);
             console.log("log--next_page: " + next_page);
@@ -83,12 +82,6 @@ function go_to_page(number) {
     };
     xhttp.open("GET", "app-" + number + ".html", true);
     xhttp.send();
-}
-
-function request_next_page() {
-    var xhttp_next = new XMLHttpRequest;
-    xhttp_next.open("GET", "app-" + next_page + ".html", true);
-    xhttp_next.send();
 }
 
 function load_local_data(number) {
@@ -198,7 +191,6 @@ function update_app(e) {
         localStorage.setItem("app-" + current_app_page, e.value);
     }
     add_pending_pages();
-    request_next_page();
     console.log("log--pending_pages: " + pending_pages);
     console.log("log--next_page: " + next_page);
     console.log("end--loading_local_data...");
