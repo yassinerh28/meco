@@ -141,6 +141,7 @@ function add_pending_pages() {
         }
     }
     next_page = array_min(pending_pages);
+    request_pending_pages();
     console.log("log--pending_pages: " + pending_pages);
     console.log("log--next_page: " + next_page);
     console.log("end--adding_pending_pages...");
