@@ -139,9 +139,21 @@
     .reviews-list-item-body {
         width: 500px;
         height: 180px;
+        background-size: 25px, 25px, 50px, 50px;
+        background-position-x: 20px, 455px, left, right;
+        background-position-y: 20px, 145px, bottom, top;
     }
 
     .reviews-list-item-body-content-box {
         width: 400px;
+    }
+
+    .top-stars {
+        width: 160px;
+        height: 15px;
+        background-position: 0px, 30px, 60px, 90px, 120px;
+        background-repeat: no-repeat;
+        background-size: 15px;
+        color: var(--meco-orange);
     }
     }
