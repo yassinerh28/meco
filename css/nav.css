@@ -106,13 +106,18 @@ body {
     margin-left: 50px;
 }
 
+#services {
+    width: 200px;
+}
+
 #services-link {
     cursor: default;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
+    justify-content: center;
+    box-sizing: content-box;
     height: 80px;
-    padding: 0 30px;
+    width: 200px;
     transition: box-shadow 0.2s, background-color 0.3s;
 }
 
@@ -163,7 +168,7 @@ body {
     transform: rotateZ(180deg);
 }
 
-#drop-down-content {
+.services-active #drop-down-content {
     display: none;
     padding: 20px;
     margin-right: -200px;
@@ -201,6 +206,7 @@ body {
 .link {
     color: var(--meco-gray-dark);
     height:30px;
+    width: 210px;
     transition: box-shadow 0.2s;
 }
 
