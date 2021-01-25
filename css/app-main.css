@@ -3,10 +3,6 @@ body {
     height: 100vh;
     background-image: url(../images/patterns/arrow-pattern.svg);
     background-size: 150px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
 #white {
@@ -61,7 +57,7 @@ body {
 }
 
 #buttons-box {
-    width: 1000px;
+    width: 800px;
     height: 60px;
     margin-bottom: 30px;
     display: flex;
@@ -165,12 +161,6 @@ body {
     background-position: center, 250px;
 }
 
-/* .choices-2 .choice:hover .choice-image,
-.choices-3 .choice:hover .choice-image,
-.choices-4 .choice:hover .choice-image {
-    background-position: 250px, center;
-} */
-
 .choices-2 .choice-selected .choice-image,
 .choices-3 .choice-selected .choice-image,
 .choices-4 .choice-selected .choice-image {
@@ -196,7 +186,8 @@ body {
     padding: 0 100px;
 }
 .choices-6 .choice {
-    flex-basis: 33%;
+    flex-basis: 25%;
+    margin: 0 30px;
     padding: 10px 0;
 }
 
