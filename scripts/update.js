@@ -163,6 +163,15 @@ function remove_pending_pages() {
     console.log("end--removing_pending_pages...");
 }
 
+function request_pending_pages() {
+    for (let index = 0; index < pending_pages.length; index++) {
+        const pending_page = pending_pages[index];
+        var xhttp = new XMLHttpRequest;
+        xhttp.open("GET", "app-" + pending_page + ".html", true);
+        xhttp.send();
+    }
+}
+
 function update_app(e) {
     console.log("----------------");
     console.log("start--update...");
