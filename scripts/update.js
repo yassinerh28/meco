@@ -58,8 +58,7 @@ function go_to_page(number) {
             question_description.innerHTML = app_page.dataset.description;
             for (let index = 0; index < choice_images.length; index++) {
                 const choice_image = choice_images[index];
-                choice_image.style.backgroundImage = "url(../images/app/" + choice_image.dataset.image_src + "-unselected.svg)";
-                choice_image.style.backgroundImage += ", url(../images/app/" + choice_image.dataset.image_src + "-hover.svg)";
+                choice_image.style.backgroundImage = "url(../images/app/" + choice_image.dataset.image_src + "-hover.svg)";
                 choice_image.style.backgroundImage += ", url(../images/app/" + choice_image.dataset.image_src + "-selected.svg)";
             }
             button_left.innerHTML = app_page.dataset.button_left;
@@ -112,6 +111,9 @@ function load_local_data(number) {
             }
         } else if (current_app.classList.contains("input-choice")) {
             input.value = localStorage_item;
+            if (current_app.classList.contains("input-increment-choice")) {
+                update_arrows(document.getElementsByClassName("input")[0]);
+            }
         }
     }
     add_pending_pages();
@@ -198,9 +200,9 @@ function update_app(e) {
 
 function left_button_action() {
     console.log("----------------");
+    remove_pending_pages();
     go_to_page(previous_page);
     array_remove_value(visited_pages, array_max(visited_pages));
-    remove_pending_pages();
     selected_choices_values = [];
 }
 

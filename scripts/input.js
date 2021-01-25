@@ -27,34 +27,34 @@ function validate(value, type) {
 }
 
 function input_validation_email(e) {
-    validate(e.value, "email")
-    post_validation_style(e, "email")
+    post_validation_style(e, "email");
+    return validate(e.value, "email");
 }
 
 function input_validation_number(e) {
-    validate(e.value, "number")
-    post_validation_style(e, "number")
+    post_validation_style(e, "number");
+    return validate(e.value, "number");
 }
 
 function input_validation_increment(e) {
-    validate(e.value, "increment")
-    post_validation_style(e, "increment")
+    post_validation_style(e, "increment");
+    return validate(e.value, "increment");
 }
 
 function input_validation_drop_down(e) {
-    validate(e.value, "drop-down")
-    post_validation_style(e, "drop-down")
+    post_validation_style(e, "drop-down");
+    return validate(e.value, "drop-down");
 }
 
 function input_validation(e) {
     if (e.classList.contains("input-email")) {
-        input_validation_email(e);
+        return input_validation_email(e);
     } else if (e.classList.contains("input-number")) {
-        input_validation_number(e);
+        return input_validation_number(e);
     } else if (e.classList.contains("input-increment")) {
-        input_validation_increment(e);
+        return input_validation_increment(e);
     } else if (e.classList.contains("input-drop-down")) {
-        input_validation_drop_down(e);
+        return input_validation_drop_down(e);
     }
 }
 
@@ -62,7 +62,7 @@ function input_validation(e) {
 
 function increment_value(sign) {
     var input = document.getElementsByClassName("input-increment")[0];
-    if ((sign == -1 && input.value != 0) || sign == 1) {
+    if ((sign == -1 && input.value > 0) || sign == 1) {
         input.value = parseInt(input.value) + sign;
         if (input.value == "0" || input.value == "1") {
             document.getElementsByClassName("input-increment-arrow-left")[0].classList.remove("input-increment-arrow-active");
@@ -74,7 +74,7 @@ function increment_value(sign) {
 }
 
 function update_arrows(e) {
-    if (e.value == "0") {
+    if (parseInt(e.value) <= 0) {
         document.getElementsByClassName("input-increment-arrow-left")[0].classList.remove("input-increment-arrow-active");
     }
     else {

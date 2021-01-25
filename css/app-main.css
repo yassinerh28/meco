@@ -121,7 +121,7 @@ body {
 }
 
 .choice-image {
-    border: solid 7px var(--meco-gray-light);
+    border: solid 7px var(--meco-accent-blue);
     border-radius: 100%;
     background-repeat: no-repeat;
     transition: border 0.1s ease-in-out;
@@ -162,25 +162,25 @@ body {
     height: 200px;
     width: 200px;
     background-size: 170px;
-    background-position: center, 250px, 250px;
+    background-position: center, 250px;
 }
 
-.choices-2 .choice:hover .choice-image,
+/* .choices-2 .choice:hover .choice-image,
 .choices-3 .choice:hover .choice-image,
 .choices-4 .choice:hover .choice-image {
-    background-position: 250px, center, 250px;
-}
+    background-position: 250px, center;
+} */
 
 .choices-2 .choice-selected .choice-image,
 .choices-3 .choice-selected .choice-image,
 .choices-4 .choice-selected .choice-image {
-    background-position: 250px, 250px, center;
+    background-position: 250px, center;
 }
 
 .choices-2 .choice-selected:hover .choice-image, .choices-2 .choice-selected:focus .choice-image,
 .choices-3 .choice-selected:hover .choice-image, .choices-3 .choice-selected:focus .choice-image,
 .choices-4 .choice-selected:hover .choice-image, .choices-4 .choice-selected:focus .choice-image {
-    background-position: 250px, 250px, center;
+    background-position: 250px, center;
 }
 
 .choices-2 .choice-caption,
@@ -205,12 +205,11 @@ body {
     height: 100px;
     width: 100px;
     background-size: 80px;
-    background-position: center, 150px, 150px;
+    background-position: center, 150px;
 }
 
 .choices-6 .choice:hover .choice-image,
 .choices-6 .choice:focus .choice-image {
-    background-position: 150px, center, 150px;
     border-width: 7px;
 }
 
@@ -219,9 +218,9 @@ body {
 }
 
 .choices-6 .choice-selected .choice-image {
-    background-position: 150px, 150px, center;
+    background-position: 150px, center;
 }
 
 .choices-6 .choice-selected:hover .choice-image {
-    background-position: 150px, 150px, center;
+    background-position: 150px, center;
 }
