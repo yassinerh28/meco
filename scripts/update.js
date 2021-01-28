@@ -172,11 +172,11 @@ function update_app(e) {
         var choices = document.getElementsByClassName("choice");
         for (let index = 0; index < choices.length; index++) {
             const choice = choices[index];
-            choice.classList.remove("choice-selected")
+            choice.classList.remove("choice-selected");
         }
         if (!e.classList.contains("choice-selected")) {
             localStorage.setItem("app-" + current_app_page, e.dataset.order);
-            e.classList.add("choice-selected")
+            e.classList.add("choice-selected");
         } else {
             localStorage.removeItem("app-" + current_app_page);
         }
@@ -190,7 +190,13 @@ function update_app(e) {
         }
         localStorage.setItem("app-" + current_app_page, selected_choices_values);
     } else if (e.classList.contains("input")) {
-        localStorage.setItem("app-" + current_app_page, e.value);
+        var inputs = document.getElementsByClassName("input");
+        selected_choices_values = [];
+        for (let index = 0; index < inputs.length; index++) {
+            const input = inputs[index];
+            selected_choices_values.push(input.value);
+        }
+        localStorage.setItem("app-" + current_app_page, selected_choices_values);
     }
     add_pending_pages();
     console.log("log--pending_pages: " + pending_pages);

@@ -24,35 +24,13 @@ body {
     z-index: -1;
 }
 
-.page-section, #page-heading {
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(250, 250, 250, 0.8);
-}
-
 .page-section#faq-section {
     height: 857px;
 }
 
-.page-section:nth-of-type(odd) {
+.page-section:nth-child(odd) {
     opacity: 1;
     background-color: var(--meco-white);
-}
-
-.page-section#page-footer {
-    height: 300px;
-    background-color: rgba(51, 51, 255, 0.8);
-}
-
-.content-box-page-section {
-    display: flex;
-    height: 657px;
-    width: 100%;
-    max-width: 1300px;
 }
 
 .section-title {
@@ -372,34 +350,4 @@ body {
 
 #email-submit-box {
     margin-left: 20px;
-}
-
-#content-box-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#logo-footer {
-    height: 30px;
-}
-
-#footer-list {
-    display: flex;
-}
-
-#footer-list .important-link {
-    color: var(--meco-white);
-    margin: 0 20px;
-    transition: all 0.1s;
-}
-
-#footer-list .important-link:hover, #footer-list .important-link:focus {
-    box-shadow: var(--meco-white) 0 2px;
-}
-
-#copyright-notice {
-    color: var(--meco-white);
-    font-weight: 400;
 }

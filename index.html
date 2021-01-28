@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/sections.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/index-main.css">
-    <link rel="stylesheet" href="css/index-main(1000).css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home-main.css">
+    <link rel="stylesheet" href="css/home-main(1000).css">
 </head>
 <body onscroll="scrollfunction();" id="page">
 <nav id="navigation-bar" class="navigation-bar">
@@ -71,13 +73,13 @@
                     <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
                 </div>
                 <ul id="drop-down-content">
-                    <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="#" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
-                    <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="#" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
-                    <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="#" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
+                    <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="/isolation/" target="_blank" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
+                    <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="/chauffage/" target="_blank" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
+                    <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="/energie/" target="_blank" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
                 </ul>
             </li>
             <li id="about" class="nav-item">
-                <a id="about-link" class="text-clickable link" href="#" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
+                <a id="about-link" class="text-clickable link" href="/about/" target="_blank" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
             </li>
             <li id="cta-nav" class="nav-item">
                 <a id="cta-nav-link" class="text-button button button-primary-special-private" href="app/index.html" target="_blank" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
@@ -226,10 +228,10 @@
     <div id="content-box-footer" class="content-box-page-section">
         <img id="logo-footer" src="images/logo/meeco-white.svg" alt="logo Meeco blanc"/>
         <ul id="footer-list">
-            <li><a href="#" class="important-link text-footer" area-label="Mentions légales" tabindex="0">Mentions légales</a></li>
-            <li><a href="#" class="important-link text-footer" area-label="Politique de la vie privée" tabindex="0">Politique de la vie privée</a></li>
-            <li><a href="#" class="important-link text-footer" area-label="Qui sommes nous?" tabindex="0">Qui sommes nous?</a></li>
-            <li><a href="#" class="important-link text-footer" area-label="Nous contacter" tabindex="0">Nous contacter</a></li>
+            <li><a href="#" class="important-link text-footer" target="_blank" area-label="Mentions légales" tabindex="0">Mentions légales</a></li>
+            <li><a href="#" class="important-link text-footer" target="_blank" area-label="Politique de la vie privée" tabindex="0">Politique de la vie privée</a></li>
+            <li><a href="/about/" class="important-link text-footer" target="_blank" area-label="Qui sommes nous?" tabindex="0">Qui sommes nous?</a></li>
+            <li><a href="#" class="important-link text-footer" target="_blank" area-label="Nous contacter" tabindex="0">Nous contacter</a></li>
         </ul>
         <small id="copyright-notice" class="text-footer">copyright &copy;2021</small>
     </div>

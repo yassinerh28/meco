@@ -2,24 +2,24 @@
     <ul class="choices-box">
         <form class="input-multiple-form" id="information-form" action="">
             <div class="input-box input-text-box">
-                <label id="user-name-input-label" for="user-name-input" class="text-label input-label">Votre nom complet<span class="required-asterisk">*</span></label>
-                <input type="text" name="user-name-input" id="user-name-input" class="text-input input input-text" placeholder="Entrer votre nom complet" oninput="input_validation(this); update_app(this)">
+                <label id="user-name-input-label" for="user-name-input" class="text-label input-label input-label-required">Votre nom complet<span class="required-asterisk">*</span></label>
+                <input type="text" name="user-name-input" id="user-name-input" class="text-input input input-text" placeholder="Nom Prénom" oninput="input_validation(this); update_app(this)">
                 <p id="user-name-input-hint" class="text-input-hint input-hint">Ce champs est requis.</p>
             </div>
             <div class="input-box input-number-box">
-                <label id="user-email-input-label" for="user-email-input" class="text-label input-label">Votre email<span class="required-asterisk">*</span></label>
-                <input type="email" name="user-email-input" id="user-email-input" class="text-input input input-email" placeholder="Entrer votre email" oninput="input_validation(this); update_app(this)">
+                <label id="user-email-input-label" for="user-email-input" class="text-label input-label input-label-required">Votre email<span class="required-asterisk">*</span></label>
+                <input type="email" name="user-email-input" id="user-email-input" class="text-input input input-email" placeholder="exemple@exemple.com" onchange="input_validation(this); update_app(this)">
                 <p id="user-email-input-hint" class="text-input-hint input-hint">Entrer une adresse électronique valide.</p>
             </div>
             <div class="input-box input-number-box">
-                <label id="user-phone-input-label" for="user-phone-input" class="text-label input-label">Votre numéro de téléphone<span class="required-asterisk">*</span></label>
-                <input type="number" name="user-phone-input" id="user-phone-input" class="text-input input input-phone" placeholder="Entrer votre N° de téléphone" oninput="input_validation(this); update_app(this)">
+                <label id="user-phone-input-label" for="user-phone-input" class="text-label input-label input-label-required">Votre numéro de téléphone<span class="required-asterisk">*</span></label>
+                <input type="number" name="user-phone-input" id="user-phone-input" class="text-input input input-phone" placeholder="0033xxxxxxxx ou 0xxxxxxxxx" onchange="input_validation(this); update_app(this)">
                 <p id="user-phone-input-hint" class="text-input-hint input-hint">Entrer un numéro de téléphone valide.</p>
             </div>
             <div class="input-box input-check-box">
-                <label id="user-check-input-label" for="user-check-input" class="text-label input-label">J'ai lu et j'accepte <a class="hyperlink" href="#" target="_blank">politique de confidentialité</a></label>
-                <input type="checkbox" name="user-check-input" id="user-check-input" class="text-input input input-check" placeholder="Entrer votre N° de téléphone" oninput="input_validation(this); update_app(this)">
-                <p id="user-check-input-hint" class="text-input-hint input-hint">Entrer un numéro de téléphone valide.</p>
+                <input type="checkbox" name="user-check-input" id="user-check-input" class="text-input input input-check" oninput="update_app(this)">
+                <span class="check-box-custom"></span>
+                <label id="user-check-input-label" for="user-check-input" class="text-label input-label">J'ai lu et j'accepte <a class="text-hyperlink" href="#" target="_blank">la politique de confidentialité</a></label>
             </div>
         </form>
     </ul>

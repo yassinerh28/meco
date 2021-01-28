@@ -1,0 +1,37 @@
+
+.page-section#page-footer {
+    height: 300px;
+    background-color: rgba(51, 51, 255, 0.8);
+}
+
+#content-box-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo-footer {
+    height: 30px;
+}
+
+#footer-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#footer-list .important-link {
+    color: var(--meco-white);
+    margin: 0 20px;
+    transition: all 0.1s;
+}
+
+#footer-list .important-link:hover, #footer-list .important-link:focus {
+    box-shadow: var(--meco-white) 0 2px;
+}
+
+#copyright-notice {
+    color: var(--meco-white);
+    font-weight: 400;
+}

@@ -1,0 +1,95 @@
+
+
+/* sections */
+
+.page-section:not(#conviction-section) .section-title {
+    max-width: 680px;
+}
+
+.content-box-page-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-title {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--meco-blue-dark);
+    background-image: url(../images/patterns/arrow-pattern-light.svg);
+    background-size: 150px;
+}
+
+#conviction-section {
+    padding-top: 80px;
+}
+
+#quote-card-photo-1 {
+    background-image: url(../images/photos/photo-mohamed-lazrak.png);
+}
+
+#quote-card-photo-2 {
+    background-image: url(../images/photos/photo-redouane-nasser.png);
+}
+
+#quote-card-photo-3 {
+    background-image: url(../images/photos/photo-rachid-alami.png);
+}
+/* values */
+
+#content-box-values {
+    align-items: flex-end;
+}
+
+#values-body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+}
+
+.value {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.value-title {
+    color: var(--meco-blue-dark);
+    font-weight: bold;
+}
+
+/* mission & vision */
+
+#content-box-mission {
+    align-items: flex-start;
+}
+
+#content-box-vision {
+    align-items: flex-end;
+}
+
+#mission-body,
+#vision-body {
+    width: 100%;
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section-quote-mission {
+    margin-top: 50px;
+}
+
+#section-quote-vision {
+    margin-bottom: 50px;
+}

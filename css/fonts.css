@@ -54,6 +54,14 @@
     line-height: 36px;
 }
 
+.text-min-body {
+    font-family: bitter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.042em;
+    line-height: 24px;
+}
+
 /* web */
 
 .text-button {
@@ -70,6 +78,17 @@
     font-size: 20px;
     letter-spacing: 0.042em;
     line-height: 42px;
+}
+
+.text-hyperlink {
+    color: var(--meco-blue);
+    box-shadow: none;
+    transition: box-shadow 0.1s;
+}
+
+.text-hyperlink:hover,
+.text-hyperlink:focus {
+    box-shadow: var(--meco-blue) 0 2px;
 }
 
 .text-notification {
@@ -98,7 +117,7 @@
 
 .text-input-hint {
     font-family: poppins, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.038em;
     line-height: 36px;
@@ -110,4 +129,8 @@
     font-size: 16px;
     letter-spacing: 0.038em;
     line-height: 36px;
+}
+
+.text-strong-word {
+    font-weight: bold;
 }

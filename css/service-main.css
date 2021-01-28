@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/patterns/arrow-pattern-light.svg);
+    background-size: 150px;
+}
+
+.page-section:not(#page-footer) {
+    padding-top: 80px;
+}
+
+.content-box-page-section:not(#content-box-footer) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+}
+
+.section-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+}
+
+.section-title {
+    color: var(--meco-blue-dark);
+    margin-bottom: 50px;
+}
+
+.section-description {
+    margin-bottom: 50px;
+    color: var(--meco-gray-dark);
+}
+
+.section-cta {
+    display: flex;
+    width: fit-content;
+}
+.section-image {
+    margin-top: 50px;
+}

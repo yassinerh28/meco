@@ -7,5 +7,5 @@ function scrollfunction() {
     } else {
         navigation_bar.classList.add("navigation-bar-scroll");
     }
-    pattern.style.transform = "translateY(-"+(window.pageYOffset/4)+"px)";
+    if (pattern) {pattern.style.transform = "translateY(-"+(window.pageYOffset/4)+"px)";}
 }
