@@ -87,7 +87,7 @@ body {
 }
 
 #services-section-title {
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #values-list, #services-section-list {
@@ -119,11 +119,20 @@ body {
     color: var(--meco-blue-dark);
 }
 
+.services-section-list-item-title {
+    margin-top: 20px;
+}
+
+.services-section-list-item-description {
+    margin-bottom: 10px;
+}
+
 #content-box-services {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+    padding: 100px;
 }
 
 #content-box-faq {
