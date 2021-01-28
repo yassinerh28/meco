@@ -25,7 +25,7 @@ body {
 }
 
 .page-section#faq-section {
-    height: 857px;
+    padding: 50px 0;
 }
 
 .page-section:nth-child(odd) {

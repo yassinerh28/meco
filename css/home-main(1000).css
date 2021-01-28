@@ -120,6 +120,10 @@
         margin: 0 15px;
     }
 
+    .faq-question-active {
+        padding-left: 20px;
+    }
+
     #faq-answers-list {
         width: 250px;
     }
