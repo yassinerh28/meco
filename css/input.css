@@ -33,7 +33,11 @@
 .input-multiple-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.input-multiple-form .input-drop-down-box:not(:last-child) {
+    margin-bottom: 40px;
 }
 
 /* Email */

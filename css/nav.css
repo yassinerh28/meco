@@ -54,6 +54,7 @@ body {
 #logo-nav {
     height: 80px;
     padding: 20px 0;
+    margin-right: 20px;
 }
 
 #logo-nav-link:focus #logo-nav {
@@ -223,16 +224,8 @@ body {
     color: var(--meco-blue-dark);
 }
 
-.link {
-    color: var(--meco-gray-dark);
-    height:30px;
-    transition: box-shadow 0.2s;
+#about-link {
     margin-left: 20px;
-}
-
-.link:hover, .link:focus {
-    color: var(--meco-blue-dark);
-    box-shadow: var(--meco-accent-blue) 0 5px;
 }
 
 #cta-nav-link {

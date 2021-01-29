@@ -258,10 +258,16 @@ body {
     background-size: 50px;
     background-position: center, 200px;
     cursor: pointer;
+    transition: box-shadow 0.2s;
 }
 
-#pop-up-cancel:hover {
+#pop-up-cancel:hover,
+#pop-up-cancel:focus {
     background-position: 200px, center;
+}
+
+#pop-up-cancel:focus {
+    box-shadow: inset 0 0 0 5px var(--meco-accent-blue);
 }
 
 .pop-up-title {

@@ -71,3 +71,16 @@
 .button-display-none {
     display: none;
 }
+
+/* link */
+
+.link {
+    color: var(--meco-gray-dark);
+    height:30px;
+    transition: box-shadow 0.2s;
+}
+
+.link:hover, .link:focus {
+    color: var(--meco-blue-dark);
+    box-shadow: var(--meco-accent-blue) 0 5px;
+}
