@@ -290,6 +290,15 @@ body {
 
 /* info-box */
 
+.thanks-page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
 .info-box {
     background-color: var(--meco-white);
     padding: 50px;
