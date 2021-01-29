@@ -35,6 +35,7 @@ body {
 .section-cta {
     display: flex;
     width: fit-content;
+    width: -moz-fit-content;
 }
 .section-image {
     margin-top: 50px;

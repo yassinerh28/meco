@@ -1,24 +1,24 @@
-<div id="app-29" class="input-choice input-multiple-choice" data-button_left_function="toggle_pop_up()" data-title="La concrêtisation de votre projet n'est pas loin..." data-description="Quand un de nos conseillers peut vous contacter?" data-button_left="Je ne veux pas être contacté(e)" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="100" data-evident_next_page="30">
+<div id="app-29" class="input-choice input-multiple-choice" name="contact" data-button_left_function="toggle_pop_up()" data-title="La concrêtisation de votre projet n'est pas loin..." data-description="Quand un de nos conseillers peut vous contacter?" data-button_left="Je ne veux pas être contacté(e)" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="100" data-evident_next_page="30">
     <ul class="choices-box">
         <form class="input-multiple-form" id="contact-time-date-form" action="">
             <div class="input-box input-drop-down-box">
                 <label id="contact-date-input-label" for="contact-date-input" class="text-label input-label">Jour</label>
-                <select name="contact-date-input" id="contact-date-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
+                <select name="jour" id="contact-date-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
                     <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
-                    <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;Lundi 1 Février 2021</option>
-                    <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;Mardi 2 Février 2021</option>
-                    <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;Mercredi 3 Février 2021</option>
-                    <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;Jeudi 4 Février 2021</option>
+                    <option class="input-drop-down-choice text-clickable" value="2021-02-01">&nbsp;&nbsp;Lundi 1 Février 2021</option>
+                    <option class="input-drop-down-choice text-clickable" value="2021-02-02">&nbsp;&nbsp;Mardi 2 Février 2021</option>
+                    <option class="input-drop-down-choice text-clickable" value="2021-02-03">&nbsp;&nbsp;Mercredi 3 Février 2021</option>
+                    <option class="input-drop-down-choice text-clickable" value="2021-02-04">&nbsp;&nbsp;Jeudi 4 Février 2021</option>
                 </select>
             </div>
             <div class="input-box input-drop-down-box">
                 <label id="contact-time-input-label" for="contact-time-input" class="text-label input-label">Durée de la journée</label>
-                <select name="contact-time-input" id="contact-time-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
+                <select name="duree" id="contact-time-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
                     <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
-                    <option class="input-drop-down-choice text-clickable" value="1">&nbsp;&nbsp;09:00 - 10:00</option>
-                    <option class="input-drop-down-choice text-clickable" value="2">&nbsp;&nbsp;10:00 - 11:00</option>
-                    <option class="input-drop-down-choice text-clickable" value="3">&nbsp;&nbsp;11:00 - 12:00</option>
-                    <option class="input-drop-down-choice text-clickable" value="4">&nbsp;&nbsp;12:00 - 13:00</option>
+                    <option class="input-drop-down-choice text-clickable" value="09:00-10:00">&nbsp;&nbsp;09:00 - 10:00</option>
+                    <option class="input-drop-down-choice text-clickable" value="10:00-11:00">&nbsp;&nbsp;10:00 - 11:00</option>
+                    <option class="input-drop-down-choice text-clickable" value="11:00-12:00">&nbsp;&nbsp;11:00 - 12:00</option>
+                    <option class="input-drop-down-choice text-clickable" value="12:00-13:00">&nbsp;&nbsp;12:00 - 13:00</option>
                 </select>
             </div>
         </form>
