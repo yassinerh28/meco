@@ -55,8 +55,8 @@ body {
 }
 
 #between-buttons {
-    width: 100%;
     height: 100%;
+    flex-grow: 1;
 }
 
 #choices-container {
@@ -71,7 +71,7 @@ body {
     color: var(--meco-gray-dark);
     width: 1000px;
     text-align: center;
-    padding-top: 20px;
+    margin: 20px 0;
 }
 
 #question-description {
@@ -207,4 +207,95 @@ body {
 .choices-6 .choice-selected .choice-image {
     background-position: 150px, center;
     box-shadow: 0 0 0 5px var(--meco-blue-dark);
+}
+
+/* pop-up */
+
+.pop-up {
+    display: none;
+}
+
+.pop-up-visible {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(41, 41, 102, 0.8);
+    height: 100%;
+    width: 100%;
+    padding: 5% 10%;
+    animation: pop-up-reveal 0.3s ease-out;
+}
+
+@keyframes pop-up-reveal {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.pop-up-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 50px 100px;
+    background-color: var(--meco-white);
+}
+
+#pop-up-cancel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: var(--meco-white);
+    background-image: url(../images/graphic-elements/cancel.svg), url(../images/graphic-elements/cancel-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center, 200px;
+    cursor: pointer;
+}
+
+#pop-up-cancel:hover {
+    background-position: 200px, center;
+}
+
+.pop-up-title {
+    color: var(--meco-gray-dark);
+    text-align: center;
+}
+
+.pop-up-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 30px 0;
+}
+
+.pop-up-note {
+    color: var(--meco-gray);
+}
+
+/* info-box */
+
+.info-box {
+    background-color: var(--meco-white);
+    padding: 50px;
+    animation: info-box-translate 0.5s;
+}
+
+@keyframes info-box-translate {
+    0% {transform: translateY(50px); opacity: 0;}
+    100% {transform: translateY(0px); opacity: 1;}
+}
+
+.info-box-body {
+    color: var(--meco-blue-dark);
+    text-align: center;
 }

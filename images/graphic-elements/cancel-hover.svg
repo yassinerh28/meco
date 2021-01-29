@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon" transform="translate(-316.264 -43.222)">
+    <rect id="click-area" width="50" height="50" transform="translate(316.264 43.222)" fill="#fafafa" opacity="0"/>
+    <path id="_3" data-name="3" d="M0,0H35.355" transform="translate(328.264 55.222) rotate(45)" fill="none" stroke-width="4" stroke="#292966"/>
+    <path id="_1" data-name="1" d="M0,0H35.355" transform="translate(328.264 80.222) rotate(-45)" fill="none" stroke-width="4" stroke="#292966"/>
+  </g>
+</svg>

@@ -17,33 +17,33 @@
 
 /* primary */
 
-.button-primary-normal-public {
+.button-primary-normal-private {
     color: var(--meco-gray-dark);
     background-color: var(--meco-white);
     border-color: var(--meco-orange);
 }
 
-.button-primary-special-public {
+.button-primary-special-private {
     border-width: 0;
     color: var(--meco-white);
     background-color: var(--meco-orange);
     border-color: var(--meco-orange);
 }
 
-.button-primary-normal-private {
+.button-primary-normal-public {
     color: var(--meco-gray-dark);
     background-color: var(--meco-white);
     border-color: var(--meco-blue);
 }
 
-.button-primary-special-private {
+.button-primary-special-public {
     border-width: 0;
     color: var(--meco-white);
     background-color: var(--meco-blue);
     border-color: var(--meco-blue);
 }
 
-.button-primary-special-public:hover, .button-primary-special-private:hover, .button-primary-special-public:focus, .button-primary-special-private:focus {
+.button-primary-special-private:hover, .button-primary-special-public:hover, .button-primary-special-private:focus, .button-primary-special-public:focus {
     border-width: 2px;
 }
 

@@ -22,6 +22,20 @@
     100% {opacity: 1;}
 }
 
+/* input-multiple */
+
+.input-multiple-choice,
+.input-multiple-choice .choices-box,
+.input-multiple-form {
+    height: 100%;
+}
+
+.input-multiple-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 /* Email */
 
 .input-label {

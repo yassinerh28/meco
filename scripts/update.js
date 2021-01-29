@@ -127,7 +127,10 @@ function add_pending_pages() {
     console.log("start--adding_pending_pages...");
     var current_app = document.getElementById("app-" + current_app_page);
     var choices = document.getElementsByClassName('choice');
-    if (current_app.dataset.evident_next_page != "" && !pending_pages.includes(current_app.dataset.evident_next_page)) {pending_pages.push(current_app.dataset.evident_next_page);}
+    if (current_app.dataset.evident_next_page != "" && !pending_pages.includes(current_app.dataset.evident_next_page)) {
+        pending_pages.push(current_app.dataset.evident_next_page);
+        console.log("--adding_" + current_app.dataset.evident_next_page);
+    }
     if (current_app.classList.contains("radio-choices") || current_app.classList.contains("multiple-choices")) {
         for (let index = 0; index < choices.length; index++) {
             const choice = choices[index];
@@ -201,23 +204,39 @@ function update_app(e) {
     add_pending_pages();
     console.log("log--pending_pages: " + pending_pages);
     console.log("log--next_page: " + next_page);
-    console.log("end--loading_local_data...");
+    console.log("end--update...");
 }
 
 function left_button_action() {
+    var current_app = document.getElementById("app-" + current_app_page);
+    var button_left = document.getElementById("button-left");
+    if (current_app.dataset.button_left_function) {
+        button_left.setAttribute("onclick", current_app.dataset.button_left_function);
+        button_left.click();
+        return false;
+    }
     console.log("----------------");
     remove_pending_pages();
     go_to_page(previous_page);
     array_remove_value(visited_pages, array_max(visited_pages));
     selected_choices_values = [];
+    button_left.setAttribute("onclick", "left_button_action()");
 }
 
 function right_button_action() {
+    var current_app = document.getElementById("app-" + current_app_page);
+    var button_right = document.getElementById("button-right");
+    if (current_app.dataset.button_right_function) {
+        button_right.setAttribute("onclick", current_app.dataset.button_right_function);
+        button_right.click();
+        return false;
+    }
     console.log("----------------");
     go_to_page(array_min(pending_pages));
     array_remove_value(pending_pages, array_min(pending_pages));
     visited_pages.push(next_page);
     selected_choices_values = [];
+    button_right.setAttribute("onclick", "right_button_action()");
 }
 
 go_to_page(next_page);
