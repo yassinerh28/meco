@@ -13,8 +13,10 @@ function input_validation_drop_down(e) {
 function input_validation_check_box(e) {
     if (e.checked == true){
         e.setCustomValidity("");
+        e.setAttribute("value", "acceptee");
     } else {
         e.setCustomValidity("Invalid field.");
+        e.setAttribute("value", "refusee");
     }
 }
 

@@ -197,35 +197,36 @@ function right_button_update() {
 function update_app(e) {
     console.log("----------------");
     console.log("start--update...");
+    var current_app = document.getElementById("app-" + current_app_page);
     if (e.classList.contains("radio-choice")) {
         var choices = document.getElementsByClassName("choice");
         for (let index = 0; index < choices.length; index++) {
             const choice = choices[index];
             choice.classList.remove("choice-selected");
         }
-        if (!e.classList.contains("choice-selected")) {
-            localStorage.setItem("app-" + current_app_page, e.dataset.order);
-            e.classList.add("choice-selected");
-        } else {
-            localStorage.removeItem("app-" + current_app_page);
-        }
+        localStorage.setItem(current_app.getAttribute("name"), e.getAttribute("value"));
+        e.classList.add("choice-selected");
     } else if (e.classList.contains("multiple-choice")) {
         var choices = document.getElementsByClassName("choice");
         e.classList.toggle("choice-selected");
         if (e.classList.contains("choice-selected")) {
-            if (!selected_choices_values.includes(e.dataset.order)) {selected_choices_values.push(e.dataset.order);}
+            if (!selected_choices_values.includes(e.getAttribute("value"))) {selected_choices_values.push(e.getAttribute("value"));}
         } else {
-            array_remove_value(selected_choices_values, e.dataset.order);
+            array_remove_value(selected_choices_values, e.getAttribute("value"));
         }
-        localStorage.setItem("app-" + current_app_page, selected_choices_values);
-    } else if (e.classList.contains("input")) {
+        localStorage.setItem(current_app.getAttribute("name"), selected_choices_values);
+    } else if (e.classList.contains("input") && current_app.classList.contains("input-multiple-choice")) {
         var inputs = document.getElementsByClassName("input");
-        selected_choices_values = [];
+        selected_choices_values = {};
         for (let index = 0; index < inputs.length; index++) {
             const input = inputs[index];
-            selected_choices_values.push(input.value);
+            var input_name = input.getAttribute("name");
+            var input_value = input.value;
+            selected_choices_values[input_name] = input_value;
         }
-        localStorage.setItem("app-" + current_app_page, selected_choices_values);
+        localStorage.setItem(current_app.getAttribute("name"), JSON.stringify(selected_choices_values));
+    } else if (e.classList.contains("input")) {
+        localStorage.setItem(current_app.getAttribute("name"), e.value);
     }
 
     add_pending_pages();
