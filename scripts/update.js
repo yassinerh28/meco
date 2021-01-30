@@ -71,8 +71,9 @@ function go_to_page(number) {
             current_app_page = number;
             previous_page = array_max(visited_pages.slice(0, -1));
             add_pending_pages();
-            load_local_data(number);
-            right_button_update();
+            var current_app_name = document.getElementById("app-" + number).getAttribute("name");
+            load_local_data(current_app_name);
+            right_button_update(current_app_name);
             console.log("log--pending_pages: " + pending_pages);
             console.log("log--next_page: " + next_page);
             console.log("log--visited_pages: " + visited_pages);
@@ -84,37 +85,28 @@ function go_to_page(number) {
     xhttp.send();
 }
 
-function load_local_data(number) {
+function load_local_data(app_name) {
     console.log("start--loading_local_data...");
-    var current_app = document.getElementById("app-" + number);
-    if (localStorage.getItem("app-" + number)) {
-        var localStorage_item = localStorage.getItem("app-" + number);
+    var current_app = document.getElementById("app-" + current_app_page);
+    if (localStorage.getItem(app_name)) {
+        var localStorage_item = localStorage.getItem(app_name);
         var choices = document.getElementsByClassName('choice');
-        var input = document.getElementsByClassName("input")[0];
-        if (current_app.classList.contains("radio-choices")) {
+        var inputs = document.getElementsByClassName("input");
+        if (current_app.classList.contains("radio-choices") || current_app.classList.contains("multiple-choices")) {
             for (let index = 0; index < choices.length; index++) {
                 const choice = choices[index];
-                if (index + 1 == localStorage_item) {
+                if (localStorage_item == choice.getAttribute("value") || localStorage_item.includes(choice.getAttribute("value"))) {
                     update_app(choice);
                 }
             }
-        } else if (current_app.classList.contains("multiple-choices")) {
-            console.log(localStorage_item);
-            for (let index = 0; index < choices.length; index++) {
-                const choice = choices[index];
-                for (let index2 = 0; index2 < localStorage_item.length; index2++) {
-                    const element = localStorage_item[index2];
-                    if (index + 1 == element) {
-                        update_app(choice);
-                        break;
-                    }
-                }
+        } else if (current_app.classList.contains("input-multiple-choice")) {
+            for (let index = 0; index < inputs.length; index++) {
+                const input = inputs[index];
+                var json_localStorage_item = JSON.parse(localStorage_item);
+                input.value = json_localStorage_item[input.getAttribute("name")];
             }
-        } else if (current_app.classList.contains("input-choice")) {
-            input.value = localStorage_item;
-            if (current_app.classList.contains("input-increment-choice")) {
-                update_arrows(document.getElementsByClassName("input")[0]);
-            }
+        } else {
+                inputs[0].value = localStorage_item;
         }
     }
     add_pending_pages();
