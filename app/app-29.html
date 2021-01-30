@@ -3,8 +3,8 @@
         <form class="input-multiple-form" id="contact-time-date-form" action="">
             <div class="input-box input-drop-down-box">
                 <label id="contact-date-input-label" for="contact-date-input" class="text-label input-label">Jour</label>
-                <select name="jour" id="contact-date-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
-                    <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
+                <select name="jour" id="contact-date-input" class="text-clickable input input-drop-down" onchange="input_validation_drop_down(this); update_app(this)">
+                    <option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;veuilliez selecionner un choix</option>
                     <option class="input-drop-down-choice text-clickable" value="2021-02-01">&nbsp;&nbsp;Lundi 1 Février 2021</option>
                     <option class="input-drop-down-choice text-clickable" value="2021-02-02">&nbsp;&nbsp;Mardi 2 Février 2021</option>
                     <option class="input-drop-down-choice text-clickable" value="2021-02-03">&nbsp;&nbsp;Mercredi 3 Février 2021</option>
@@ -13,8 +13,8 @@
             </div>
             <div class="input-box input-drop-down-box">
                 <label id="contact-time-input-label" for="contact-time-input" class="text-label input-label">Durée de la journée</label>
-                <select name="duree" id="contact-time-input" class="text-clickable input input-drop-down" onchange="input_validation(this); update_app(this)">
-                    <option class="input-drop-down-choice text-clickable" value="0">&nbsp;&nbsp;veuilliez selecionner un choix</option>
+                <select name="duree" id="contact-time-input" class="text-clickable input input-drop-down" onchange="input_validation_drop_down(this); update_app(this)">
+                    <option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;veuilliez selecionner un choix</option>
                     <option class="input-drop-down-choice text-clickable" value="09:00-10:00">&nbsp;&nbsp;09:00 - 10:00</option>
                     <option class="input-drop-down-choice text-clickable" value="10:00-11:00">&nbsp;&nbsp;10:00 - 11:00</option>
                     <option class="input-drop-down-choice text-clickable" value="11:00-12:00">&nbsp;&nbsp;11:00 - 12:00</option>

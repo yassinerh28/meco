@@ -72,6 +72,7 @@ function go_to_page(number) {
             previous_page = array_max(visited_pages.slice(0, -1));
             add_pending_pages();
             load_local_data(number);
+            right_button_update();
             console.log("log--pending_pages: " + pending_pages);
             console.log("log--next_page: " + next_page);
             console.log("log--visited_pages: " + visited_pages);
@@ -168,6 +169,31 @@ function remove_pending_pages() {
     console.log("end--removing_pending_pages...");
 }
 
+function right_button_update() {
+    var current_app = document.getElementById("app-" + current_app_page);
+    if (current_app.classList.contains("radio-choices") || current_app.classList.contains("multiple-choices")) {
+        var choices = document.getElementsByClassName("choice");
+        for (let index = 0; index < choices.length; index++) {
+            const choice = choices[index];
+            if (choice.classList.contains("choice-selected")) {
+                button_right.disabled = false;
+                return false;
+            }
+        }
+        button_right.disabled = true;
+    } else {
+        var inputs = document.getElementsByClassName("input");
+        for (let index = 0; index < inputs.length; index++) {
+            const input = inputs[index];
+            if (!input.checkValidity() || input.value == "") {
+                button_right.disabled = true;
+                return false;
+            }
+        }
+        button_right.disabled = false;
+    }
+}
+
 function update_app(e) {
     console.log("----------------");
     console.log("start--update...");
@@ -201,7 +227,11 @@ function update_app(e) {
         }
         localStorage.setItem("app-" + current_app_page, selected_choices_values);
     }
+
     add_pending_pages();
+
+    right_button_update();
+
     console.log("log--pending_pages: " + pending_pages);
     console.log("log--next_page: " + next_page);
     console.log("end--update...");

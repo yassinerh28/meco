@@ -9,17 +9,17 @@
     align-items: flex-start;
 }
 
-.input-label-required:hover::after {
+.input-label-required::after {
     content: 'Ce champs est requis';
     color: red;
     font-weight: 500;
     font-size: 12px;
-    animation: opacity-animation 0.2s;
+    opacity: 0;
+    transition: opacity 0.2s;
 }
 
-@keyframes opacity-animation {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+.input-label-required:hover::after {
+    opacity: 1;
 }
 
 /* input-multiple */
@@ -69,12 +69,12 @@
     color: var(--meco-accent-blue);
 }
 
-.input-box-invalid:not(:focus) {
+.input:not(:placeholder-shown):not(:focus) {
     color: red;
     box-shadow: 0px 0px 0px 3px red;
 }
 
-.input-box-valid:not(:focus) {
+.input:valid:not(:placeholder-shown):not(:focus) {
     color: var(--meco-blue);
     box-shadow: 0px 0px 0px 3px var(--meco-blue);
 }
@@ -89,10 +89,10 @@
     transition: all 0.2s;
 }
 
-.input-box-valid + .input-hint {
+.input:valid:not(:placeholder-shown):not(:focus) + .input-hint {
     opacity: 0;
 }
-.input-box-invalid + .input-hint {
+.input:invalid:not(:placeholder-shown):not(:focus) + .input-hint {
     opacity: 1;
 }
 

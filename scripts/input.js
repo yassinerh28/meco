@@ -1,70 +1,20 @@
 
 /* validation */
 
-function post_validation_style(e, type) {
-    if (validate(e.value, type)) {
-        e.classList.add("input-box-valid");
-        e.classList.remove("input-box-invalid");
-    } else {
-        e.classList.add("input-box-invalid");
-        e.classList.remove("input-box-valid");
-    }
-}
-
-function validate(value, type) {
-    if (type == "email") {
-        const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(String(value).toLowerCase());
-    } else if (type == "number") {
-        const re = /^[1-9]\d*$/;
-        return re.test(value) && value <= 800;
-    } else if (type == "increment") {
-        const re = /^[0-9]\d*$/;
-        return re.test(value);
-    } else if (type == "drop-down") {
-        return (value != 0) ? true: false;
-    } else if (type == "phone") {
-        const re = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/;
-        return re.test(value);
-    }
-}
-
-function input_validation_email(e) {
-    post_validation_style(e, "email");
-    return validate(e.value, "email");
-}
-
-function input_validation_number(e) {
-    post_validation_style(e, "number");
-    return validate(e.value, "number");
-}
-
-function input_validation_increment(e) {
-    post_validation_style(e, "increment");
-    return validate(e.value, "increment");
-}
-
 function input_validation_drop_down(e) {
-    post_validation_style(e, "drop-down");
-    return validate(e.value, "drop-down");
+    var isValid = (e.value != "0") ? true: false;
+    if (isValid) {
+        e.setCustomValidity("");
+    } else {
+        e.setCustomValidity("Invalid field.");
+    }
 }
 
-function input_validation_phone(e) {
-    post_validation_style(e, "phone");
-    return validate(e.value, "phone");
-}
-
-function input_validation(e) {
-    if (e.classList.contains("input-email")) {
-        return input_validation_email(e);
-    } else if (e.classList.contains("input-number")) {
-        return input_validation_number(e);
-    } else if (e.classList.contains("input-increment")) {
-        return input_validation_increment(e);
-    } else if (e.classList.contains("input-drop-down")) {
-        return input_validation_drop_down(e);
-    } else if (e.classList.contains("input-phone")) {
-        return input_validation_phone(e);
+function input_validation_check_box(e) {
+    if (e.checked == true){
+        e.setCustomValidity("");
+    } else {
+        e.setCustomValidity("Invalid field.");
     }
 }
 

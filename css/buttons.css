@@ -8,11 +8,18 @@
     border-width: 3px;
     border-radius: 30px;
     cursor: pointer;
+    transition: opacity 0.2s;
 }
 
-.button:hover, .button:focus {
+.button:not(:disabled):hover,
+.button:not(:disabled):focus {
     margin: 0px;
     border-width: 5px;
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: default;
 }
 
 /* primary */
@@ -43,7 +50,10 @@
     border-color: var(--meco-blue);
 }
 
-.button-primary-special-private:hover, .button-primary-special-public:hover, .button-primary-special-private:focus, .button-primary-special-public:focus {
+.button-primary-special-private:not(:disabled):hover,
+.button-primary-special-public:not(:disabled):hover,
+.button-primary-special-private:not(:disabled):focus,
+.button-primary-special-public:not(:disabled):focus {
     border-width: 2px;
 }
 
@@ -62,7 +72,8 @@
     border-color: var(--meco-gray-light);
 }
 
-.button-secondary-special:hover, .button-secondary-special:focus {
+.button-secondary-special:not(:disabled):hover,
+.button-secondary-special:not(:disabled):focus {
     border-width: 2px;
 }
 
@@ -80,7 +91,8 @@
     transition: box-shadow 0.2s;
 }
 
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
     color: var(--meco-blue-dark);
     box-shadow: var(--meco-accent-blue) 0 5px;
 }

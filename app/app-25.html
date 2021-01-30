@@ -5,7 +5,7 @@
                 <label id="personnes-foyer-input-label" for="personnes-foyer-input" class="text-label input-label">Nombre de personnes</label>
                 <div class="input-increment-container">
                     <span class="input-increment-arrow input-increment-arrow-left" onclick="increment_value(-1); update_app(document.getElementsByClassName('input')[0])"></span>
-                    <input type="number" name="personnes-foyer-input" id="personnes-foyer-input" class="text-input input input-increment" value="0" step="1" min="0" oninput="input_validation(this); update_app(this); update_arrows(this)">
+                    <input type="number" name="personnes-foyer-input" id="personnes-foyer-input" class="text-input input input-increment" value="0" step="1" min="0" pattern="^[1-9]\d*$" oninput="update_app(this); update_arrows(this)">
                     <span class="input-increment-arrow input-increment-arrow-right input-increment-arrow-active" onclick="increment_value(1); update_app(document.getElementsByClassName('input')[0])"></span>
                 </div>
             </div>
