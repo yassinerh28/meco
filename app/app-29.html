@@ -1,4 +1,4 @@
-<div id="app-29" class="input-choice input-multiple-choice" name="contact" data-button_left_function="toggle_pop_up()" data-title="La concrêtisation de votre projet n'est pas loin..." data-description="Quand un de nos conseillers peut vous contacter?" data-button_left="Je ne veux pas être contacté(e)" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="100" data-evident_next_page="30">
+<div id="app-29" class="input-choice input-multiple-choice" name="contact" data-button_right_function="cancel_app(30); save_clear_localStorage()" data-button_left_function="toggle_pop_up()" data-title="La concrêtisation de votre projet n'est pas loin..." data-description="Quand un de nos conseillers peut vous contacter?" data-button_left="Je ne veux pas être contacté(e)" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="100" data-evident_next_page="30">
     <ul class="choices-box">
         <form class="input-multiple-form" id="contact-time-date-form" action="">
             <div class="input-box input-drop-down-box">
@@ -29,7 +29,7 @@
             <h3 class="text-small-header pop-up-title">Si vous ne souhaitez pas d'être contacté(e) votre demande sera annulée</h3>
             <div class="pop-up-buttons">
                 <button class="text-button button button-primary-normal-private pop-up-button" id="pop-up-button-top" onclick="toggle_pop_up()">Je souhaite d'être contacté(e)</button>
-                <button class="text-button button button-secondary-special pop-up-button" id="pop-up-button-bottom" onclick="cancel_app()">J'ai compris et je veux annuler ma demande</button>
+                <button class="text-button button button-secondary-special pop-up-button" id="pop-up-button-bottom" onclick="cancel_app(31); save_clear_localStorage()">J'ai compris et je veux annuler ma demande</button>
             </div>
             <p class="pop-up-note text-label">Veuillez noter que nous disposons de vos données malgré l'annulation du contact. <a href="#" target="_blank" class="text-hyperlink">En savoir plus</a></p>
         </div>
