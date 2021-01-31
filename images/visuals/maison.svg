@@ -1,17 +1,33 @@
-<svg id="maison" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295.128" height="196.747" viewBox="0 0 295.128 196.747">
-  <defs>
-    <clipPath id="clip-path">
-      <path id="Path_105" data-name="Path 105" d="M99.611,112.605v56H60.54v-56a19.535,19.535,0,0,1,39.071,0Z" transform="translate(-60.54 -93.07)" fill="#ccf"/>
-    </clipPath>
-  </defs>
-  <rect id="Rectangle_118" data-name="Rectangle 118" width="36.883" height="14.274" transform="translate(9.221 93.301)" fill="#0f0f4d"/>
-  <path id="Path_98" data-name="Path 98" d="M91.08,85.212,169.222,7.07l78.141,78.142v109.4H91.08Z" transform="translate(27.539 2.138)" fill="#e5e5ff"/>
-  <path id="Path_99" data-name="Path 99" d="M251.588,75.53l-9.208,9.208H144l9.221-9.208Z" transform="translate(43.54 22.837)" fill="#1f1f4c"/>
-  <path id="Path_100" data-name="Path 100" d="M272.287,98.367H173.92L75.54,0h98.38Z" transform="translate(22.84)" fill="#292966"/>
-  <path id="Path_101" data-name="Path 101" d="M15.54,85.212,93.682,7.07l78.142,78.142v109.4H15.54Z" transform="translate(4.699 2.138)" fill="#fff"/>
-  <path id="Path_102" data-name="Path 102" d="M196.76,98.367l-9.221,9.208L176.522,96.557,98.38,18.415,20.239,96.557,9.221,107.575,0,98.367,97.794.586,98.38,0Z" fill="#414199"/>
-  <path id="Path_103" data-name="Path 103" d="M99.611,112.605v56H60.54v-56a19.535,19.535,0,0,1,39.071,0Z" transform="translate(18.305 28.141)" fill="#ccf"/>
-  <g id="Group_135" data-name="Group 135" transform="translate(78.845 121.211)" clip-path="url(#clip-path)">
-    <path id="Path_104" data-name="Path 104" d="M104.611,112.605v62.513H65.54V112.605a19.535,19.535,0,0,1,39.071,0Z" transform="translate(-59.028 -93.07)" fill="#414199"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 295.1 196.7" style="enable-background:new 0 0 295.1 196.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0F0F4D;}
+	.st1{fill:#CCCCFF;}
+	.st2{fill:#1F1F4C;}
+	.st3{fill:#292966;}
+	.st4{fill:#E5E5FF;}
+	.st5{fill:#414199;}
+	.st6{fill:#3333FF;}
+</style>
+<g id="maison">
+	<rect id="Rectangle_118" x="9.2" y="93.3" class="st0" width="36.9" height="14.3"/>
+	<path id="Path_98" class="st1" d="M118.6,87.3l78.1-78.1l78.1,78.1v109.4H118.6V87.3z"/>
+	<path id="Path_99" class="st2" d="M295.1,98.4l-9.2,9.2h-98.4l9.2-9.2H295.1z"/>
+	<path id="Path_100" class="st3" d="M295.1,98.4h-98.4L98.4,0h98.4L295.1,98.4z"/>
+	<path id="Path_101" class="st4" d="M20.2,87.3L98.4,9.2l78.1,78.1v109.4H20.2V87.3z"/>
+	<path id="Path_102" class="st5" d="M196.8,98.4l-9.2,9.2l-11-11L98.4,18.4L20.2,96.6l-11,11L0,98.4L97.8,0.6L98.4,0L196.8,98.4z"/>
+	<path class="st1" d="M117.9,140.7v56H78.8v-56c0-10.8,8.7-19.5,19.5-19.5c1.1,0,2.2,0.1,3.3,0.3C110.9,123,117.9,131.1,117.9,140.7
+		z"/>
+	<path class="st1" d="M117.9,140.7v56H78.8v-56c0-10.8,8.7-19.5,19.5-19.5S117.9,130,117.9,140.7z"/>
+	<g id="Group_135" transform="translate(78.845 121.211)">
+		<path class="st5" d="M39.1,19.5v56H6.5v-56c0-9.7,7-17.7,16.3-19.3C32,1.8,39.1,9.9,39.1,19.5z"/>
+	</g>
+</g>
+<g id="logo">
+	<polygon id="chapeau" class="st6" points="98.4,93.1 108.2,103 115.3,95.9 105.4,86.1 98.4,79 91.3,86.1 81.5,95.9 88.5,103 	"/>
+</g>
+<g id="Layer_1">
+</g>
 </svg>

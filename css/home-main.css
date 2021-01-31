@@ -24,19 +24,16 @@ body {
     z-index: -1;
 }
 
-.page-section#faq-section {
-    padding: 50px 0;
-}
-
 .page-section:nth-child(odd) {
     opacity: 1;
-    background-color: var(--meco-white);
+    background-color: var(--meco-off-white);
 }
 
 .section-title {
     text-align: center;
     width: 100%;
     max-width: 1000px;
+    margin-bottom: 50px;
 }
 
 #page-heading {
@@ -50,11 +47,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 100px 0;
+    padding-top: 180px;
 }
 
-#heading-title, #heading-body{
+#heading-title, #heading-body {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #heading-title {
@@ -66,52 +64,45 @@ body {
     color: var(--meco-blue-dark);
 }
 
-#values-intro-section {
-    background-image: url(../images/visuals/maison.svg), url(../images/visuals/circle.svg), url(../images/visuals/symbols.svg);
-    background-repeat: no-repeat;
-    background-size: 300px, 600px, 640px;
-    background-position: center bottom, center 357px, center 337px;
-    background-blend-mode: normal, multiply, normal;
-}
-
 #content-box-values-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding-top: 120px;
+    overflow: hidden;
 }
 
 #values-intro-title, #services-section-title {
     color: var(--meco-gray-dark);
 }
 
-#services-section-title {
-    margin-bottom: 50px;
+#values-intro-circle {
+    width: 600px;
+    margin-bottom: -400px;
+}
+
+#values-intro-house {
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: -300px;
+    z-index: 1;
 }
 
 #values-list, #services-section-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
 }
 
 .values-list-item, .services-section-list-item {
-    height: 100%;
-    width: 400px;
-    padding: 50px 0;
+    flex-basis: 30%;
+    flex-shrink: 0;
+    flex-grow: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    transform: scale(0.8);
-}
-
-.services-section-list-item {
-    padding: 0;
-    justify-content: space-between;
-    height: 300px;
 }
 
 .values-list-item-title, .values-list-item-description, .services-section-list-item-title, .services-section-list-item-description {
@@ -119,12 +110,17 @@ body {
     color: var(--meco-blue-dark);
 }
 
-.services-section-list-item-title {
-    margin-top: 20px;
+.card-image {
+    width: 100%;
+    max-width: 150px;
+}
+
+.text-card-title {
+    margin: 20px 0;
 }
 
 .services-section-list-item-description {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #content-box-services {
@@ -132,7 +128,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
-    padding: 100px;
 }
 
 #content-box-faq {
@@ -149,7 +144,6 @@ body {
 
 #faq-title {
     color: var(--meco-gray-dark);
-    margin-bottom: 100px;
 }
 
 #faq-questions-list {
@@ -220,7 +214,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px 0;
 }
 
 #reviews-slider {
@@ -291,15 +284,15 @@ body {
 .reviews-list-item-body {
     display: flex;
     align-items: center;
-    background-color: var(--meco-off-white);
+    background-color: var(--meco-white);
     height: 216px;
     width: 600px;
     justify-content: center;
-    background-image: url(../images/graphic-elements/quote-start.svg), url(../images/graphic-elements/quote-end.svg), url(../images/graphic-elements/circle-quater-left.svg), url(../images/graphic-elements/circle-quater-right.svg);
+    background-image: url(../images/graphic-elements/quote-start.svg), url(../images/graphic-elements/quote-end.svg);
     background-repeat: no-repeat;
-    background-size: 30px, 30px, 50px, 50px;
-    background-position-x: 30px, 540px, left, right;
-    background-position-y: 30px, 167px, bottom, top;
+    background-size: 30px;
+    background-position-x: 30px, 540px;
+    background-position-y: 30px, 167px;
 }
 
 .reviews-list-item-body-content-box {
@@ -343,13 +336,13 @@ body {
 #newsletter-title {
     color: var(--meco-gray-dark);
     width: 600px;
-    margin-top: 50px;
 }
 
 #newsletter-description {
     color: var(--meco-blue-dark);
     text-align: center;
     width: 600px;
+    margin-bottom: 50px;
 }
 
 #newsletter-form {
