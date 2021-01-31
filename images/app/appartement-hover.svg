@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
@@ -13,27 +13,21 @@
 <g id="appartement-hover-state" transform="translate(-15 0)">
 	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
 	<g id="icon" transform="translate(66.507 45.876)">
-		<rect id="Rectangle_119" x="1.5" y="0.4" class="st1" width="64.7" height="122.9"/>
-		<rect id="Rectangle_120" x="66.1" y="0.4" class="st2" width="38.8" height="122.9"/>
-		<path id="Path_106" class="st3" d="M111.4-5H66.1v5.4h45.3L111.4-5z"/>
-		<path id="Path_107" class="st4" d="M72.6-5H-5v5.4h77.6V-5z"/>
-		<rect id="Rectangle_121" x="79.1" y="6.9" class="st5" width="12.9" height="19.4"/>
-		<rect id="Rectangle_122" x="79.1" y="32.7" class="st5" width="12.9" height="19.4"/>
-		<rect id="Rectangle_132" x="79.1" y="58.6" class="st5" width="12.9" height="19.4"/>
-		<rect id="Rectangle_123" x="14.4" y="6.9" class="st2" width="12.9" height="19.4"/>
-		<rect id="Rectangle_124" x="14.4" y="32.7" class="st2" width="12.9" height="19.4"/>
-		<rect id="Rectangle_125" x="14.4" y="58.6" class="st2" width="12.9" height="19.4"/>
-		<rect id="Rectangle_126" x="40.3" y="6.9" class="st2" width="12.9" height="19.4"/>
-		<rect id="Rectangle_127" x="40.3" y="32.7" class="st2" width="12.9" height="19.4"/>
-		<rect id="Rectangle_128" x="40.3" y="58.6" class="st2" width="12.9" height="19.4"/>
-		<rect id="Rectangle_129" x="25.7" y="91" class="st2" width="16.2" height="32.3"/>
-		<g>
-			<g>
-				<g id="Group_136" transform="translate(30.724 95.949)">
-					<rect id="Rectangle_130" x="-2.8" y="-4.9" class="st4" width="16.2" height="32.3"/>
-				</g>
-			</g>
-		</g>
+		<rect id="Rectangle_119" x="1.8" y="0.3" class="st1" width="64.7" height="122.9"/>
+		<rect id="Rectangle_120" x="66.4" y="0.3" class="st2" width="38.8" height="122.9"/>
+		<path id="Path_106" class="st3" d="M111.7-5.1H66.4v5.4h45.3L111.7-5.1z"/>
+		<path id="Path_107" class="st4" d="M72.9-5.1H-4.7v5.4h77.6V-5.1z"/>
+		<rect id="Rectangle_121" x="79.4" y="6.8" class="st5" width="12.9" height="19.4"/>
+		<rect id="Rectangle_122" x="79.4" y="32.6" class="st5" width="12.9" height="19.4"/>
+		<rect id="Rectangle_132" x="79.4" y="58.5" class="st5" width="12.9" height="19.4"/>
+		<rect id="Rectangle_123" x="14.7" y="6.8" class="st2" width="12.9" height="19.4"/>
+		<rect id="Rectangle_124" x="14.7" y="32.6" class="st2" width="12.9" height="19.4"/>
+		<rect id="Rectangle_125" x="14.7" y="58.5" class="st2" width="12.9" height="19.4"/>
+		<rect id="Rectangle_126" x="40.6" y="6.8" class="st2" width="12.9" height="19.4"/>
+		<rect id="Rectangle_127" x="40.6" y="32.6" class="st2" width="12.9" height="19.4"/>
+		<rect id="Rectangle_128" x="40.6" y="58.5" class="st2" width="12.9" height="19.4"/>
+		<rect id="Rectangle_129_2_" x="24.9" y="90.9" class="st2" width="16.2" height="32.3"/>
+		<rect id="Rectangle_130" x="27.1" y="91" class="st4" width="16.2" height="32.3"/>
 	</g>
 </g>
 </svg>

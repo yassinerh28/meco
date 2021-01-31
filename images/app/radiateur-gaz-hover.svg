@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 209.9 210" style="enable-background:new 0 0 209.9 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#E5E5FF;}
 	.st2{fill:#CCCCFF;}
-	.st3{fill:#FF5533;}
+	.st3{fill:#FFA799;}
 	.st4{fill:#9E9EFF;}
 	.st5{fill:#7E7ECC;}
 	.st6{clip-path:url(#SVGID_2_);fill:#B3B3FF;}
@@ -28,63 +28,75 @@
 		<rect id="Rectangle_202" x="126.2" y="82.3" class="st5" width="8.8" height="8.7"/>
 		<rect id="Rectangle_203" x="3.7" y="3.7" class="st2" width="8.8" height="69.8"/>
 		<g>
-			<defs>
-				<rect id="SVGID_1_" x="3.7" y="3.7" width="8.8" height="69.8"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-			</clipPath>
-			<rect id="Rectangle_204" x="-2.1" y="3.7" class="st6" width="8.8" height="69.8"/>
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="3.7" y="3.7" width="8.8" height="69.8"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="Rectangle_204" x="-2.1" y="3.7" class="st6" width="8.8" height="69.8"/>
+			</g>
 		</g>
 		<rect id="Rectangle_206" x="21.2" y="3.7" class="st2" width="8.8" height="69.8"/>
 		<g>
-			<defs>
-				<rect id="SVGID_3_" x="21.2" y="3.7" width="8.8" height="69.8"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-			</clipPath>
-			<rect id="Rectangle_207" x="15.4" y="3.7" class="st7" width="8.8" height="69.8"/>
+			<g>
+				<defs>
+					<rect id="SVGID_3_" x="21.2" y="3.7" width="8.8" height="69.8"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="Rectangle_207" x="15.4" y="3.7" class="st7" width="8.8" height="69.8"/>
+			</g>
 		</g>
 		<rect id="Rectangle_209" x="38.7" y="3.7" class="st2" width="8.8" height="69.8"/>
 		<g>
-			<defs>
-				<rect id="SVGID_5_" x="38.7" y="3.7" width="8.8" height="69.8"/>
-			</defs>
-			<clipPath id="SVGID_6_">
-				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-			</clipPath>
-			<rect id="Rectangle_210" x="32.9" y="3.7" class="st8" width="8.8" height="69.8"/>
+			<g>
+				<defs>
+					<rect id="SVGID_5_" x="38.7" y="3.7" width="8.8" height="69.8"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="Rectangle_210" x="32.9" y="3.7" class="st8" width="8.8" height="69.8"/>
+			</g>
 		</g>
 		<rect id="Rectangle_212" x="56.2" y="3.7" class="st2" width="8.8" height="69.8"/>
 		<g>
-			<defs>
-				<rect id="SVGID_7_" x="56.2" y="3.7" width="8.8" height="69.8"/>
-			</defs>
-			<clipPath id="SVGID_8_">
-				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
-			</clipPath>
-			<rect id="Rectangle_213" x="50.4" y="3.7" class="st9" width="8.8" height="69.8"/>
+			<g>
+				<defs>
+					<rect id="SVGID_7_" x="56.2" y="3.7" width="8.8" height="69.8"/>
+				</defs>
+				<clipPath id="SVGID_8_">
+					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="Rectangle_213" x="50.4" y="3.7" class="st9" width="8.8" height="69.8"/>
+			</g>
 		</g>
 		<rect id="Rectangle_215" x="73.7" y="3.7" class="st2" width="8.8" height="69.8"/>
 		<g>
-			<defs>
-				<rect id="SVGID_9_" x="73.7" y="3.7" width="8.8" height="69.8"/>
-			</defs>
-			<clipPath id="SVGID_10_">
-				<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
-			</clipPath>
-			<rect id="Rectangle_216" x="67.9" y="3.7" class="st10" width="8.8" height="69.8"/>
+			<g>
+				<defs>
+					<rect id="SVGID_9_" x="73.7" y="3.7" width="8.8" height="69.8"/>
+				</defs>
+				<clipPath id="SVGID_10_">
+					<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="Rectangle_216" x="67.9" y="3.7" class="st10" width="8.8" height="69.8"/>
+			</g>
 		</g>
 		<rect id="Rectangle_218" x="91.2" y="3.7" class="st2" width="8.8" height="69.8"/>
 		<g>
-			<defs>
-				<rect id="SVGID_11_" x="91.2" y="3.7" width="8.8" height="69.8"/>
-			</defs>
-			<clipPath id="SVGID_12_">
-				<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
-			</clipPath>
-			<rect id="Rectangle_219" x="85.4" y="3.7" class="st11" width="8.8" height="69.8"/>
+			<g>
+				<defs>
+					<rect id="SVGID_11_" x="91.2" y="3.7" width="8.8" height="69.8"/>
+				</defs>
+				<clipPath id="SVGID_12_">
+					<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="Rectangle_219" x="85.4" y="3.7" class="st11" width="8.8" height="69.8"/>
+			</g>
 		</g>
 	</g>
 </g>

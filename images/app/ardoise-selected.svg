@@ -1,59 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#9999FF;}
-	.st2{fill:#B3B3FF;}
-	.st3{fill:#8080FF;}
-	.st4{fill:#414199;}
-	.st5{fill:#FFFFFF;}
-	.st6{fill:url(#SVGID_2_);}
+	.st0{clip-path:url(#SVGID_2_);fill:#9999FF;}
+	.st1{clip-path:url(#SVGID_2_);fill:#8080FF;}
+	.st2{clip-path:url(#SVGID_2_);fill:#B3B3FF;}
+	.st3{clip-path:url(#SVGID_2_);}
+	.st4{fill:#B3B3FF;}
 </style>
-<pattern  y="210" width="87" height="106" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="43.5 -132.5 87 106" style="overflow:visible;">
-	<g>
-		<rect x="43.5" y="-132.5" class="st0" width="87" height="106"/>
-		<g>
-			<rect x="43.5" y="-132.5" class="st0" width="87" height="106"/>
-			<g>
-				<rect x="87" y="-154" class="st1" width="84" height="48"/>
-				<rect x="87" y="-110" class="st2" width="84" height="4"/>
-				<rect x="87" y="-154" class="st2" width="4" height="48"/>
-			</g>
-			<g>
-				<rect y="-154" class="st1" width="84" height="48"/>
-				<rect x="0" y="-110" class="st2" width="84" height="4"/>
-				<rect x="80" y="-154" class="st3" width="4" height="48"/>
-				<rect x="84" y="-159" class="st4" width="3" height="53"/>
-			</g>
-			<g>
-				<rect x="43.5" y="-101" class="st1" width="84" height="48"/>
-				<rect x="43.5" y="-57" class="st2" width="84" height="4"/>
-				<rect x="43.5" y="-101" class="st3" width="84" height="4"/>
-				<rect x="43.5" y="-101" class="st2" width="4" height="48"/>
-				<rect x="123.5" y="-101" class="st3" width="4" height="48"/>
-				<rect x="43.5" y="-106" class="st4" width="84" height="5"/>
-				<rect x="127.5" y="-106" class="st4" width="3" height="53"/>
-			</g>
-			<g>
-				<rect x="87" y="-48" class="st1" width="84" height="48"/>
-				<rect x="87" y="-48" class="st3" width="84" height="4"/>
-				<rect x="87" y="-48" class="st2" width="4" height="48"/>
-				<rect x="87" y="-53" class="st4" width="84" height="5"/>
-			</g>
-			<g>
-				<rect y="-48" class="st1" width="84" height="48"/>
-				<rect y="-48" class="st3" width="84" height="4"/>
-				<rect x="80" y="-48" class="st3" width="4" height="48"/>
-				<rect x="0" y="-53" class="st4" width="84" height="5"/>
-				<rect x="84" y="-53" class="st4" width="3" height="53"/>
-			</g>
-		</g>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="105" cy="105" r="105"/>
+	</defs>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#424399;"/>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="195.9" y="76.1" class="st0" width="84" height="48"/>
+	<rect x="152.4" y="23.1" class="st0" width="84" height="48"/>
+	<rect x="108.9" y="-29.9" class="st0" width="84" height="48"/>
+	<rect x="152.4" y="129.1" class="st0" width="84" height="48"/>
+	<rect x="108.9" y="76.1" class="st0" width="84" height="48"/>
+	<rect x="108.9" y="182.1" class="st0" width="84" height="48"/>
+	<rect x="65.4" y="23.1" class="st0" width="84" height="48"/>
+	<rect x="-21.6" y="23.1" class="st0" width="84" height="48"/>
+	<rect x="21.9" y="-29.9" class="st0" width="84" height="48"/>
+	<rect x="65.4" y="129.1" class="st0" width="84" height="48"/>
+	<rect x="21.9" y="76.1" class="st0" width="84" height="48"/>
+	<rect x="21.9" y="182.1" class="st0" width="84" height="48"/>
+	<rect x="-21.6" y="129.1" class="st0" width="84" height="48"/>
+	<rect x="-65.1" y="76.1" class="st0" width="84" height="48"/>
+	<rect x="195.9" y="120.1" class="st1" width="84" height="4"/>
+	<rect x="108.9" y="120.1" class="st1" width="84" height="4"/>
+	<rect x="188.9" y="76.1" class="st1" width="4" height="48"/>
+	<rect x="152.4" y="67.1" class="st1" width="84" height="4"/>
+	<rect x="65.4" y="67.1" class="st1" width="84" height="4"/>
+	<rect x="145.4" y="23.1" class="st1" width="4" height="48"/>
+	<rect x="152.4" y="173.1" class="st1" width="84" height="4"/>
+	<rect x="65.4" y="173.1" class="st1" width="84" height="4"/>
+	<rect x="145.4" y="129.1" class="st1" width="4" height="48"/>
+	<rect x="21.9" y="14.1" class="st1" width="84" height="4"/>
+	<rect x="101.9" y="-29.9" class="st1" width="4" height="48"/>
+	<rect x="21.9" y="120.1" class="st1" width="84" height="4"/>
+	<rect x="101.9" y="76.1" class="st1" width="4" height="48"/>
+	<rect x="-21.6" y="67.1" class="st1" width="84" height="4"/>
+	<rect x="101.9" y="182.1" class="st1" width="4" height="48"/>
+	<rect x="-21.6" y="173.1" class="st1" width="84" height="4"/>
+	<rect x="58.4" y="129.1" class="st1" width="4" height="48"/>
+	<rect x="-65.1" y="120.1" class="st1" width="84" height="4"/>
+	<rect x="14.9" y="76.1" class="st1" width="4" height="48"/>
+	<rect x="58.4" y="23.1" class="st1" width="4" height="48"/>
+	<polyline class="st1" points="192.9,14.1 192.9,18.1 108.9,18.1 108.9,14.1 	"/>
+	<rect x="195.9" y="76.1" class="st2" width="84" height="4"/>
+	<rect x="195.9" y="76.1" class="st2" width="4" height="48"/>
+	<g class="st3">
+		<rect x="152.4" y="23.1" class="st4" width="84" height="4"/>
+		<rect x="152.4" y="23.1" class="st4" width="4" height="48"/>
 	</g>
-</pattern>
-<circle id="ellipse" class="st5" cx="105" cy="105" r="105"/>
-<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(0.8571 0 0 -0.8571 -2222.2471 -14097.4111)">
-</pattern>
-<circle class="st6" cx="105" cy="105" r="90"/>
+	<rect x="65.4" y="23.1" class="st2" width="84" height="4"/>
+	<rect x="108.9" y="-29.9" class="st2" width="4" height="48"/>
+	<g class="st3">
+		<rect x="152.4" y="129.1" class="st4" width="84" height="4"/>
+		<rect x="152.4" y="129.1" class="st4" width="4" height="48"/>
+	</g>
+	<rect x="108.9" y="76.1" class="st2" width="84" height="4"/>
+	<rect x="108.9" y="76.1" class="st2" width="4" height="48"/>
+	<rect x="108.9" y="182.1" class="st2" width="84" height="4"/>
+	<rect x="108.9" y="182.1" class="st2" width="4" height="48"/>
+	<rect x="65.4" y="23.1" class="st2" width="4" height="48"/>
+	<rect x="-21.6" y="23.1" class="st2" width="84" height="4"/>
+	<g class="st3">
+		<rect x="65.4" y="129.1" class="st4" width="84" height="4"/>
+		<rect x="65.4" y="129.1" class="st4" width="4" height="48"/>
+	</g>
+	<rect x="21.9" y="76.1" class="st2" width="84" height="4"/>
+	<rect x="21.9" y="76.1" class="st2" width="4" height="48"/>
+	<rect x="21.9" y="182.1" class="st2" width="84" height="4"/>
+	<rect x="-21.6" y="129.1" class="st2" width="84" height="4"/>
+	<rect x="-65.1" y="76.1" class="st2" width="84" height="4"/>
+</g>
 </svg>
