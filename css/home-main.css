@@ -258,7 +258,7 @@ body {
 }
 
 .reviews-slider-arrow:hover, .reviews-slider-arrow:focus{
-    box-shadow: 0 7px 0 -2px var(--meco-accent-blue);
+    box-shadow: 0 0 0 5px var(--meco-accent-blue);
     cursor: pointer;
 }
 
