@@ -1,0 +1,113 @@
+/* second breakpoint 1100px width */
+
+@media screen and (max-width: 830px) {
+
+    .page-mobile #content-box-nav {
+        padding: 0 30px;
+    }
+
+    #navigation-bar-list,
+    #logo-nav-link {
+        display: none;
+    }
+
+    #icon-nav-link {
+        display: flex;
+        height: 80px;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #burger {
+        z-index: 1;
+        display: flex;
+        height: 100%;
+        padding: 25px 0;
+    }
+
+    #navigation-bar-list-container {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        justify-content: flex-end;
+    }
+
+    #burger:hover ~ #navigation-bar-list-container #navigation-bar-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        max-width: 400px;
+        width: 100%;
+        padding: 0 20px;
+        padding-top: 70px;
+        background-color: var(--meco-white);
+        animation: show-menu 0.5s;
+        transform-origin: 100% 0%;
+    }
+
+    @keyframes show-menu {
+        0% {opacity: 0; transform: scale(0);}
+        100% {opacity: 1; transform: scale(1);}
+    }
+
+    #burger:hover ~ #navigation-bar-list-container #cta-nav {
+        margin: 20px 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-item {
+        position: relative;
+        width: 100%;
+        opacity: 1;
+    }
+
+    #services-link:hover, #services-link:focus {
+        box-shadow: none;
+        cursor: pointer;
+    }
+
+    #about-link {
+        box-shadow: var(--meco-blue) 0 5px;
+    }
+
+    .nav-item:not(:last-child)::after {
+        position: absolute;
+        content: '';
+        height: 0;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        border-bottom: solid 2px var(--meco-gray-light);
+        opacity: 0.4;
+    }
+
+    .drop-down-arrow,
+    #services-link:hover .drop-down-arrow {
+        transform: rotateZ(90deg);
+        background-image: url("../images/graphic-elements/drop-down-arrow-blue.svg");
+    }
+
+    #burger:hover + #menu-overlay {
+        display: flex;
+        background-color: black;
+        background-color: rgba(41, 41, 102, 0.8);
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        animation: show-overlay 0.5s;
+    }
+
+    @keyframes show-overlay {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+
+}

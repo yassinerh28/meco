@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/input.css">
     <link rel="stylesheet" href="css/sections.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/nav(830).css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home-main.css">
     <link rel="stylesheet" href="css/home-main(1000).css">
@@ -68,23 +69,56 @@
                     723.1,180.4 "/>
             </svg>
         </a>
-        <ul id="navigation-bar-list">
-            <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
-                <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onfocus="drop_down_services_over()">
-                    <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
-                </div>
-                <ul id="drop-down-content">
-                    <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="./isolation/" target="_blank" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
-                    <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="./chauffage/" target="_blank" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
-                    <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="./energie/" target="_blank" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
-                </ul>
-            </li>
-            <li id="about" class="nav-item">
-                <a id="about-link" class="text-clickable link" href="./about/" target="_blank" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
-            </li>
-            <li id="cta-nav" class="nav-item">
-                <a id="cta-nav-link" class="text-button button button-primary-special-private" href="./app/index.html" target="_blank" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
-            </li>
+        <a id="icon-nav-link" href="#" tabindex="0" aria-acceuil="">
+            <img id="icon-nav" src="images/logo/meeco-icon-original.svg" alt="icon meeco"/>
+        </a>
+        <svg version="1.1" id="burger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+            <style type="text/css">
+
+                .bar {
+                    fill:#333333;
+                    transform-origin: 50% 50%;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                #burger:hover #bar-1 {
+                    transform: rotateZ(45deg) translateY(-40%);
+                }
+
+                #burger:hover #bar-3 {
+                    transform: rotateZ(-45deg) translateY(40%);
+                }
+
+                #burger:hover #bar-2 {
+                    opacity: 0;
+                    transform: scale(0.5);
+                }
+
+            </style>
+            <rect id="bar-3" class="bar" width="50" height="10"/>
+            <rect id="bar-2" y="20" class="bar" width="50" height="10"/>
+            <rect id="bar-1" y="40" class="bar" width="50" height="10"/>
+        </svg>
+        <div id="menu-overlay"></div>
+        <div id="navigation-bar-list-container">
+            <ul id="navigation-bar-list">
+                <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
+                    <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onfocus="drop_down_services_over()">
+                        <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
+                    </div>
+                    <ul id="drop-down-content">
+                        <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="./isolation/" target="_blank" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
+                        <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="./chauffage/" target="_blank" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
+                        <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="./energie/" target="_blank" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
+                    </ul>
+                </li>
+                <li id="about" class="nav-item">
+                    <a id="about-link" class="text-clickable link" href="./about/" target="_blank" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
+                </li>
+                <li id="cta-nav" class="nav-item">
+                    <a id="cta-nav-link" class="text-button button button-primary-special-private" href="./app/index.html" target="_blank" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
+                </li>
+        </div>
         </ul>
     </div>
 </nav>
@@ -167,14 +201,18 @@
             <script>
                 function set_answers_height() {
 
+                    var page = document.getElementById("page");
+
                     var answers = document.getElementsByClassName("faq-answer");
-                    if (window.innerWidth < 830) {
+                    if (window.innerWidth <= 830) {
+                        page.classList.add("page-mobile");
                         for (let index = 0; index < answers.length; index++) {
                             const answer = answers[index];
                             answer.style.height = "100%";
                         }
                         return false;
                     }
+                    page.classList.remove("page-mobile");
                     for (let index = 0; index < answers.length; index++) {
                         const answer = answers[index];
                         answer.style.height = document.getElementById("faq-questions-list").offsetHeight + "px";

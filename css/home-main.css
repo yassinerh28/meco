@@ -169,14 +169,15 @@ body {
     position: relative;
 }
 
-.faq-question:not(:last-child)::after {
+.faq-question:not(:nth-last-child(2))::after {
     position: absolute;
     content: '';
     height: 0;
     width: 100%;
     left: 0;
     bottom: 0;
-    border-bottom: solid 1px var(--meco-blue-light);
+    border-bottom: solid 2px var(--meco-gray-light);
+    opacity: 0.4;
 }
 
 .faq-question-arrow {
@@ -234,6 +235,7 @@ body {
 #reviews-slider {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -305,11 +307,10 @@ body {
     align-items: center;
     background-color: var(--meco-white);
     justify-content: center;
-    background-image: url(../images/graphic-elements/quote-start.svg), url(../images/graphic-elements/quote-end.svg);
+    background-image: url(../images/graphic-elements/quote-start-review.svg), url(../images/graphic-elements/quote-end-review.svg);
     background-repeat: no-repeat;
-    background-size: 30px;
-    background-position-x: 30px, 540px;
-    background-position-y: 30px, 167px;
+    background-size: 50px;
+    background-position: left top, right bottom;
 }
 
 .reviews-list-item-body-content-box {

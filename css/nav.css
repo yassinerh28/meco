@@ -72,6 +72,12 @@ body {
     transition: transform 0.3s;
 }
 
+#icon-nav-link,
+#burger,
+#menu-overlay {
+    display: none;
+}
+
 #navigation-bar-list {
     display: flex;
     align-items: center;

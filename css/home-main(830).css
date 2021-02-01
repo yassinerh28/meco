@@ -12,6 +12,8 @@
 
     #faq-questions-list {
         width: 100%;
+        padding: 0 15px;
+        border-right: none;
     }
 
     .faq-answer-active {
@@ -25,6 +27,7 @@
         animation: show-answer 0.7s;
         animation-fill-mode: forwards;
     }
+
 
     .reviews-list-item-top {
         flex-direction: column;
@@ -42,11 +45,13 @@
     }
 
     #reviews-slider-arrow-left {
-        margin-right: 10px;
+        margin-right: -22px;
+        z-index: 1;
     }
 
     #reviews-slider-arrow-right {
-        margin-left: 10px;
+        margin-left: -22px;
+        z-index: 1;
     }
 
     @keyframes show-answer {

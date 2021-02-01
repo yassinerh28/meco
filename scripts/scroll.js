@@ -3,13 +3,16 @@ var pattern = document.getElementById("pattern");
 var values_intro_circle = document.getElementById("values-intro-circle");
 var page_heading = document.getElementById("page-heading");
 var cta_nav_link = document.getElementById("cta-nav-link");
+var page = document.getElementById("page");
 
 function scrollfunction() {
-    if (window.pageYOffset == 0) {
+    if (window.pageYOffset == 0 && !page.classList.contains("page-mobile")) {
         navigation_bar.classList.remove("navigation-bar-scroll");
-    } else {
+    } else if (!page.classList.contains("page-mobile")) {
         navigation_bar.classList.add("navigation-bar-scroll");
         cta_nav_link.classList.add("cta-nav-link-after-scroll");
+    } else {
+        navigation_bar.classList.add("navigation-bar-scroll");
     }
     if (pattern) {pattern.style.transform = "translateY(-"+(window.pageYOffset/4)+"px)";}
     if (values_intro_circle) {values_intro_circle.style.transform = "rotateZ("+(window.pageYOffset/4)+"deg)";}
