@@ -6,17 +6,41 @@
         padding: 0 30px;
     }
 
-    #navigation-bar-list,
-    #logo-nav-link {
+    #navigation-bar-list {
         display: none;
     }
 
-    #icon-nav-link {
+    #logo-nav-link #logo-nav {
         display: flex;
-        justify-content: flex-start;
+        opacity: 1;
+        padding: 20px 0;
+        animation: element-reveal-opacity 0.2s;
+    }
+
+    .logo-nav-link-after-scroll#logo-nav-link #logo-nav {
+        display: none;
+    }
+
+    .logo-nav-link-after-scroll#logo-nav-link + #icon-nav-link{
+        opacity: 1;
+        display: flex;
+        animation: element-reveal-opacity 0.3s;
+    }
+
+    #icon-nav-link {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: calc(50vw - 40px);
+        justify-content: center;
         height: 80px;
         width: 80px;
         padding: 20px 0;
+    }
+
+    @keyframes element-reveal-opacity {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }
 
     #burger {
