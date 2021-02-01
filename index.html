@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home-main.css">
     <link rel="stylesheet" href="css/home-main(1000).css">
+    <link rel="stylesheet" href="css/home-main(830).css">
 </head>
 <body onscroll="scrollfunction();" id="page">
 <nav id="navigation-bar" class="navigation-bar">
@@ -152,19 +153,35 @@
         <h2 id="faq-title" class="text-big-header section-title">Avez vous des questions?<br/>Ne cherchez pas dehors!</h2>
         <div id="faq-box">
             <ul id="faq-questions-list">
-                <li id="faq-question-1" class="text-clickable faq-question faq-question-active" aria-label="Question 1" onclick="show_answer(1)" onkeydown="show_answer(1)" tabindex="0">Comment se font les travaux d'installation des pompes à chaleur?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-2" class="text-clickable faq-question" aria-label="Question 2" onclick="show_answer(2)" onkeydown="show_answer(2)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-3" class="text-clickable faq-question" aria-label="Question 3" onclick="show_answer(3)" onkeydown="show_answer(3)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-4" class="text-clickable faq-question" aria-label="Question 4" onclick="show_answer(4)" onkeydown="show_answer(4)"tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" onkeydown="show_answer(5)"tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-            </ul>
-            <ul id="faq-answers-list">
-                <li id="faq-answer-1" class="text-small-body faq-answer faq-answer-active"><b>Reponse:</b><br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.</li>
+                <li id="faq-question-1" class="text-clickable faq-question faq-question-active" aria-label="Question 1" onclick="show_answer(1)" onkeydown="show_answer(1)" tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes à chaleur chaleur chaleur chaleur?</span></li>
+                <li id="faq-answer-1" class="text-small-body faq-answer faq-answer-active"><b>Reponse:</b><br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.</li>
+                <li id="faq-question-2" class="text-clickable faq-question" aria-label="Question 2" onclick="show_answer(2)" onkeydown="show_answer(2)" tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes?</span></li>
                 <li id="faq-answer-2" class="text-small-body faq-answer">Answer 2</li>
+                <li id="faq-question-3" class="text-clickable faq-question" aria-label="Question 3" onclick="show_answer(3)" onkeydown="show_answer(3)" tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-3" class="text-small-body faq-answer">Answer 3</li>
+                <li id="faq-question-4" class="text-clickable faq-question" aria-label="Question 4" onclick="show_answer(4)" onkeydown="show_answer(4)"tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-4" class="text-small-body faq-answer">Answer 4</li>
+                <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" onkeydown="show_answer(5)"tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-5" class="text-small-body faq-answer">Answer 5</li>
             </ul>
+            <script>
+                function set_answers_height() {
+
+                    var answers = document.getElementsByClassName("faq-answer");
+                    if (window.innerWidth < 830) {
+                        for (let index = 0; index < answers.length; index++) {
+                            const answer = answers[index];
+                            answer.style.height = "100%";
+                        }
+                        return false;
+                    }
+                    for (let index = 0; index < answers.length; index++) {
+                        const answer = answers[index];
+                        answer.style.height = document.getElementById("faq-questions-list").offsetHeight + "px";
+                    }
+                }
+                window.onresize = set_answers_height;
+            </script>
         </div>
     </div>
 </section>

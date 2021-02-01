@@ -1,0 +1,36 @@
+/* second breakpoint 1100px width */
+
+@media screen and (max-width: 830px) {
+
+    .content-box-page-section {
+        padding: 50px 20px;
+    }
+
+    #faq-questions-list {
+        width: 100%;
+    }
+
+    .faq-answer {
+        position: relative;
+        width: 100%;
+        max-height: 0;
+        left: 0;
+        padding: 0 15px;
+        overflow-y: hidden;
+        background-color: var(--meco-accent-blue);
+        animation: show-answer 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes show-answer {
+        0% {max-height: 0}
+        100% {max-height: 2000px; padding: 15px;}
+    }
+
+    .faq-question-active .faq-question-arrow {
+        transform: translateX(0px) rotateZ(90deg);
+    }
+    .faq-answer:last-child {
+        margin-bottom: 20px;
+    }
+}

@@ -3,16 +3,11 @@
 @media screen and (max-width: 1100px) {
     
     .content-box-page-section {
-        margin: 0 100px;
         padding: 50px 50px;
     }
 
     #content-box-heading {
         padding-top: 130px;
-    }
-
-    #page-heading {
-        background-size: 100px;
     }
 
     .page-section#page-footer {
@@ -142,36 +137,10 @@
     #logo-footer {
         height: 24px;
     }
-    
-    #navigation-bar-list {
-        width: 400px;
-    }
-    
-    .navigation-bar-scroll #navigation-bar-list {
-        width: 650px;
-    }
 
     #values-intro-section {
         background-size: 250px, 400px, 440px;
         background-position: center bottom, center 270px, center 250px;
-    }
-    
-    .faq-question {
-        padding: 7px 10px;
-        width: 450px;
-        margin: 0 15px;
-    }
-
-    .faq-question-active {
-        padding-left: 20px;
-    }
-
-    #faq-answers-list {
-        width: 250px;
-    }
-
-    #faq-box {
-        height: 270px;
     }
 
     #reviews-list {
