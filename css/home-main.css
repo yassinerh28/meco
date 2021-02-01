@@ -234,6 +234,7 @@ body {
 #reviews-slider {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 #reviews-title {
@@ -243,6 +244,7 @@ body {
 .reviews-slider-arrow {
     display: flex;
     border-radius: 50%;
+    flex-shrink: 0;
     height: 55px;
     width: 55px;
     background-color: var(--meco-blue-light);

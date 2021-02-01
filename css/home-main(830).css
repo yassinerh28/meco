@@ -26,6 +26,29 @@
         animation-fill-mode: forwards;
     }
 
+    .reviews-list-item-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top-date {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .reviews-slider-arrow {
+        width: 45px;
+        height: 45px;
+    }
+
+    #reviews-slider-arrow-left {
+        margin-right: 10px;
+    }
+
+    #reviews-slider-arrow-right {
+        margin-left: 10px;
+    }
+
     @keyframes show-answer {
         0% {max-height: 0}
         100% {max-height: 2000px; padding: 15px;}
