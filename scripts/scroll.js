@@ -8,13 +8,15 @@ var logo_nav_link = document.getElementById("logo-nav-link");
 
 function scrollfunction() {
     if (window.pageYOffset == 0) {
-        if (!page.classList.contains("page-mobile")) {
+        if (window.innerWidth <= 830) {
+            cta_nav_link.classList.add("cta-nav-link-after-scroll");
+            navigation_bar.classList.add("navigation-bar-scroll");
+        } else {
             navigation_bar.classList.remove("navigation-bar-scroll");
         }
         logo_nav_link.classList.remove("logo-nav-link-after-scroll");
     } else {
         navigation_bar.classList.add("navigation-bar-scroll");
-        cta_nav_link.classList.add("cta-nav-link-after-scroll");
         logo_nav_link.classList.add("logo-nav-link-after-scroll");
     }
     if (pattern) {pattern.style.transform = "translateY(-"+(window.pageYOffset/4)+"px)";}

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/nav(830).css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home-main.css">
-    <link rel="stylesheet" href="css/home-main(1000).css">
+    <link rel="stylesheet" href="css/home-main(1100).css">
     <link rel="stylesheet" href="css/home-main(830).css">
 </head>
 <body onscroll="scrollfunction();" id="page">
@@ -99,7 +99,7 @@
             <rect id="bar-2" y="20" class="bar" width="50" height="10"/>
             <rect id="bar-1" y="40" class="bar" width="50" height="10"/>
         </svg>
-        <div id="menu-overlay"></div>
+        <div id="menu-overlay" onclick="toggle_menu()"></div>
         <div id="navigation-bar-list-container">
             <ul id="navigation-bar-list">
                 <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
@@ -198,29 +198,6 @@
                 <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" onkeydown="show_answer(5)"tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-5" class="text-small-body faq-answer">Answer 5</li>
             </ul>
-            <script>
-                function set_answers_height() {
-
-                    var page = document.getElementById("page");
-
-                    var answers = document.getElementsByClassName("faq-answer");
-                    if (window.innerWidth <= 830) {
-                        page.classList.add("page-mobile");
-                        for (let index = 0; index < answers.length; index++) {
-                            const answer = answers[index];
-                            answer.style.height = "100%";
-                        }
-                        return false;
-                    }
-                    page.classList.remove("page-mobile");
-                    for (let index = 0; index < answers.length; index++) {
-                        const answer = answers[index];
-                        answer.style.height = document.getElementById("faq-questions-list").offsetHeight + "px";
-                    }
-                }
-                window.onresize = set_answers_height;
-                set_answers_height();
-            </script>
         </div>
     </div>
 </section>
@@ -301,5 +278,6 @@
 <script src="scripts/reviews.js"></script>
 <script src="scripts/input.js"></script>
 <script src="scripts/menu.js"></script>
+<script src="scripts/resize.js"></script>
 </body>
 </html>
