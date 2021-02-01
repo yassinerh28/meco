@@ -72,7 +72,7 @@
         <a id="icon-nav-link" href="#" tabindex="0" aria-acceuil="">
             <img id="icon-nav" src="images/logo/meeco-icon-original.svg" alt="icon meeco"/>
         </a>
-        <svg version="1.1" id="burger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+        <svg version="1.1" id="burger" onclick="toggle_menu();" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
             <style type="text/css">
 
                 .bar {
@@ -81,15 +81,15 @@
                     transition: all 0.3s ease-in-out;
                 }
 
-                #burger:hover #bar-1 {
+                .burger-clicked #bar-1 {
                     transform: rotateZ(45deg) translateY(-40%);
                 }
 
-                #burger:hover #bar-3 {
+                .burger-clicked #bar-3 {
                     transform: rotateZ(-45deg) translateY(40%);
                 }
 
-                #burger:hover #bar-2 {
+                .burger-clicked #bar-2 {
                     opacity: 0;
                     transform: scale(0.5);
                 }
@@ -103,7 +103,7 @@
         <div id="navigation-bar-list-container">
             <ul id="navigation-bar-list">
                 <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
-                    <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onfocus="drop_down_services_over()">
+                    <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onclick="show_services()" onfocus="drop_down_services_over()">
                         <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
                     </div>
                     <ul id="drop-down-content">
@@ -300,5 +300,6 @@
 <script src="scripts/faq.js"></script>
 <script src="scripts/reviews.js"></script>
 <script src="scripts/input.js"></script>
+<script src="scripts/menu.js"></script>
 </body>
 </html>

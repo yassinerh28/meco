@@ -8,13 +8,13 @@ var page = document.getElementById("page");
 function scrollfunction() {
     if (window.pageYOffset == 0 && !page.classList.contains("page-mobile")) {
         navigation_bar.classList.remove("navigation-bar-scroll");
-    } else if (!page.classList.contains("page-mobile")) {
-        navigation_bar.classList.add("navigation-bar-scroll");
-        cta_nav_link.classList.add("cta-nav-link-after-scroll");
     } else {
         navigation_bar.classList.add("navigation-bar-scroll");
+        cta_nav_link.classList.add("cta-nav-link-after-scroll");
     }
     if (pattern) {pattern.style.transform = "translateY(-"+(window.pageYOffset/4)+"px)";}
     if (values_intro_circle) {values_intro_circle.style.transform = "rotateZ("+(window.pageYOffset/4)+"deg)";}
     if (page_heading) {page_heading.style.backgroundSize = (window.innerWidth/8 - 0.3*window.pageYOffset) + "px"}
 }
+
+scrollfunction();
