@@ -279,13 +279,15 @@ body {
 }
 
 #reviews-list {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     display: flex;
     align-items: flex-start;
     overflow: hidden;
 }
 
 .reviews-list-item {
+    min-width: 100%;
     margin-right: 20px;
     transition: all 0.7s ease-in-out;
 }
@@ -300,8 +302,6 @@ body {
     display: flex;
     align-items: center;
     background-color: var(--meco-white);
-    height: 216px;
-    width: 600px;
     justify-content: center;
     background-image: url(../images/graphic-elements/quote-start.svg), url(../images/graphic-elements/quote-end.svg);
     background-repeat: no-repeat;
@@ -311,7 +311,8 @@ body {
 }
 
 .reviews-list-item-body-content-box {
-    width: 460px;
+    padding: 50px;
+    width: 100%;
 }
 
 .top-stars {
@@ -334,7 +335,8 @@ body {
 
 .review-quote {
     color: var(--meco-blue-dark);
-    min-height: 72px;
+    height: 100%;
+    margin-bottom: 20px;
 }
 
 .review-author {
@@ -350,13 +352,15 @@ body {
 
 #newsletter-title {
     color: var(--meco-gray-dark);
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
 }
 
 #newsletter-description {
     color: var(--meco-blue-dark);
     text-align: center;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     margin-bottom: 50px;
 }
 

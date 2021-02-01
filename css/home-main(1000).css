@@ -10,10 +10,6 @@
         padding-top: 130px;
     }
 
-    .page-section#page-footer {
-        height: 200px;
-    }
-
     #heading-title, #heading-body {
         margin-bottom: 30px;
     }
@@ -144,19 +140,14 @@
     }
 
     #reviews-list {
-        width: 500px;
+        max-width: 500px;
     }
 
     .reviews-list-item-body {
-        width: 500px;
-        height: 180px;
+        width: 100%;
         background-size: 25px, 25px, 50px, 50px;
         background-position-x: 20px, 455px, left, right;
         background-position-y: 20px, 145px, bottom, top;
-    }
-
-    .reviews-list-item-body-content-box {
-        width: 400px;
     }
 
     .top-stars {
