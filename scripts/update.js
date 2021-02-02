@@ -71,6 +71,26 @@ function go_to_page(number) {
             current_app_page = number;
             previous_page = array_max(visited_pages.slice(0, -1));
             add_pending_pages();
+            if (number == 29) {
+                var contact_date_input = document.getElementById("contact-date-input");
+                var today = new Date();
+                var date_drop_down = "";
+                var max_day = 7;
+                for (let index = 0; index < max_day; index++) {
+                    const date = new Date(today)
+                    date.setDate(date.getDate() + index);
+                    if (date.getDay() == 0) {
+                        max_day++;
+                        continue;
+                    }
+                    var dd = String(date.getDate()).padStart(2, '0');
+                    var mm = String(date.getMonth() + 1).padStart(2, '0');
+                    var yyyy = date.getFullYear();
+                    date_string = yyyy + "-" + mm + "-" + dd;
+                    date_drop_down += '<option class="input-drop-down-choice text-clickable" value="' + date_string + '">&nbsp;&nbsp;' + format_date(date) +'</option>';
+                }
+                contact_date_input.innerHTML += date_drop_down;
+            }
             var current_app_name = document.getElementById("app-" + number).getAttribute("name");
             load_local_data(current_app_name);
             if (document.getElementsByClassName("input-increment")[0]) {
@@ -100,8 +120,9 @@ function format_date(date) {
 }
 
 function get_day_name(day) {
-    days_names = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
-    return days_names[day-1];
+    console.log("****" + day);
+    days_names = ["Dimanche", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Lundi"];
+    return days_names[day];
 }
 
 function get_month_name(month) {
