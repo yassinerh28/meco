@@ -307,6 +307,7 @@ function left_button_action() {
 function right_button_action() {
     var current_app = document.getElementById("app-" + current_app_page);
     var button_right = document.getElementById("button-right");
+    button_right.disabled = true;
     if (current_app.dataset.button_right_function) {
         button_right.setAttribute("onclick", current_app.dataset.button_right_function);
         button_right.click();
