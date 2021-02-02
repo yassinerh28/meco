@@ -30,7 +30,7 @@
             <h3 class="text-small-header pop-up-title">Si vous ne souhaitez pas d'être contacté(e) votre demande sera annulée</h3>
             <div class="pop-up-buttons">
                 <button class="text-button button button-primary-normal-private pop-up-button" id="pop-up-button-top" onclick="toggle_pop_up()">Je souhaite d'être contacté(e)</button>
-                <button class="text-button button button-secondary-special pop-up-button" id="pop-up-button-bottom" onclick="cancel_app(31); save_clear_localStorage()">J'ai compris et je veux annuler ma demande</button>
+                <button class="text-button button button-secondary-special pop-up-button" id="pop-up-button-bottom" onclick="toggle_pop_up(); cancel_app(31); save_clear_localStorage()">J'ai compris et je veux annuler ma demande</button>
             </div>
             <p class="pop-up-note text-label">Veuillez noter que nous disposons de vos données malgré l'annulation du contact. <a href="#" target="_blank" class="text-hyperlink">En savoir plus</a></p>
         </div>

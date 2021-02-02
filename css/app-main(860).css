@@ -85,6 +85,10 @@
         margin-top: 5px;
     }
 
+    .pop-up-visible {
+        top: -60px;
+    }
+
     #pop-up-cancel {
         height: 50px;
         width: 50px;
