@@ -85,4 +85,18 @@
         margin-top: 5px;
     }
 
+    #pop-up-cancel {
+        height: 50px;
+        width: 50px;
+        background-size: 30px;
+    }
+
+    .pop-up-title {
+        margin-top: 50px;
+    }
+
+    .info-box {
+        padding: 20px;
+    }
+
 }

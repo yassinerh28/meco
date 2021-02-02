@@ -76,6 +76,13 @@ function go_to_page(number) {
             if (document.getElementsByClassName("input-increment")[0]) {
                 update_arrows(document.getElementsByClassName("input-increment")[0]);
             }
+            if (number == 30) {
+                var info_box_date = document.getElementById("info-box-date");
+                var info_box_time = document.getElementById("info-box-time");
+                var date = new Date(JSON.parse(collected_data.contact).jour);
+                info_box_date.innerHTML = format_date(date);
+                info_box_time.innerHTML = JSON.parse(collected_data.contact).duree;
+            }
             right_button_update(current_app_name);
             console.log("log--pending_pages: " + pending_pages);
             console.log("log--next_page: " + next_page);
@@ -87,6 +94,21 @@ function go_to_page(number) {
     xhttp.open("GET", "app-" + number + ".html", true);
     xhttp.send();
 }
+
+function format_date(date) {
+    return get_day_name(date.getDay()) + " " + date.getDate() + " " + get_month_name(date.getMonth()) + " " + date.getFullYear();
+}
+
+function get_day_name(day) {
+    days_names = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
+    return days_names[day-1];
+}
+
+function get_month_name(month) {
+    months_names = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    return months_names[month];
+}
+
 
 function load_local_data(app_name) {
     console.log("start--loading_local_data...");
