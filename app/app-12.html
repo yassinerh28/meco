@@ -2,8 +2,8 @@
     <ul class="choices-box">
         <form class="input-number-form" id="surface-zone-form" action="">
             <div class="input-box input-number-box">
-                <label id="surface-zone-input-label" for="surface-zone-input" class="text-label input-label">Surface de zone (en m²)</label>
-                <input type="number" name="surface-zone-input" id="surface-zone-input" class="text-input input input-number" placeholder="Entrer la surface de zone" min="1" max="800" pattern="^[1-9]\d*$" oninput="update_app(this)">
+                <label id="surface-zone-input-label" for="surface-zone-input" class="text-label input-label input-label-required">Surface de zone (en m²)<span class="required-asterisk">*</span></label>
+                <input type="number" name="surface-zone-input" id="surface-zone-input" class="text-input input input-number" placeholder="Entrer la surface de zone" value="1" min="1" max="800" pattern="^[1-9]\d*$" oninput="update_app(this)" required>
                 <p id="surface-zone-input-hint" class="text-input-hint input-hint">Entrer un nombre entre 1 et 800.</p>
             </div>
         </form>

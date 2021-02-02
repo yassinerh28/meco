@@ -66,6 +66,10 @@
     font-weight: bold;
 }
 
+.value-description {
+    color: var(--meco-blue-dark);
+}
+
 /* mission & vision */
 
 #content-box-mission {

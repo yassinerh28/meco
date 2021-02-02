@@ -1,0 +1,84 @@
+/* second breakpoint 830px width */
+
+@media screen and (max-width: 830px) {
+
+    #page-heading {
+        background-image: none;
+    }
+
+    .content-box-page-section {
+        padding: 50px 20px;
+    }
+
+    #faq-questions-list {
+        width: 100%;
+        padding: 0 15px;
+        border-right: none;
+    }
+
+    .faq-answer-active {
+        position: relative;
+        width: 100%;
+        max-height: 0;
+        left: 0;
+        padding: 0 15px;
+        overflow-y: hidden;
+        background-color: var(--meco-accent-blue);
+        animation: show-answer 0.7s;
+        animation-fill-mode: forwards;
+    }
+
+
+    .reviews-list-item-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top-date {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .reviews-slider-arrow {
+        width: 45px;
+        height: 45px;
+    }
+
+    #reviews-slider-arrow-left {
+        margin-right: -22px;
+        z-index: 1;
+    }
+
+    #reviews-slider-arrow-right {
+        margin-left: -22px;
+        z-index: 1;
+    }
+
+    @keyframes show-answer {
+        0% {max-height: 0}
+        100% {max-height: 2000px; padding: 15px;}
+    }
+
+    .faq-question-active .faq-question-arrow {
+        transform: translateX(0px) rotateZ(90deg);
+    }
+    .faq-answer:last-child {
+        margin-bottom: 20px;
+    }
+
+    #newsletter-form {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #email-input-box {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #newsletter-email-input {
+        width: 100%;
+    }
+
+}

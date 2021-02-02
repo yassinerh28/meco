@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="css/input.css">
     <link rel="stylesheet" href="css/sections.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/nav(830).css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/home-main.css">
-    <link rel="stylesheet" href="css/home-main(1000).css">
+    <link rel="stylesheet" href="css/home-main(1100).css">
+    <link rel="stylesheet" href="css/home-main(830).css">
 </head>
 <body onscroll="scrollfunction();" id="page">
 <nav id="navigation-bar" class="navigation-bar">
@@ -67,23 +69,56 @@
                     723.1,180.4 "/>
             </svg>
         </a>
-        <ul id="navigation-bar-list">
-            <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
-                <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onfocus="drop_down_services_over()">
-                    <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
-                </div>
-                <ul id="drop-down-content">
-                    <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="./isolation/" target="_blank" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
-                    <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="./chauffage/" target="_blank" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
-                    <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="./energie/" target="_blank" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
-                </ul>
-            </li>
-            <li id="about" class="nav-item">
-                <a id="about-link" class="text-clickable link" href="./about/" target="_blank" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
-            </li>
-            <li id="cta-nav" class="nav-item">
-                <a id="cta-nav-link" class="text-button button button-primary-special-private" href="./app/index.html" target="_blank" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
-            </li>
+        <a id="icon-nav-link" href="#" tabindex="0" aria-acceuil="">
+            <img id="icon-nav" src="images/logo/meeco-icon-original.svg" alt="icon meeco"/>
+        </a>
+        <svg version="1.1" id="burger" onclick="toggle_menu();" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+            <style type="text/css">
+
+                .bar {
+                    fill:#333333;
+                    transform-origin: 50% 50%;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                .burger-clicked #bar-1 {
+                    transform: rotateZ(45deg) translateY(-40%);
+                }
+
+                .burger-clicked #bar-3 {
+                    transform: rotateZ(-45deg) translateY(40%);
+                }
+
+                .burger-clicked #bar-2 {
+                    opacity: 0;
+                    transform: scale(0.5);
+                }
+
+            </style>
+            <rect id="bar-3" class="bar" width="50" height="10"/>
+            <rect id="bar-2" y="20" class="bar" width="50" height="10"/>
+            <rect id="bar-1" y="40" class="bar" width="50" height="10"/>
+        </svg>
+        <div id="menu-overlay" onclick="toggle_menu()"></div>
+        <div id="navigation-bar-list-container">
+            <ul id="navigation-bar-list">
+                <li id="services" class="nav-item" onmouseover="drop_down_services_over()" onmouseout="drop_down_services_out()">
+                    <div id="services-link" class="drop-down" href="#services-link" tabindex="0" onclick="show_services()" onfocus="drop_down_services_over()">
+                        <span id="services-title" class="drop-down-title text-clickable">Nos services</span><span class="drop-down-arrow"></span>
+                    </div>
+                    <ul id="drop-down-content">
+                        <li id="isolation" class="drop-down-item text-clickable"><a id="isolation-link" class="drop-down-item-link" href="./isolation/" target="_blank" aria-label="Isoler ma maison" tabindex="0">Isoler ma maison</a></li>
+                        <li id="chauffage" class="drop-down-item text-clickable"><a id="chauffage-link" class="drop-down-item-link" href="./chauffage/" target="_blank" aria-label="Changer mon chauffage" tabindex="0">Changer mon chauffage</a></li>
+                        <li id="energie" class="drop-down-item text-clickable"><a id="energie-link" class="drop-down-item-link" href="./energie/" target="_blank" aria-label="Energie solaire" tabindex="0">Energie solaire</a></li>
+                    </ul>
+                </li>
+                <li id="about" class="nav-item">
+                    <a id="about-link" class="text-clickable link" href="./about/" target="_blank" tabindex="0" aria-label="Qui sommes nous?" onfocus="drop_down_services_out()">Qui sommes nous?</a>
+                </li>
+                <li id="cta-nav" class="nav-item">
+                    <a id="cta-nav-link" class="text-button button button-primary-special-private" href="./app/index.html" target="_blank" aria-label="Réaliser mon projet" tabindex="0">Réaliser mon projet</a>
+                </li>
+        </div>
         </ul>
     </div>
 </nav>
@@ -97,25 +132,27 @@
 <section id="values-intro-section" class="page-section" tabindex="0">
     <div id="content-box-values-intro" class="content-box-page-section">
         <h2 id="values-intro-title" class="text-big-header section-title">Vivez dans la maison que vous méritez avec Meeco.</h2>
+        <img id="values-intro-house" src="images/visuals/maison.svg" alt="introduction illustration maison"/>
+        <img id="values-intro-circle" src="images/visuals/circle.svg" alt="introduction illustration cercle"/>
     </div>
 </section>
 <section id="values-section" class="page-section" tabindex="0">
     <div id="content-box-values" class="content-box-page-section">
         <ul id="values-list">
             <li class="values-list-item">
-                <img src="images/visuals/economie-illustration.svg" alt="économie-illustration"/>
-                <h3 class="values-list-item-title text-small-header">Economisez votre consommation d'énergie</h3>
-                <p class="values-list-item-description text-small-body">Votre maison sera moins énergivore avec les produits de renovation énergitique.</p>
+                <img src="images/visuals/economie-illustration.svg" class="card-image" alt="économie-illustration"/>
+                <h3 class="values-list-item-title text-card-title">Economisez votre consommation d'énergie</h3>
+                <p class="values-list-item-description text-card-body">Votre maison sera moins énergivore avec les produits de renovation énergitique.</p>
             </li>
             <li class="values-list-item">
-                <img src="images/visuals/ecologie-illustration.svg" alt="écologie-illustration"/>
-                <h3 class="values-list-item-title text-small-header">Habitez dans un milieu plus écologique</h3>
-                <p class="values-list-item-description text-small-body">Votre maison sera moins énergivore avec les produits de renovation énergitique.</p>
+                <img src="images/visuals/ecologie-illustration.svg" class="card-image" alt="écologie-illustration"/>
+                <h3 class="values-list-item-title text-card-title">Habitez dans un milieu plus écologique</h3>
+                <p class="values-list-item-description text-card-body">Votre maison sera moins énergivore avec les produits de renovation énergitique.</p>
             </li>
             <li class="values-list-item">
-                <img src="images/visuals/confort-illustration.svg" alt="confort-illustration"/>
-                <h3 class="values-list-item-title text-small-header">Assurez une vie pleine de confort dans votre maison</h3>
-                <p class="values-list-item-description text-small-body">Votre maison sera moins énergivore avec les produits de renovation énergitique.</p>
+                <img src="images/visuals/confort-illustration.svg" class="card-image" alt="confort-illustration"/>
+                <h3 class="values-list-item-title text-card-title">Assurez une vie pleine de confort dans votre maison</h3>
+                <p class="values-list-item-description text-card-body">Votre maison sera moins énergivore avec les produits de renovation énergitique.</p>
             </li>
         </ul>
     </div>
@@ -125,21 +162,21 @@
         <h2 id="services-section-title" class="text-big-header section-title">Nous vous proposons des travaux de renovation énergetique de qualité.</h2>
         <ul id="services-section-list">
             <li class="services-section-list-item">
-                <img src="images/visuals/isolation-illustration.svg" alt="isolation-illustration"/>
-                <h3 class="services-section-list-item-title text-small-header">Isolation thermique</h3>
-                <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
-                <a href="./isolation/" class="services-section-list-item-link text-clickable button button-primary-normal-public aria-label="En savoir plus" tabindex="0";>En savoir plus</a>
+                <img src="images/visuals/isolation-illustration.svg" class="card-image" alt="isolation-illustration"/>
+                <h3 class="services-section-list-item-title text-card-title">Isolation thermique</h3>
+                <p class="services-section-list-item-description text-card-body">Votre maison sera moins énergivore avec nos produits.</p>
+                <a href="./isolation/" class="services-section-list-item-link text-clickable button button-primary-normal-public" aria-label="En savoir plus" tabindex="0";>En savoir plus</a>
             </li>
             <li class="services-section-list-item">
-                <img src="images/visuals/chauffage-illustration.svg" alt="chauffage-illustration"/>
-                <h3 class="services-section-list-item-title text-small-header">Chauffage</h3>
-                <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
+                <img src="images/visuals/chauffage-illustration.svg" class="card-image" alt="chauffage-illustration"/>
+                <h3 class="services-section-list-item-title text-card-title">Chauffage</h3>
+                <p class="services-section-list-item-description text-card-body">Votre maison sera moins énergivore avec nos produits.</p>
                 <a href="./chauffage/" class="services-section-list-item-link text-clickable button button-primary-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
             </li>
             <li class="services-section-list-item">
-                <img src="images/visuals/electricite-illustration.svg" alt="énergie-illustration"/>
-                <h3 class="services-section-list-item-title text-small-header">Energie solaire</h3>
-                <p class="services-section-list-item-description text-small-body">Votre maison sera moins énergivore avec nos produits.</p>
+                <img src="images/visuals/electricite-illustration.svg" class="card-image" alt="énergie-illustration"/>
+                <h3 class="services-section-list-item-title text-card-title">Energie solaire</h3>
+                <p class="services-section-list-item-description text-card-body">Votre maison sera moins énergivore avec nos produits.</p>
                 <a href="./energie/" class="services-section-list-item-link text-clickable button button-primary-normal-public" aria-label="En savoir plus" tabindex="0">En savoir plus</a>
             </li>
         </ul>
@@ -150,17 +187,15 @@
         <h2 id="faq-title" class="text-big-header section-title">Avez vous des questions?<br/>Ne cherchez pas dehors!</h2>
         <div id="faq-box">
             <ul id="faq-questions-list">
-                <li id="faq-question-1" class="text-clickable faq-question faq-question-active" aria-label="Question 1" onclick="show_answer(1)" onkeydown="show_answer(1)" tabindex="0">Comment se font les travaux d'installation des pompes à chaleur?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-2" class="text-clickable faq-question" aria-label="Question 2" onclick="show_answer(2)" onkeydown="show_answer(2)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-3" class="text-clickable faq-question" aria-label="Question 3" onclick="show_answer(3)" onkeydown="show_answer(3)" tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-4" class="text-clickable faq-question" aria-label="Question 4" onclick="show_answer(4)" onkeydown="show_answer(4)"tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-                <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" onkeydown="show_answer(5)"tabindex="0">Comment se font les travaux d'installation?<span class="faq-question-arrow"></span></li>
-            </ul>
-            <ul id="faq-answers-list">
-                <li id="faq-answer-1" class="text-small-body faq-answer faq-answer-active"><b>Reponse:</b><br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.</li>
+                <li id="faq-question-1" class="text-clickable faq-question faq-question-active" aria-label="Question 1" onclick="show_answer(1)" onkeydown="show_answer(1)" tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes à chaleur chaleur chaleur chaleur?</span></li>
+                <li id="faq-answer-1" class="text-small-body faq-answer faq-answer-active"><b>Reponse:</b><br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.<br/>les travaux se font de maniere bien étudiée après une visite du logement par notre équipe d'installation qualifiée.</li>
+                <li id="faq-question-2" class="text-clickable faq-question" aria-label="Question 2" onclick="show_answer(2)" onkeydown="show_answer(2)" tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes?</span></li>
                 <li id="faq-answer-2" class="text-small-body faq-answer">Answer 2</li>
+                <li id="faq-question-3" class="text-clickable faq-question" aria-label="Question 3" onclick="show_answer(3)" onkeydown="show_answer(3)" tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-3" class="text-small-body faq-answer">Answer 3</li>
+                <li id="faq-question-4" class="text-clickable faq-question" aria-label="Question 4" onclick="show_answer(4)" onkeydown="show_answer(4)"tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-4" class="text-small-body faq-answer">Answer 4</li>
+                <li id="faq-question-5" class="text-clickable faq-question" aria-label="Question 5" onclick="show_answer(5)" onkeydown="show_answer(5)"tabindex="0"><span class="faq-question-arrow"></span><span class="question-body">Comment se font les travaux d'installation des pompes</span></li>
                 <li id="faq-answer-5" class="text-small-body faq-answer">Answer 5</li>
             </ul>
         </div>
@@ -242,5 +277,7 @@
 <script src="scripts/faq.js"></script>
 <script src="scripts/reviews.js"></script>
 <script src="scripts/input.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/resize.js"></script>
 </body>
 </html>

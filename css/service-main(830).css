@@ -1,0 +1,7 @@
+/* second breakpoint 830px width */
+
+@media screen and (max-width: 830px) {
+    .content-box-page-section:not(#content-box-footer) {
+        padding: 40px 30px;
+    }
+}

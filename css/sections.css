@@ -10,9 +10,9 @@
 
 .content-box-page-section {
     display: flex;
-    height: 657px;
     width: 100%;
     max-width: 1300px;
+    padding: 100px 50px;
 }
 
 /* section-quote */

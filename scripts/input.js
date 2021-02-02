@@ -24,19 +24,23 @@ function input_validation_check_box(e) {
 
 function increment_value(sign) {
     var input = document.getElementsByClassName("input-increment")[0];
-    if ((sign == -1 && input.value > 0) || sign == 1) {
-        input.value = (input.value != "") ? parseInt(input.value) + sign: 0;
-        if (input.value == "0" || input.value == "1") {
+    var min_value = parseInt(input.getAttribute("min"));
+    if ((sign == -1 && parseInt(input.value) > min_value) || sign == 1) {
+        input.value = (input.value != "") ? parseInt(input.value) + sign: min_value;
+        if (parseInt(input.value) <= min_value) {
             document.getElementsByClassName("input-increment-arrow-left")[0].classList.remove("input-increment-arrow-active");
-        }
-        if (input.value == "1") {
+        } else {
             document.getElementsByClassName("input-increment-arrow-left")[0].classList.add("input-increment-arrow-active");
         }
     }
 }
 
 function update_arrows(e) {
-    if (parseInt(e.value) <= 0 || e.value == "") {
+    console.log("****updating-increment-arrows");
+    var input = document.getElementsByClassName("input-increment")[0];
+    var min_value = parseInt(input.getAttribute("min"));
+    console.log("****value" + e.value)
+    if (parseInt(e.value) <= min_value || e.value == "") {
         document.getElementsByClassName("input-increment-arrow-left")[0].classList.remove("input-increment-arrow-active");
     }
     else {
