@@ -1,0 +1,88 @@
+/* first breakpoint 860px width */
+
+@media screen and (max-width: 860px) {
+
+    /* text */
+
+    .text-small-header {
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: 0.022em;
+        line-height: 28px;
+    }
+
+    .text-small-body {
+        font-family: bitter, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.032em;
+        line-height: 24px;
+    }
+
+    .choice-caption {
+        font-size: 16px;
+    }
+
+    /* text - end */
+
+    .choices-2 .choice, .choices-3 .choice {
+        min-width: 180px;
+        max-width: 230px;
+    }
+
+    .choices-4 .choice {
+        min-width: 160px;
+        max-width: 200px;
+    }
+
+    .choices-2 .choice-image, .choices-3 .choice-image {
+        padding-top: 130px;
+        width: 130px;
+    }
+
+    .choices-4 .choice-image {
+        padding-top: 110px;
+        width: 110px;
+    }
+
+    #navigation-bar {
+        height: 60px;
+    }
+
+    #content-box-nav {
+        justify-content: center;
+    }
+
+    #logo-nav {
+        height: 60px;
+        padding: 15px 0;
+    }
+
+    #choices-container {
+        padding: 0 5px;
+        margin-top: 10px;
+    }
+
+    #questions-box {
+        padding: 10px 20px;
+    }
+
+    #question-title {
+        margin-bottom: 10px;
+    }
+
+    #buttons-box {
+        margin-bottom: 10px;
+    }
+
+    .input-label-required::after {
+        display: none;
+    }
+
+    .input-hint {
+        line-height: 26px;
+        margin-top: 5px;
+    }
+
+}

@@ -2,11 +2,11 @@
     <ul class="choices-box">
         <form class="input-increment-form" id="personnes-foyer-form" action="">
             <div class="input-box input-increment-box">
-                <label id="personnes-foyer-input-label" for="personnes-foyer-input" class="text-label input-label">Nombre de personnes</label>
+                <label id="personnes-foyer-input-label" for="personnes-foyer-input" class="text-label input-label">Nombre de personnes<span class="required-asterisk">*</span></label>
                 <div class="input-increment-container">
-                    <span class="input-increment-arrow input-increment-arrow-left" onclick="increment_value(-1); update_app(document.getElementsByClassName('input')[0])"></span>
-                    <input type="number" name="personnes-foyer-input" id="personnes-foyer-input" class="text-input input input-increment" value="1" step="1" min="1" pattern="^[1-9]\d*$" oninput="update_app(this); update_arrows(this)">
-                    <span class="input-increment-arrow input-increment-arrow-right input-increment-arrow-active" onclick="increment_value(1); update_app(document.getElementsByClassName('input')[0])"></span>
+                    <span class="input-increment-arrow input-increment-arrow-left" onclick="increment_value(-1); update_app(document.getElementsByClassName('input')[0]); update_arrows(document.getElementsByClassName('input')[0])"></span>
+                    <input type="number" name="personnes-foyer-input" id="personnes-foyer-input" class="text-input input input-increment" value="1" step="1" min="1" pattern="^[1-9]\d*$" oninput="update_app(this); update_arrows(this)" required>
+                    <span class="input-increment-arrow input-increment-arrow-right input-increment-arrow-active" onclick="increment_value(1); update_app(document.getElementsByClassName('input')[0]); update_arrows(document.getElementsByClassName('input')[0])"></span>
                 </div>
             </div>
         </form>

@@ -73,6 +73,9 @@ function go_to_page(number) {
             add_pending_pages();
             var current_app_name = document.getElementById("app-" + number).getAttribute("name");
             load_local_data(current_app_name);
+            if (document.getElementsByClassName("input-increment")[0]) {
+                update_arrows(document.getElementsByClassName("input-increment")[0]);
+            }
             right_button_update(current_app_name);
             console.log("log--pending_pages: " + pending_pages);
             console.log("log--next_page: " + next_page);
