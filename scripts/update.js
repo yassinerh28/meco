@@ -126,7 +126,7 @@ function get_day_name(day) {
 }
 
 function get_month_name(month) {
-    months_names = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    months_names = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
     return months_names[month];
 }
 
