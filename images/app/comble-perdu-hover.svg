@@ -4,9 +4,9 @@
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#B3B3FF;}
+	.st1{fill:#5C5C99;}
 	.st2{fill:#E5E5FF;}
-	.st3{fill:#CCCCFF;}
+	.st3{fill:#7A7ACC;}
 	.st4{fill:#FFA799;}
 	.st5{clip-path:url(#SVGID_2_);}
 </style>
@@ -20,41 +20,36 @@
 		<path id="Path_190" class="st4" d="M119.6,68.2H21.5l48.8-48.8l0.3-0.3L119.6,68.2z"/>
 		<g>
 			<g>
-				<defs>
-					<polygon id="SVGID_1_" points="119.6,68.2 21.5,68.2 70.3,19.5 70.5,19.2 					"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-				</clipPath>
-				<g id="Group_171" class="st5">
-					
-						<rect id="Rectangle_272" x="-18.2" y="32.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5216 39.7523)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_273" x="-10.5" y="37.3" transform="matrix(0.5 -0.866 0.866 0.5 -16.6185 48.7483)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_274" x="-2.7" y="41.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.6092 57.7536)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_275" x="5.1" y="46.3" transform="matrix(0.5 -0.866 0.866 0.5 -16.6061 66.7495)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_276" x="12.9" y="50.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.5977 75.7543)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_277" x="20.7" y="55.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5945 84.7503)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_278" x="28.5" y="59.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5861 93.755)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_279" x="36.3" y="64.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5826 102.7524)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_280" x="44.1" y="68.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5794 111.7483)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_281" x="51.9" y="73.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.571 120.7532)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_282" x="59.7" y="77.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5679 129.7492)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_283" x="67.5" y="82.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5586 138.7545)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_284" x="75.3" y="86.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5555 147.7505)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_285" x="83.1" y="91.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.547 156.7552)" class="st2" width="88.8" height="3"/>
+				<g>
+					<defs>
+						<polygon id="SVGID_1_" points="119.6,68.2 21.5,68.2 70.3,19.5 70.5,19.2 						"/>
+					</defs>
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#FFA799;"/>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<g id="Group_171" class="st5">
+						
+							<rect id="Rectangle_274" x="-2.7" y="41.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.6223 57.7916)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_275" x="5.1" y="46.3" transform="matrix(0.5 -0.866 0.866 0.5 -16.6117 66.7922)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_276" x="12.9" y="50.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.6062 75.8018)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_277" x="20.7" y="55.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5957 84.7024)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_278" x="28.5" y="59.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5901 93.712)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_279" x="36.3" y="64.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5806 102.7136)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_280" x="44.1" y="68.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5699 111.7142)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_281" x="51.9" y="73.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5645 120.7238)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_282" x="59.7" y="77.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.554 129.7244)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_283" x="67.5" y="82.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5484 138.735)" class="st2" width="88.8" height="3"/>
+					</g>
 				</g>
 			</g>
 		</g>

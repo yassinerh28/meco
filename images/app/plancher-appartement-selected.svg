@@ -4,10 +4,10 @@
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#E5E5FF;}
-	.st2{fill:#414199;}
+	.st1{fill:#CCCCFF;}
+	.st2{fill:#292966;}
 	.st3{fill:#FF5533;}
-	.st4{fill:none;stroke:#CCCCFF;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#9999FF;stroke-width:2;stroke-miterlimit:10;}
 </style>
 <g id="plancher-appartement-active-state" transform="translate(-15 0)">
 	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>

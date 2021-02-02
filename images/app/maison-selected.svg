@@ -4,35 +4,36 @@
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#0F0F4D;}
-	.st2{fill:#CCCCFF;}
+	.st1{fill:#151533;}
+	.st2{fill:#9999FF;}
 	.st3{fill:#1F1F4C;}
-	.st4{fill:#292966;}
-	.st5{fill:#E5E5FF;}
-	.st6{fill:#414199;}
-	.st7{clip-path:url(#SVGID_2_);fill:#414199;}
+	.st4{fill:#CCCCFF;}
+	.st5{fill:#292966;}
+	.st6{clip-path:url(#SVGID_2_);fill:#292966;}
 </style>
 <g id="maison-active-state" transform="translate(-15 0)">
 	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
 	<g id="icon" transform="translate(56.4 64.25)">
 		<rect id="Rectangle_118" x="-0.7" y="38.4" class="st1" width="17.2" height="6.6"/>
 		<path id="Path_98" class="st2" d="M50.2,35.6L86.5-0.7l36.3,36.3v50.9H50.2V35.6z"/>
-		<path id="Path_99" class="st3" d="M132.2,40.7L128,45H82.2l4.3-4.3H132.2z"/>
-		<path id="Path_100" class="st4" d="M132.2,40.7H86.5L40.8-5h45.8L132.2,40.7z"/>
-		<path id="Path_101" class="st5" d="M4.4,35.6L40.8-0.7l36.3,36.3v50.9H4.4V35.6z"/>
-		<path id="Path_102" class="st6" d="M86.5,40.7L82.2,45l-5.1-5.1L40.8,3.6L4.4,39.9L-0.7,45L-5,40.7L40.5-4.7L40.8-5L86.5,40.7z"/>
+		<path id="Path_99" class="st1" d="M132.2,40.7L128,45H82.2l4.3-4.3H132.2z"/>
+		<path id="Path_100" class="st3" d="M132.2,40.7H86.5L40.8-5h45.8L132.2,40.7z"/>
+		<path id="Path_101" class="st4" d="M4.4,35.6L40.8-0.7l36.3,36.3v50.9H4.4V35.6z"/>
+		<path id="Path_102" class="st5" d="M86.5,40.7L82.2,45l-5.1-5.1L40.8,3.6L4.4,39.9L-0.7,45L-5,40.7L40.5-4.7L40.8-5L86.5,40.7z"/>
 		<path id="Path_103" class="st2" d="M49.8,60.5v26H31.7v-26c0-5,4.1-9.1,9.1-9.1C45.8,51.4,49.8,55.4,49.8,60.5
 			C49.8,60.4,49.8,60.5,49.8,60.5z"/>
 		<g>
 			<g>
-				<defs>
-					<path id="SVGID_1_" d="M49.8,60.5v26H31.7v-26c0-5,4.1-9.1,9.1-9.1C45.8,51.4,49.8,55.4,49.8,60.5
-						C49.8,60.4,49.8,60.5,49.8,60.5z"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-				</clipPath>
-				<path id="Path_104" class="st7" d="M52.9,60.5v29.1H34.7V60.5c0-5,4.1-9.1,9.1-9.1C48.8,51.4,52.9,55.4,52.9,60.5z"/>
+				<g>
+					<defs>
+						<path id="SVGID_1_" d="M49.8,60.5v26H31.7v-26c0-5,4.1-9.1,9.1-9.1C45.8,51.4,49.8,55.4,49.8,60.5
+							C49.8,60.4,49.8,60.5,49.8,60.5z"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<path id="Path_104" class="st6" d="M52.9,60.5v29.1H34.7V60.5c0-5,4.1-9.1,9.1-9.1C48.8,51.4,52.9,55.4,52.9,60.5z"/>
+				</g>
 			</g>
 		</g>
 	</g>

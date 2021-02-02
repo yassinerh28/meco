@@ -13,14 +13,14 @@
 <g id="chaudiere-electricite-hover-state" transform="translate(-15 0)">
 	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
 	<g id="icon" transform="translate(74 45)">
-		<rect id="Rectangle_221" x="-5" y="-5" class="st1" width="85.8" height="85.7"/>
-		<rect id="Rectangle_222" x="-5" y="80.7" class="st2" width="85.8" height="34.3"/>
-		<ellipse id="Ellipse_213" class="st3" cx="20.8" cy="97.9" rx="4.3" ry="4.3"/>
-		<ellipse id="Ellipse_214" class="st3" cx="37.9" cy="97.9" rx="4.3" ry="4.3"/>
-		<ellipse id="Ellipse_215" class="st3" cx="55.1" cy="97.9" rx="4.3" ry="4.3"/>
-		<rect id="Rectangle_223" x="80.8" y="-5" class="st2" width="17.2" height="85.7"/>
-		<rect id="Rectangle_224" x="80.8" y="80.7" class="st4" width="17.2" height="34.3"/>
-		<path id="Path_150" class="st5" d="M47.7,34.6h-7.9l1.4-16.2l-13,22.7h8.7l-2.2,16.2L47.7,34.6z"/>
+		<rect id="Rectangle_221" x="-5.5" class="st1" width="85.8" height="85.7"/>
+		<rect id="Rectangle_222" x="-5.5" y="85.7" class="st2" width="85.8" height="34.3"/>
+		<ellipse id="Ellipse_213" class="st3" cx="20.3" cy="102.9" rx="4.3" ry="4.3"/>
+		<ellipse id="Ellipse_214" class="st3" cx="37.4" cy="102.9" rx="4.3" ry="4.3"/>
+		<ellipse id="Ellipse_215" class="st3" cx="54.6" cy="102.9" rx="4.3" ry="4.3"/>
+		<rect id="Rectangle_223" x="80.3" class="st2" width="17.2" height="85.7"/>
+		<rect id="Rectangle_224" x="80.3" y="85.7" class="st4" width="17.2" height="34.3"/>
+		<path id="Path_150" class="st5" d="M47.2,39.6h-7.9l1.4-16.2l-13,22.7h8.7l-2.2,16.2L47.2,39.6z"/>
 	</g>
 </g>
 </svg>
