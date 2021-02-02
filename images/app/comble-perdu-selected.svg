@@ -4,11 +4,10 @@
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#B3B3FF;}
-	.st2{fill:#E5E5FF;}
-	.st3{fill:#CCCCFF;}
-	.st4{fill:#FF5533;}
-	.st5{clip-path:url(#SVGID_2_);}
+	.st1{fill:#151533;}
+	.st2{fill:#CCCCFF;}
+	.st3{fill:#292966;}
+	.st4{clip-path:url(#SVGID_2_);}
 </style>
 <g id="comble-perdu-active-state" transform="translate(-15 0)">
 	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
@@ -17,44 +16,38 @@
 		<rect id="Rectangle_271" x="2.1" y="66.6" class="st1" width="28.3" height="11"/>
 		<path id="Path_188" class="st2" d="M10.5,67l60-60l60,60v24h-120V67z"/>
 		<path id="Path_189" class="st3" d="M146.1,70.5l-7.1,7.1l-8.5-8.5l-60-60L2.1,77.6L-5,70.5L70.1-4.6L70.5-5L146.1,70.5z"/>
-		<path id="Path_190" class="st4" d="M119.6,68.2H21.5l48.8-48.8l0.3-0.3L119.6,68.2z"/>
 		<g>
 			<g>
-				<defs>
-					<polygon id="SVGID_1_" points="119.6,68.2 21.5,68.2 70.3,19.5 70.5,19.2 					"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-				</clipPath>
-				<g id="Group_171" class="st5">
-					
-						<rect id="Rectangle_272" x="-18.2" y="32.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5212 39.7515)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_273" x="-10.5" y="37.3" transform="matrix(0.5 -0.866 0.866 0.5 -16.618 48.7474)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_274" x="-2.7" y="41.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.6087 57.7527)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_275" x="5.1" y="46.3" transform="matrix(0.5 -0.866 0.866 0.5 -16.6056 66.7487)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_276" x="12.9" y="50.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.5972 75.7535)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_277" x="20.7" y="55.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5941 84.7494)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_278" x="28.5" y="59.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5856 93.7542)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_279" x="36.3" y="64.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5821 102.7515)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_280" x="44.1" y="68.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.579 111.7476)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_281" x="51.9" y="73.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5705 120.7524)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_282" x="59.7" y="77.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5674 129.7484)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_283" x="67.5" y="82.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5581 138.7537)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_284" x="75.3" y="86.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5549 147.7496)" class="st2" width="88.8" height="3"/>
-					
-						<rect id="Rectangle_285" x="83.1" y="91.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5465 156.7544)" class="st2" width="88.8" height="3"/>
+				<g>
+					<defs>
+						<polygon id="SVGID_1_" points="119.6,68.2 21.5,68.2 70.3,19.5 70.5,19.2 						"/>
+					</defs>
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#FF5533;"/>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<g id="Group_171" class="st4">
+						
+							<rect id="Rectangle_274" x="-2.7" y="41.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.6213 57.7916)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_275" x="5.1" y="46.3" transform="matrix(0.5 -0.866 0.866 0.5 -16.6108 66.7922)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_276" x="12.9" y="50.8" transform="matrix(0.5 -0.866 0.866 0.5 -16.6053 75.8018)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_277" x="20.7" y="55.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5947 84.7023)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_278" x="28.5" y="59.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5891 93.712)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_279" x="36.3" y="64.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5795 102.7136)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_280" x="44.1" y="68.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.5691 111.7142)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_281" x="51.9" y="73.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5635 120.7239)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_282" x="59.7" y="77.7" transform="matrix(0.5 -0.866 0.866 0.5 -16.553 129.7245)" class="st2" width="88.8" height="3"/>
+						
+							<rect id="Rectangle_283" x="67.5" y="82.2" transform="matrix(0.5 -0.866 0.866 0.5 -16.5475 138.7351)" class="st2" width="88.8" height="3"/>
+					</g>
 				</g>
 			</g>
 		</g>

@@ -5,9 +5,10 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#E5E5FF;}
-	.st2{fill:#B3B3FF;}
-	.st3{fill:#CCCCFF;}
-	.st4{fill:#FFA799;}
+	.st2{fill:#5C5C99;}
+	.st3{fill:#7A7ACC;}
+	.st4{fill:#CCCCFF;}
+	.st5{fill:#FFA799;}
 </style>
 <circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
 <g id="icon" transform="translate(70.926 20.329)">
@@ -17,8 +18,8 @@
 	<rect id="Rectangle_312" x="-15.2" y="52.5" class="st2" width="20.4" height="7.9"/>
 	<path id="Path_212" class="st1" d="M-9.1,52.8L34.1,9.6l43.2,43.2v60.4H-9.1V52.8z"/>
 	<path id="Path_213" class="st3" d="M88.4,55.3l-5.1,5.1l-6.1-6.1L34.1,11.2l-49.3,49.2l-5.1-5.1l54-54L34.1,1L88.4,55.3z"/>
-	<rect id="Rectangle_313" x="-9.1" y="113.2" class="st3" width="86.3" height="5"/>
-	<polygon class="st4" points="42.2,158.4 42.2,153.4 47.2,153.4 47.2,148.4 52.2,148.4 52.2,143.4 57.2,143.4 57.2,138.4 
+	<rect id="Rectangle_313" x="-9.1" y="113.2" class="st4" width="86.3" height="5"/>
+	<polygon class="st5" points="42.2,158.4 42.2,153.4 47.2,153.4 47.2,148.4 52.2,148.4 52.2,143.4 57.2,143.4 57.2,138.4 
 		62.2,138.4 62.2,133.4 67.2,133.4 67.2,128.4 72.2,128.4 72.2,123.3 72.2,123.1 -4.1,123.1 -4.1,163.4 37.2,163.4 37.2,158.4 	"/>
 </g>
 </svg>

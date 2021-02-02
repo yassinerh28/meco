@@ -4,28 +4,30 @@
 	 viewBox="0 0 209.8 210" style="enable-background:new 0 0 209.8 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#B3B3FF;}
-	.st2{fill:#E5E5FF;}
-	.st3{fill:#CCCCFF;}
+	.st1{fill:#151533;}
+	.st2{fill:#CCCCFF;}
+	.st3{fill:#292966;}
 	.st4{fill:#FF5533;}
 </style>
 <g id="chauffage-active-state" transform="translate(-15.001 0)">
 	<circle id="ellipse" class="st0" cx="119.9" cy="105" r="105"/>
-	<g id="icon" transform="translate(-14386.006 -1547.764)">
-		<g id="Group_364" transform="translate(14452.905 1597.763)">
-			<g id="Group_363" transform="translate(0)">
-				<g id="Group_362">
-					<rect id="Rectangle_343" x="83.9" y="50.1" class="st1" width="21.8" height="8.4"/>
-					<rect id="Rectangle_344" x="0.3" y="50.1" class="st1" width="21.8" height="8.4"/>
-					<path id="Path_512" class="st2" d="M6.8,50.4L53,4.2l46.1,46.2V115H6.8V50.4z"/>
-					<g id="Group_361">
-						<path id="Path_513" class="st3" d="M111.1,53.1l-5.4,5.4L99.1,52L53,5.9L0.3,58.5l-5.4-5.4L52.6-4.7L53-5L111.1,53.1z"/>
+	<g id="icon_1_" transform="translate(-13882.236 -1547.764)">
+		<g id="Group_369" transform="translate(13948.76 1597.763)">
+			<g id="Group_368" transform="translate(0)">
+				<g id="Group_367">
+					<rect id="Rectangle_345" x="84.3" y="50.1" class="st1" width="21.8" height="8.4"/>
+					<rect id="Rectangle_346" x="0.7" y="50.1" class="st1" width="21.8" height="8.4"/>
+					<path id="Path_515" class="st2" d="M7.3,50.4L53.4,4.2l46.2,46.2V115H7.3V50.4z"/>
+					<g id="Group_366">
+						<path id="Path_516" class="st3" d="M111.5,53.1l-5.4,5.4L99.6,52L53.4,5.9L0.7,58.5l-5.4-5.4L53.1-4.7L53.4-5L111.5,53.1z"/>
 					</g>
 				</g>
 			</g>
-			<path id="Path_514" class="st3" d="M64.5,81.9V115h-23V81.9c0.1-6.4,5.3-11.5,11.6-11.4C59.4,70.5,64.5,75.6,64.5,81.9L64.5,81.9
-				z"/>
+			<path id="Path_517" class="st3" d="M64.9,81.9V115h-23V81.9c-0.1-6.4,5.1-11.6,11.4-11.6c6.4-0.1,11.6,5.1,11.6,11.4
+				C64.9,81.8,64.9,81.9,64.9,81.9z"/>
 		</g>
+	</g>
+	<g id="icon" transform="translate(-14386.006 -1547.764)">
 		<path id="Path_87" class="st4" d="M14505.9,1629.4c-7.3,0-13.2,5.9-13.2,13.2s5.9,13.2,13.2,13.2s13.2-5.9,13.2-13.2l0,0
 			C14519.1,1635.3,14513.2,1629.4,14505.9,1629.4z M14505.9,1646.4c-2.1,0-3.8-1.7-3.8-3.8c0-2.1,1.7-3.8,3.8-3.8s3.8,1.7,3.8,3.8
 			C14509.7,1644.7,14508,1646.4,14505.9,1646.4z"/>

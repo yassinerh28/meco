@@ -4,18 +4,18 @@
 	 viewBox="0 0 210 210" style="enable-background:new 0 0 210 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#E5E5FF;}
-	.st2{fill:#CCCCFF;}
-	.st3{fill:#1F1F4C;}
-	.st4{fill:#414199;}
-	.st5{fill:#B3B3FF;}
+	.st1{fill:#CCCCFF;}
+	.st2{fill:#9999FF;}
+	.st3{fill:#151533;}
+	.st4{fill:#292966;}
+	.st5{fill:#7373FF;}
 </style>
 <g id="appartement-active-state" transform="translate(-15 0)">
 	<circle id="ellipse" class="st0" cx="120" cy="105" r="105"/>
 	<g id="icon" transform="translate(66.507 45.876)">
 		<rect id="Rectangle_119" x="1.8" y="0.3" class="st1" width="64.7" height="122.9"/>
 		<rect id="Rectangle_120" x="66.4" y="0.3" class="st2" width="38.8" height="122.9"/>
-		<path id="Path_106" class="st3" d="M111.7-5H66.4v5.4h45.3L111.7-5z"/>
+		<path id="Path_106" class="st3" d="M111.7-5H72.9v5.4h38.8V-5z"/>
 		<path id="Path_107" class="st4" d="M72.9-5H-4.7v5.4h77.6V-5z"/>
 		<rect id="Rectangle_121" x="79.4" y="6.8" class="st5" width="12.9" height="19.4"/>
 		<rect id="Rectangle_122" x="79.4" y="32.6" class="st5" width="12.9" height="19.4"/>

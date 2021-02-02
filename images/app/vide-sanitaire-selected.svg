@@ -4,10 +4,11 @@
 	 viewBox="0 0 209.9 210" style="enable-background:new 0 0 209.9 210;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#E5E5FF;}
-	.st2{fill:#B3B3FF;}
-	.st3{fill:#CCCCFF;}
-	.st4{fill:#FF5533;}
+	.st1{fill:#CCCCFF;}
+	.st2{fill:#151533;}
+	.st3{fill:#292966;}
+	.st4{fill:#9999FF;}
+	.st5{fill:#FF5533;}
 </style>
 <circle id="ellipse" class="st0" cx="105" cy="105" r="105"/>
 <g id="icon" transform="translate(63.587 28.486)">
@@ -16,7 +17,7 @@
 	<rect id="Rectangle_308" x="-14.1" y="53.1" class="st2" width="23" height="8.9"/>
 	<path id="Path_209" class="st1" d="M-7.2,53.4L41.4,4.7l48.7,48.7v68.1H-7.2V53.4z"/>
 	<path id="Path_210" class="st3" d="M102.7,56.3L97,62l-6.9-6.9L41.4,6.5L-14.1,62l-5.7-5.7L41.1-4.6L41.4-5L102.7,56.3z"/>
-	<rect id="Rectangle_309" x="-7.2" y="121.5" class="st3" width="97.3" height="5.7"/>
-	<rect id="Rectangle_310" x="-1.6" y="132.9" class="st4" width="86" height="19.5"/>
+	<rect id="Rectangle_309" x="-7.2" y="121.5" class="st4" width="97.3" height="5.7"/>
+	<rect id="Rectangle_310" x="-1.6" y="132.9" class="st5" width="86" height="19.5"/>
 </g>
 </svg>
