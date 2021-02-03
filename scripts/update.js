@@ -112,6 +112,7 @@ function go_to_page(number) {
                     info_box_time.innerHTML = JSON.parse(collected_data.contact).duree;
                 }
                 right_button_update(current_app_name);
+                questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
                 questions_box.classList.remove("questions-box-disappear-right");
                 questions_box.classList.remove("questions-box-disappear-left");
                 console.log("log--pending_pages: " + pending_pages);
@@ -287,7 +288,10 @@ function update_app(e) {
     console.log("end--update...");
 }
 
+var button_clicked = "right";
+
 function left_button_action() {
+    button_clicked = "left";
     var current_app = document.getElementById("app-" + current_app_page);
     var button_left = document.getElementById("button-left");
     if (current_app.dataset.button_left_function) {
@@ -297,7 +301,6 @@ function left_button_action() {
     }
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.add("questions-box-disappear-left");
-    setTimeout(function () {questions_box.classList.add("questions-box-appear-left")}, 500);
     console.log("----------------");
     remove_pending_pages();
     go_to_page(previous_page);
@@ -307,6 +310,7 @@ function left_button_action() {
 }
 
 function right_button_action() {
+    button_clicked = "right";
     var current_app = document.getElementById("app-" + current_app_page);
     var button_right = document.getElementById("button-right");
     if (current_app.dataset.button_right_function) {
@@ -317,7 +321,6 @@ function right_button_action() {
     button_right.disabled = true;
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.add("questions-box-disappear-right");
-    setTimeout(function () {questions_box.classList.add("questions-box-appear-right")}, 500);
     console.log("----------------");
     go_to_page(array_min(pending_pages));
     array_remove_value(pending_pages, array_min(pending_pages));
