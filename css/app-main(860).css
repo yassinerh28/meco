@@ -54,6 +54,22 @@
         width: 110px;
     }
 
+    .choice-image {
+        box-shadow: 0 0 0 5px var(--meco-accent-blue);
+    }
+
+    .choice:hover .choice-image, .choice:focus .choice-image {
+        box-shadow: 0 0 0 7px var(--meco-accent-blue);
+    }
+
+    .choice-selected .choice-image {
+        box-shadow: 0 0 0 5px var(--meco-blue-dark);
+    }
+
+    .choice-selected:hover .choice-image, .choice-selected:focus .choice-image {
+        box-shadow: 0 0 0 7px var(--meco-blue-dark);
+    }
+
     #navigation-bar {
         height: 60px;
     }
