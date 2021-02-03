@@ -16,7 +16,7 @@ body {
 }
 
 #pattern {
-    background-image: url(../images/patterns/arrow-pattern.svg);
+    background-image: url(../images/patterns/arrow-blue-light-pattern.svg);
     background-size: 150px;
     position: fixed;
     height: 6000px;
@@ -26,7 +26,7 @@ body {
 
 .page-section:nth-child(odd) {
     opacity: 1;
-    background-color: var(--meco-off-white);
+    background-color: var(--meco-white);
 }
 
 .section-title {
@@ -167,6 +167,7 @@ body {
     color: var(--meco-gray);
     cursor: pointer;
     position: relative;
+    transition: color 0.2s;
 }
 
 .faq-question:not(:nth-last-child(2))::after {
@@ -218,6 +219,12 @@ body {
     width: 35%;
     padding: 15px;
     color: var(--meco-blue-dark);
+    animation: show-answer-opacity 0.5s;
+}
+
+@keyframes show-answer-opacity {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .faq-answer-active {

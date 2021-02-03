@@ -1,6 +1,17 @@
 body {
-    background-image: url(../images/patterns/arrow-pattern-light.svg);
     background-size: 150px;
+}
+
+#page-chauffage {
+    background-image: url(../images/patterns/degree-blue-light-pattern.svg);
+}
+
+#page-energie {
+    background-image: url(../images/patterns/bar-blue-light-pattern.svg);
+}
+
+#page-isolation {
+    background-image: url(../images/patterns/dots-blue-light-pattern.svg);
 }
 
 .page-section:not(#page-footer) {

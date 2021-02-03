@@ -2,8 +2,9 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-image: url(../images/patterns/arrow-pattern-light.svg);
+    background: url(../images/patterns/arrow-blue-light-pattern.svg);
     background-size: 150px;
+    box-shadow: inset 0 0 0 10000px rgba(255, 255, 255, 0.8);
     overflow-x: hidden;
 }
 

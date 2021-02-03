@@ -29,7 +29,7 @@ body {
 
 .navigation-bar-scroll {
     background-color: var(--meco-white);
-    box-shadow: 0px 0px 2px 2px var(--meco-accent-blue);
+    box-shadow: 0px 0px 3px 0px var(--meco-accent-blue);
     transition-delay: 0s;
 }
 

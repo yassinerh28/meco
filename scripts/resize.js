@@ -1,6 +1,6 @@
 function set_answers_height() {
 
-    var page = document.getElementById("page");
+    var page = document.getElementsByClassName("page")[0];
 
     var answers = document.getElementsByClassName("faq-answer");
     if (window.innerWidth <= 830) {

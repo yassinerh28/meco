@@ -5,7 +5,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: rgba(250, 250, 250, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .content-box-page-section {
@@ -107,10 +107,21 @@
     position: absolute;
     top: 40px;
     left: 40px;
-    background-image: url(../images/patterns/arrow-pattern.svg);
-    background-size: 100px;
+    background-size: 150px;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
     width: 300px;
     height: 300px;
+}
+
+#page-chauffage .section-image::before {
+    background-image: url(../images/patterns/degree-blue-pattern.svg);
+}
+
+#page-energie .section-image::before {
+    background-image: url(../images/patterns/bar-blue-pattern.svg);
+}
+#page-isolation .section-image::before {
+    background-image: url(../images/patterns/dots-blue-pattern.svg);
 }
 
 .section-image::after {

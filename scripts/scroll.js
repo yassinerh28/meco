@@ -3,7 +3,7 @@ var pattern = document.getElementById("pattern");
 var values_intro_circle = document.getElementById("values-intro-circle");
 var page_heading = document.getElementById("page-heading");
 var cta_nav_link = document.getElementById("cta-nav-link");
-var page = document.getElementById("page");
+var page = document.getElementsByClassName("page")[0];
 var logo_nav_link = document.getElementById("logo-nav-link");
 
 function scrollfunction() {
