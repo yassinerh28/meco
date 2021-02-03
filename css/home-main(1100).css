@@ -2,20 +2,11 @@
 
 @media screen and (max-width: 1100px) {
     
-    .content-box-page-section {
-        padding: 50px 50px;
-    }
-
-    #content-box-heading {
+    #page-heading .content-box-page-section#content-box-heading {
         padding-top: 130px;
     }
 
     #heading-title, #heading-body {
-        margin-bottom: 30px;
-    }
-
-    .section-title {
-        max-width: 600px;
         margin-bottom: 30px;
     }
 
@@ -125,6 +116,8 @@
         letter-spacing: 0.024em;
         line-height: 24px;
     }
+
+    /* fonts - end*/
     
     #logo-nav {
         padding: 24px 0;

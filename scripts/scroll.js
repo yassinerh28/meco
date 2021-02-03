@@ -9,13 +9,13 @@ var logo_nav_link = document.getElementById("logo-nav-link");
 function scrollfunction() {
     if (window.pageYOffset == 0) {
         if (window.innerWidth <= 830) {
-            cta_nav_link.classList.add("cta-nav-link-after-scroll");
             navigation_bar.classList.add("navigation-bar-scroll");
         } else {
             navigation_bar.classList.remove("navigation-bar-scroll");
         }
         logo_nav_link.classList.remove("logo-nav-link-after-scroll");
     } else {
+        cta_nav_link.classList.add("cta-nav-link-after-scroll");
         navigation_bar.classList.add("navigation-bar-scroll");
         logo_nav_link.classList.add("logo-nav-link-after-scroll");
     }
