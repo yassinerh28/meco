@@ -36,10 +36,8 @@ function increment_value(sign) {
 }
 
 function update_arrows(e) {
-    console.log("****updating-increment-arrows");
     var input = document.getElementsByClassName("input-increment")[0];
     var min_value = parseInt(input.getAttribute("min"));
-    console.log("****value" + e.value)
     if (parseInt(e.value) <= min_value || e.value == "") {
         document.getElementsByClassName("input-increment-arrow-left")[0].classList.remove("input-increment-arrow-active");
     }
