@@ -49,7 +49,9 @@ function go_to_page(number) {
     var choices_container = document.getElementById("choices-container");
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.remove("questions-box-appear-left");
-    questions_box.classList.remove("questions-box-appear-right");
+    if (number != 1) {
+        questions_box.classList.remove("questions-box-appear-right");
+    }
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
