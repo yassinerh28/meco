@@ -86,7 +86,7 @@ function go_to_page(number) {
                     var max_day = 7;
                     for (let index = 0; index < max_day; index++) {
                         const date = new Date(today)
-                        date.setDate(date.getDate() + index);
+                        date.setDate(date.getDate() + index + 1);
                         if (date.getDay() == 0) {
                             max_day++;
                             continue;
@@ -107,9 +107,9 @@ function go_to_page(number) {
                 if (number == 30) {
                     var info_box_date = document.getElementById("info-box-date");
                     var info_box_time = document.getElementById("info-box-time");
-                    var date = new Date(JSON.parse(collected_data.contact).jour);
+                    var date = new Date(collected_data.contact.jour);
                     info_box_date.innerHTML = format_date(date);
-                    info_box_time.innerHTML = JSON.parse(collected_data.contact).duree;
+                    info_box_time.innerHTML = collected_data.contact.duree;
                 }
                 right_button_update(current_app_name);
                 questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
