@@ -317,10 +317,6 @@ body {
     padding: 30px 0;
 }
 
-#pop-up-button-top {
-    margin-bottom: 10px;
-}
-
 .pop-up-note {
     color: var(--meco-gray);
 }
