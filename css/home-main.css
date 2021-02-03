@@ -312,7 +312,7 @@ body {
 .reviews-list-item-body {
     display: flex;
     align-items: center;
-    background-color: var(--meco-white);
+    background-color: var(--meco-off-white);
     justify-content: center;
     background-image: url(../images/graphic-elements/quote-start-review.svg), url(../images/graphic-elements/quote-end-review.svg);
     background-repeat: no-repeat;
@@ -377,6 +377,12 @@ body {
 #newsletter-form {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#email-input-box {
+    margin: 0;
 }
 
 #email-submit-box {

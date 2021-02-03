@@ -127,11 +127,7 @@ body {
 }
 
 .services-active #services-link {
-    background-color: var(--meco-accent-blue);
-}
-
-.services-active #services-link:focus {
-    background-color: transparent;
+    background-color: var(--meco-blue-light);
 }
 
 #services-link:hover, #services-link:focus {
@@ -189,7 +185,7 @@ body {
     padding: 20px 30px;
     margin-right: 0px;
     flex-direction: column;
-    background-color: var(--meco-accent-blue);
+    background-color: var(--meco-blue-light);
     animation: opacity 0.3s;
 }
 
