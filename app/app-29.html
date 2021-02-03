@@ -1,24 +1,25 @@
-<div id="app-29" class="input-choice input-multiple-choice" name="contact" data-button_right_function="cancel_app(30); save_clear_localStorage()" data-button_left_function="toggle_pop_up()" data-title="La concrêtisation de votre projet n'est pas loin..." data-description="Quand un de nos conseillers peut vous contacter?" data-button_left="Je ne veux pas être contacté(e)" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="100" data-evident_next_page="30">
+<div id="app-29" class="input-choice input-multiple-choice" name="contact" data-button_right_function="cancel_app(30); save_clear_localStorage()" data-button_left_function="toggle_pop_up()" data-title="La concrêtisation de votre projet n'est pas loin..." data-description="Quand un de nos conseillers peut vous contacter?" data-button_left="Annuler" data-button_left_type="button-secondary-special" data-button_right="confirmer" data-button_right_type="button-primary-special-private" data-progress="100" data-evident_next_page="30">
     <ul class="choices-box">
         <form class="input-multiple-form" id="contact-time-date-form" action="">
             <div class="input-box input-drop-down-box">
                 <label id="contact-date-input-label" for="contact-date-input" class="text-label input-label">Jour</label>
                 <select name="jour" id="contact-date-input" class="text-clickable input input-drop-down" onchange="update_app(this)">
                     <option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>
-                    <option class="input-drop-down-choice text-clickable" value="2021-02-01">&nbsp;&nbsp;Lundi 1 Février 2021</option>
-                    <option class="input-drop-down-choice text-clickable" value="2021-02-02">&nbsp;&nbsp;Mardi 2 Février 2021</option>
-                    <option class="input-drop-down-choice text-clickable" value="2021-02-03">&nbsp;&nbsp;Mercredi 3 Février 2021</option>
-                    <option class="input-drop-down-choice text-clickable" value="2021-02-04">&nbsp;&nbsp;Jeudi 4 Février 2021</option>
                 </select>
             </div>
             <div class="input-box input-drop-down-box">
                 <label id="contact-time-input-label" for="contact-time-input" class="text-label input-label">Durée de la journée</label>
                 <select name="duree" id="contact-time-input" class="text-clickable input input-drop-down" onchange="update_app(this)">
                     <option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>
-                    <option class="input-drop-down-choice text-clickable" value="09:00-10:00">&nbsp;&nbsp;09:00 - 10:00</option>
-                    <option class="input-drop-down-choice text-clickable" value="10:00-11:00">&nbsp;&nbsp;10:00 - 11:00</option>
-                    <option class="input-drop-down-choice text-clickable" value="11:00-12:00">&nbsp;&nbsp;11:00 - 12:00</option>
-                    <option class="input-drop-down-choice text-clickable" value="12:00-13:00">&nbsp;&nbsp;12:00 - 13:00</option>
+                    <option class="input-drop-down-choice text-clickable" value="09:00 h - 10:00 h">&nbsp;&nbsp;09:00 h - 10:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="10:00 h - 11:00 h">&nbsp;&nbsp;10:00 h - 11:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="11:00 h - 12:00 h">&nbsp;&nbsp;11:00 h - 12:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="12:00 h - 13:00 h">&nbsp;&nbsp;12:00 h - 13:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="13:00 h - 14:00 h">&nbsp;&nbsp;13:00 h - 14:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="14:00 h - 15:00 h">&nbsp;&nbsp;14:00 h - 15:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="15:00 h - 16:00 h">&nbsp;&nbsp;15:00 h - 16:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="16:00 h - 17:00 h">&nbsp;&nbsp;16:00 h - 17:00 h</option>
+                    <option class="input-drop-down-choice text-clickable" value="17:00 h - 18:00 h">&nbsp;&nbsp;17:00 h - 18:00 h</option>
                 </select>
             </div>
         </form>
@@ -29,7 +30,7 @@
             <h3 class="text-small-header pop-up-title">Si vous ne souhaitez pas d'être contacté(e) votre demande sera annulée</h3>
             <div class="pop-up-buttons">
                 <button class="text-button button button-primary-normal-private pop-up-button" id="pop-up-button-top" onclick="toggle_pop_up()">Je souhaite d'être contacté(e)</button>
-                <button class="text-button button button-secondary-special pop-up-button" id="pop-up-button-bottom" onclick="cancel_app(31); save_clear_localStorage()">J'ai compris et je veux annuler ma demande</button>
+                <button class="text-button button button-secondary-special pop-up-button" id="pop-up-button-bottom" onclick="toggle_pop_up(); cancel_app(31); save_clear_localStorage()">J'ai compris et je veux annuler ma demande</button>
             </div>
             <p class="pop-up-note text-label">Veuillez noter que nous disposons de vos données malgré l'annulation du contact. <a href="#" target="_blank" class="text-hyperlink">En savoir plus</a></p>
         </div>

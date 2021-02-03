@@ -20,6 +20,14 @@
         line-height: 24px;
     }
 
+    .text-big-body {
+        font-family: bitter, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.042em;
+        line-height: 36px;
+    }
+
     .choice-caption {
         font-size: 16px;
     }
@@ -83,6 +91,24 @@
     .input-hint {
         line-height: 26px;
         margin-top: 5px;
+    }
+
+    .pop-up-visible {
+        top: -60px;
+    }
+
+    #pop-up-cancel {
+        height: 50px;
+        width: 50px;
+        background-size: 30px;
+    }
+
+    .pop-up-title {
+        margin-top: 50px;
+    }
+
+    .info-box {
+        padding: 20px;
     }
 
 }

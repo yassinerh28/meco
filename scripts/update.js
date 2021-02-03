@@ -46,47 +46,102 @@ function array_remove_value(array, value) {
 function go_to_page(number) {
     console.log("----------------");
     console.log("start--going_to_page_" + number + "...");
+    var choices_container = document.getElementById("choices-container");
+    var questions_box = document.getElementById("questions-box");
+    questions_box.classList.remove("questions-box-appear-left");
+    if (number != 1) {
+        questions_box.classList.remove("questions-box-appear-right");
+    }
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("choices-container").innerHTML = this.responseText;
-            var app_page = document.getElementById("app-" + number);
-            var choice_images = document.getElementsByClassName("choice-image");
-            var number_of_choices = document.getElementsByClassName("choice").length;
-            app_page.classList.add("choices-" + number_of_choices);
-            question_title.innerHTML = app_page.dataset.title;
-            question_description.innerHTML = app_page.dataset.description;
-            for (let index = 0; index < choice_images.length; index++) {
-                const choice_image = choice_images[index];
-                choice_image.style.backgroundImage = "url(../images/app/" + choice_image.dataset.image_src + "-hover.svg)";
-                choice_image.style.backgroundImage += ", url(../images/app/" + choice_image.dataset.image_src + "-selected.svg)";
+            var this_function = this;
+            function go() {
+                choices_container.innerHTML = this_function.responseText;
+                var app_page = document.getElementById("app-" + number);
+                var choice_images = document.getElementsByClassName("choice-image");
+                var number_of_choices = document.getElementsByClassName("choice").length;
+                app_page.classList.add("choices-" + number_of_choices);
+                question_title.innerHTML = app_page.dataset.title;
+                question_description.innerHTML = app_page.dataset.description;
+                for (let index = 0; index < choice_images.length; index++) {
+                    const choice_image = choice_images[index];
+                    choice_image.style.backgroundImage = "url(../images/app/" + choice_image.dataset.image_src + "-hover.svg)";
+                    choice_image.style.backgroundImage += ", url(../images/app/" + choice_image.dataset.image_src + "-selected.svg)";
+                }
+                button_left.innerHTML = app_page.dataset.button_left;
+                button_right.innerHTML = app_page.dataset.button_right;
+                button_left.className = "text-clickable button";
+                button_right.className = "text-clickable button";
+                button_left.classList.add(app_page.dataset.button_left_type);
+                button_right.classList.add(app_page.dataset.button_right_type);
+                progress_bar.style.width = app_page.dataset.progress + "%";
+                current_app_page = number;
+                previous_page = array_max(visited_pages.slice(0, -1));
+                add_pending_pages();
+                if (number == 29) {
+                    var contact_date_input = document.getElementById("contact-date-input");
+                    var today = new Date();
+                    var date_drop_down = "";
+                    var max_day = 7;
+                    for (let index = 0; index < max_day; index++) {
+                        const date = new Date(today)
+                        date.setDate(date.getDate() + index);
+                        if (date.getDay() == 0) {
+                            max_day++;
+                            continue;
+                        }
+                        var dd = String(date.getDate()).padStart(2, '0');
+                        var mm = String(date.getMonth() + 1).padStart(2, '0');
+                        var yyyy = date.getFullYear();
+                        date_string = yyyy + "-" + mm + "-" + dd;
+                        date_drop_down += '<option class="input-drop-down-choice text-clickable" value="' + date_string + '">&nbsp;&nbsp;' + format_date(date) +'</option>';
+                    }
+                    contact_date_input.innerHTML += date_drop_down;
+                }
+                var current_app_name = document.getElementById("app-" + number).getAttribute("name");
+                load_local_data(current_app_name);
+                if (document.getElementsByClassName("input-increment")[0]) {
+                    update_arrows(document.getElementsByClassName("input-increment")[0]);
+                }
+                if (number == 30) {
+                    var info_box_date = document.getElementById("info-box-date");
+                    var info_box_time = document.getElementById("info-box-time");
+                    var date = new Date(JSON.parse(collected_data.contact).jour);
+                    info_box_date.innerHTML = format_date(date);
+                    info_box_time.innerHTML = JSON.parse(collected_data.contact).duree;
+                }
+                right_button_update(current_app_name);
+                questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
+                questions_box.classList.remove("questions-box-disappear-right");
+                questions_box.classList.remove("questions-box-disappear-left");
+                console.log("log--pending_pages: " + pending_pages);
+                console.log("log--next_page: " + next_page);
+                console.log("log--visited_pages: " + visited_pages);
+                console.log("log--previous_page: " + previous_page);
+                console.log("end--going_to_page_" + number + "...");
             }
-            button_left.innerHTML = app_page.dataset.button_left;
-            button_right.innerHTML = app_page.dataset.button_right;
-            button_left.className = "text-clickable button";
-            button_right.className = "text-clickable button";
-            button_left.classList.add(app_page.dataset.button_left_type);
-            button_right.classList.add(app_page.dataset.button_right_type);
-            progress_bar.style.width = app_page.dataset.progress + "%";
-            current_app_page = number;
-            previous_page = array_max(visited_pages.slice(0, -1));
-            add_pending_pages();
-            var current_app_name = document.getElementById("app-" + number).getAttribute("name");
-            load_local_data(current_app_name);
-            if (document.getElementsByClassName("input-increment")[0]) {
-                update_arrows(document.getElementsByClassName("input-increment")[0]);
-            }
-            right_button_update(current_app_name);
-            console.log("log--pending_pages: " + pending_pages);
-            console.log("log--next_page: " + next_page);
-            console.log("log--visited_pages: " + visited_pages);
-            console.log("log--previous_page: " + previous_page);
-            console.log("end--going_to_page_" + number + "...");
+            setTimeout(go, 500);
         }
     };
     xhttp.open("GET", "app-" + number + ".html", true);
     xhttp.send();
 }
+
+function format_date(date) {
+    return get_day_name(date.getDay()) + " " + date.getDate() + " " + get_month_name(date.getMonth()) + " " + date.getFullYear();
+}
+
+function get_day_name(day) {
+    days_names = ["Dimanche", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Lundi"];
+    return days_names[day];
+}
+
+function get_month_name(month) {
+    months_names = ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    return months_names[month];
+}
+
 
 function load_local_data(app_name) {
     console.log("start--loading_local_data...");
@@ -233,7 +288,10 @@ function update_app(e) {
     console.log("end--update...");
 }
 
+var button_clicked = "right";
+
 function left_button_action() {
+    button_clicked = "left";
     var current_app = document.getElementById("app-" + current_app_page);
     var button_left = document.getElementById("button-left");
     if (current_app.dataset.button_left_function) {
@@ -241,6 +299,8 @@ function left_button_action() {
         button_left.click();
         return false;
     }
+    var questions_box = document.getElementById("questions-box");
+    questions_box.classList.add("questions-box-disappear-left");
     console.log("----------------");
     remove_pending_pages();
     go_to_page(previous_page);
@@ -250,6 +310,7 @@ function left_button_action() {
 }
 
 function right_button_action() {
+    button_clicked = "right";
     var current_app = document.getElementById("app-" + current_app_page);
     var button_right = document.getElementById("button-right");
     if (current_app.dataset.button_right_function) {
@@ -257,6 +318,9 @@ function right_button_action() {
         button_right.click();
         return false;
     }
+    button_right.disabled = true;
+    var questions_box = document.getElementById("questions-box");
+    questions_box.classList.add("questions-box-disappear-right");
     console.log("----------------");
     go_to_page(array_min(pending_pages));
     array_remove_value(pending_pages, array_min(pending_pages));
