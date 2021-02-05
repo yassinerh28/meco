@@ -80,17 +80,29 @@ function go_to_page(number) {
                 previous_page = array_max(visited_pages.slice(0, -1));
                 add_pending_pages();
                 if (number == 29) {
+
                     var contact_date_input = document.getElementById("contact-date-input");
+
                     var today = new Date();
+                    var first_day = today;
                     var date_drop_down = "";
+                    var min_hour = 10;
+                    var max_hour = 18;
                     var max_day = 7;
+
+                    /* autofill date */
+
+                    if ((first_day.getHours() > max_hour)) {
+                        first_day.setDate(first_day.getDate() + 1);
+                    }
                     for (let index = 0; index < max_day; index++) {
-                        const date = new Date(today)
-                        date.setDate(date.getDate() + index + 1);
+                        const date = new Date(first_day)
+                        date.setDate(date.getDate() + index);
                         if (date.getDay() == 0) {
                             max_day++;
                             continue;
                         }
+                        console.log(date.getHours());
                         var dd = String(date.getDate()).padStart(2, '0');
                         var mm = String(date.getMonth() + 1).padStart(2, '0');
                         var yyyy = date.getFullYear();
@@ -98,6 +110,20 @@ function go_to_page(number) {
                         date_drop_down += '<option class="input-drop-down-choice text-clickable" value="' + date_string + '">&nbsp;&nbsp;' + format_date(date) +'</option>';
                     }
                     contact_date_input.innerHTML += date_drop_down;
+
+                    /* app-29 autofill time */
+                    var contact_time_input = document.getElementById("contact-time-input");
+                    contact_time_input.innerHTML = '<option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>';
+                    var today = new Date();
+                    var min_hour = 10;
+                    var max_hour = 18;
+                    for (let index = (format_date(new Date(contact_date_input.value)) == format_date(today)) ? today.getHours() : min_hour; index < max_hour; index++) {
+                        console.log("****" + index);
+                        var contact_time = String(index).padStart(2, '0') + ":00 à " + String(index + 1).padStart(2, '0') + ":00";
+                        contact_time_input.innerHTML += '<option class="input-drop-down-choice text-clickable" value="' + contact_time + '">&nbsp;&nbsp;' + contact_time + '</option>'
+                    }
+                    /* app-29 autofill time - end*/
+
                 }
                 var current_app_name = document.getElementById("app-" + number).getAttribute("name");
                 load_local_data(current_app_name);
@@ -133,7 +159,8 @@ function format_date(date) {
 }
 
 function get_day_name(day) {
-    days_names = ["Dimanche", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Lundi"];
+    days_names = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+    console.log("day: " + day + "; name: " + days_names[day]);
     return days_names[day];
 }
 
@@ -248,6 +275,20 @@ function update_app(e) {
     console.log("----------------");
     console.log("start--update...");
     var current_app = document.getElementById("app-" + current_app_page);
+    /* app-29 autofill time */
+    if (e.getAttribute("id") == "contact-date-input") {
+        var contact_time_input = document.getElementById("contact-time-input");
+        contact_time_input.innerHTML = '<option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>';
+        var today = new Date();
+        var min_hour = 10;
+        var max_hour = 18;
+        for (let index = (format_date(new Date(e.value)) == format_date(today)) ? today.getHours() : min_hour; index < max_hour; index++) {
+            console.log("****" + index);
+            var contact_time = String(index).padStart(2, '0') + ":00 à " + String(index + 1).padStart(2, '0') + ":00";
+            contact_time_input.innerHTML += '<option class="input-drop-down-choice text-clickable" value="' + contact_time + '">&nbsp;&nbsp;' + contact_time + '</option>'
+        }
+    }
+    /* app-29 autofill time - end*/
     if (e.classList.contains("radio-choice")) {
         var choices = document.getElementsByClassName("choice");
         for (let index = 0; index < choices.length; index++) {
