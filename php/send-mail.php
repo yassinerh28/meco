@@ -1,7 +1,7 @@
 
 <?php
 
-  $message = $_REQUEST['message'];
-  echo $message;
+  $message = $_POST['message'];
+  echo "received";
 
 ?>
