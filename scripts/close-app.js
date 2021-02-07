@@ -11,6 +11,7 @@ function send_message(message) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", "../php/send-mail.php", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xmlhttp.setRequestHeader("Access-Control-Allow-Methods", "POST");
     xmlhttp.onreadystatechange = function() {
         if (this.readyState === 4 || this.status === 200){ 
             console.log("message-received: " + this.responseText);
