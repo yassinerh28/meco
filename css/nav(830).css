@@ -144,7 +144,7 @@
     }
 
     .drop-down-item-link {
-        background: none;
+        background-image: none;
         height: 30px;
         margin: 0 20px;
         text-indent: 0;
@@ -162,7 +162,8 @@
         opacity: 0.4;
     }
 
-    .drop-down-item-link:hover {
+    .drop-down-item-link:hover,
+    .drop-down-item-link:focus {
         background: none;
     }
 

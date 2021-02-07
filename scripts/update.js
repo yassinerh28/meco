@@ -5,6 +5,10 @@ var button_left = document.getElementById("button-left");
 var button_right = document.getElementById("button-right");
 var progress_bar = document.getElementById("progress");
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+var service = urlParams.get("service");
+
 var current_app_page = 1;
 var pending_pages = [];
 var visited_pages = [1];
@@ -53,7 +57,13 @@ function go_to_page(number) {
     var choices_container = document.getElementById("choices-container");
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.remove("questions-box-appear-left");
-    if (number != 1) {
+    if (number == 1) {
+        localStorage.setItem("1", service);
+        if (service == "isolation" || service == "chauffage" || service == "energie") {
+            go_to_page((service == "isolation") ? 7: ((service == "chauffage") ? 2: 13));
+            return false;
+        }
+    } else {
         questions_box.classList.remove("questions-box-appear-right");
     }
     var xhttp = new XMLHttpRequest();
@@ -77,7 +87,17 @@ function go_to_page(number) {
                 button_right.innerHTML = app_page.dataset.button_right;
                 button_left.className = "text-clickable button";
                 button_right.className = "text-clickable button";
-                button_left.classList.add(app_page.dataset.button_left_type);
+                if (service == "isolation" || service == "chauffage" || service == "energie") {
+                    if (number == 2 || number == 7 || number == 13) {
+                        button_left.classList.add("button-display-none");
+                    } else {
+                        button_left.disabled = false;
+                        button_left.classList.add(app_page.dataset.button_left_type);
+                    }
+                } else {
+                    button_left.disabled = false;
+                    button_left.classList.add(app_page.dataset.button_left_type);
+                }
                 button_right.classList.add(app_page.dataset.button_right_type);
                 progress_bar.style.width = app_page.dataset.progress + "%";
                 current_app_page = number;
@@ -133,7 +153,7 @@ function go_to_page(number) {
                     var info_box_time = document.getElementById("info-box-time");
                     var date = new Date(collected_data["29"].jour);
                     info_box_date.innerHTML = format_date(date);
-                    info_box_time.innerHTML = collected_data["29"].duree;
+                    info_box_time.innerHTML = collected_data["29"].duree.replace("à", "<span style='font-weight: normal;'>à</span>");
                 }
                 right_button_update(current_app_id);
                 questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
@@ -340,6 +360,7 @@ function left_button_action() {
         button_left.click();
         return false;
     }
+    button_left.disabled = true;
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.add("questions-box-disappear-left");
     console.log("----------------");
