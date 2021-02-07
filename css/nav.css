@@ -169,6 +169,7 @@ body {
 }
 
 #drop-down-content {
+    display: none;
     position: absolute;
     top: 80px;
     left: 0px;
@@ -181,7 +182,6 @@ body {
 }
 
 .services-active #drop-down-content {
-    display: none;
     padding: 20px 30px;
     margin-right: 0px;
     flex-direction: column;

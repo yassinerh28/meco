@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 830px) {
 
-    .content-box-page-section {
+    .content-box-page-section:not(#content-box-footer) {
         padding: 20px;
     }
 

@@ -13,6 +13,10 @@ var previous_page = 0;
 
 var selected_choices_values = [];
 
+var min_hour = 10;
+var max_hour = 18;
+var max_day = 7;
+
 function array_min(array) {
     var array_min_return = array[0];
     if (array.length > 1) {
@@ -86,9 +90,6 @@ function go_to_page(number) {
                     var today = new Date();
                     var first_day = today;
                     var date_drop_down = "";
-                    var min_hour = 10;
-                    var max_hour = 18;
-                    var max_day = 7;
 
                     /* autofill date */
 
@@ -115,32 +116,34 @@ function go_to_page(number) {
                     var contact_time_input = document.getElementById("contact-time-input");
                     contact_time_input.innerHTML = '<option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>';
                     var today = new Date();
-                    var min_hour = 10;
-                    var max_hour = 18;
-                    for (let index = (format_date(new Date(contact_date_input.value)) == format_date(today)) ? today.getHours() : min_hour; index < max_hour; index++) {
-                        console.log("****" + index);
+                    for (let index = (format_date(new Date(contact_date_input.value)) == format_date(today) && today.getHours() >= min_hour) ? today.getHours() : min_hour; index < max_hour; index++) {
                         var contact_time = String(index).padStart(2, '0') + ":00 à " + String(index + 1).padStart(2, '0') + ":00";
                         contact_time_input.innerHTML += '<option class="input-drop-down-choice text-clickable" value="' + contact_time + '">&nbsp;&nbsp;' + contact_time + '</option>'
                     }
                     /* app-29 autofill time - end*/
 
                 }
-                var current_app_name = document.getElementById("app-" + number).getAttribute("name");
-                load_local_data(current_app_name);
+                var current_app_id = number;
+                load_local_data(current_app_id);
                 if (document.getElementsByClassName("input-increment")[0]) {
                     update_arrows(document.getElementsByClassName("input-increment")[0]);
                 }
                 if (number == 30) {
                     var info_box_date = document.getElementById("info-box-date");
                     var info_box_time = document.getElementById("info-box-time");
-                    var date = new Date(collected_data.contact.jour);
+                    var date = new Date(collected_data["29"].jour);
                     info_box_date.innerHTML = format_date(date);
-                    info_box_time.innerHTML = collected_data.contact.duree;
+                    info_box_time.innerHTML = collected_data["29"].duree;
                 }
-                right_button_update(current_app_name);
+                right_button_update(current_app_id);
                 questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
                 questions_box.classList.remove("questions-box-disappear-right");
                 questions_box.classList.remove("questions-box-disappear-left");
+
+                if (document.getElementsByClassName("input")[0]) {
+                    update_app(document.getElementsByClassName("input")[0]);
+                }
+
                 console.log("log--pending_pages: " + pending_pages);
                 console.log("log--next_page: " + next_page);
                 console.log("log--visited_pages: " + visited_pages);
@@ -170,11 +173,11 @@ function get_month_name(month) {
 }
 
 
-function load_local_data(app_name) {
+function load_local_data(app_id) {
     console.log("start--loading_local_data...");
     var current_app = document.getElementById("app-" + current_app_page);
-    if (localStorage.getItem(app_name)) {
-        var localStorage_item = localStorage.getItem(app_name);
+    if (localStorage.getItem(app_id)) {
+        var localStorage_item = localStorage.getItem(app_id);
         var choices = document.getElementsByClassName('choice');
         var inputs = document.getElementsByClassName("input");
         if (current_app.classList.contains("radio-choices") || current_app.classList.contains("multiple-choices")) {
@@ -280,10 +283,7 @@ function update_app(e) {
         var contact_time_input = document.getElementById("contact-time-input");
         contact_time_input.innerHTML = '<option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>';
         var today = new Date();
-        var min_hour = 10;
-        var max_hour = 18;
-        for (let index = (format_date(new Date(e.value)) == format_date(today)) ? today.getHours() : min_hour; index < max_hour; index++) {
-            console.log("****" + index);
+        for (let index = (format_date(new Date(e.value)) == format_date(today) && today.getHours() >= min_hour) ? today.getHours() : min_hour; index < max_hour; index++) {
             var contact_time = String(index).padStart(2, '0') + ":00 à " + String(index + 1).padStart(2, '0') + ":00";
             contact_time_input.innerHTML += '<option class="input-drop-down-choice text-clickable" value="' + contact_time + '">&nbsp;&nbsp;' + contact_time + '</option>'
         }
@@ -295,7 +295,7 @@ function update_app(e) {
             const choice = choices[index];
             choice.classList.remove("choice-selected");
         }
-        localStorage.setItem(current_app.getAttribute("name"), e.getAttribute("value"));
+        localStorage.setItem(current_app.getAttribute("id").slice(4), e.getAttribute("value"));
         e.classList.add("choice-selected");
     } else if (e.classList.contains("multiple-choice")) {
         var choices = document.getElementsByClassName("choice");
@@ -305,7 +305,7 @@ function update_app(e) {
         } else {
             array_remove_value(selected_choices_values, e.getAttribute("value"));
         }
-        localStorage.setItem(current_app.getAttribute("name"), selected_choices_values);
+        localStorage.setItem(current_app.getAttribute("id").slice(4), selected_choices_values);
     } else if (e.classList.contains("input") && current_app.classList.contains("input-multiple-choice")) {
         var inputs = document.getElementsByClassName("input");
         selected_choices_values = {};
@@ -315,9 +315,9 @@ function update_app(e) {
             var input_value = input.value;
             selected_choices_values[input_name] = input_value;
         }
-        localStorage.setItem(current_app.getAttribute("name"), JSON.stringify(selected_choices_values));
+        localStorage.setItem(current_app.getAttribute("id").slice(4), JSON.stringify(selected_choices_values));
     } else if (e.classList.contains("input")) {
-        localStorage.setItem(current_app.getAttribute("name"), e.value);
+        localStorage.setItem(current_app.getAttribute("id").slice(4), e.value);
     }
 
     add_pending_pages();
