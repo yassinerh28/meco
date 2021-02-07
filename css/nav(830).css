@@ -126,6 +126,8 @@
     }
 
     #drop-down-content {
+        display: flex;
+        flex-direction: column;
         top: 0;
         left: 100%;
         width: 100%;
