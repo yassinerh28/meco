@@ -9,7 +9,7 @@ function save_clear_localStorage() {
 
 function send_message(message) {
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", "../php/send-mail.php", true);
+    xmlhttp.open("GET", "../php/send-mail.php", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.onreadystatechange = function() {
         if (this.readyState === 4 || this.status === 200){ 

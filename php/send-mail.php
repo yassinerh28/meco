@@ -1,6 +1,6 @@
 <?php
 
-  $message = $_POST['message'];
+  $message = $_GET['message'];
   echo $message;
 
 ?>
