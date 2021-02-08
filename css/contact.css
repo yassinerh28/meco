@@ -14,22 +14,38 @@
     margin: 0;
 }
 
-#contact-title {
+#contact-title,
+#info-title {
     color: var(--meco-blue-dark);
     margin-bottom: 50px;
 }
 
-#map-sub-section {
+#info-sub-section {
+    position: relative;
     display: flex;
-    background: #000;
+    flex-direction: column;
+    padding-right: 0;
     width: 100%;
 }
 
+#contact-info {
+    color: var(--meco-gray-dark);
+    line-height: 36px;
+    padding-left: 20px;
+}
+.contact-info-label {
+    font-weight: bold;
+    font-style: normal;
+}
+
 #map {
+    z-index: 1;
     display: flex;
     height: 100%;
     width: 100%;
+    margin-top: 50px;
     min-height: 200px;
+    border: 3px solid var(--meco-accent-blue);
 }
 
 #contact-form-submit-box {
