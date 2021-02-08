@@ -128,21 +128,21 @@
             <form class="input-multiple-form" id="contact-form" action="">
                 <div class="input-box input-text-box">
                     <label id="user-name-input-label" for="user-name-input" class="text-label input-label input-label-required">Votre nom complet<span class="required-asterisk">*</span></label>
-                    <input type="text" name="nom" id="user-name-input" class="text-input input input-text" placeholder="Nom Prénom" required oninput="update_app(this)">
+                    <input type="text" name="nom" id="user-name-input" class="text-input input input-text" placeholder="Nom Prénom" required>
                     <p id="user-name-input-hint" class="text-input-hint input-hint">Ce champs est requis.</p>
                 </div>
                 <div class="input-box input-email-box">
                     <label id="user-email-input-label" for="user-email-input" class="text-label input-label input-label-required">Votre email<span class="required-asterisk">*</span></label>
-                    <input type="email" name="email" id="user-email-input" class="text-input input input-email" placeholder="exemple@exemple.com" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required onchange="update_app(this)">
+                    <input type="email" name="email" id="user-email-input" class="text-input input input-email" placeholder="exemple@exemple.com" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required>
                     <p id="user-email-input-hint" class="text-input-hint input-hint">Entrer une adresse électronique valide.</p>
                 </div>
                 <div class="input-box input-text-box">
                     <label id="user-message-input-label" for="user-message-input" class="text-label input-label input-label-required">Votre message<span class="required-asterisk">*</span></label>
-                    <textarea name="message" id="user-message-input" class="text-input input input-text" placeholder="Saisissez votre message ici..." required oninput="update_app(this)" rows="5"></textarea>
+                    <textarea name="message" id="user-message-input" class="text-input input input-text" placeholder="Saisissez votre message ici..." required rows="5"></textarea>
                     <p id="user-message-input-hint" class="text-input-hint input-hint">Ce champs est requis.</p>
                 </div>
                 <div class="input-box input-check-box">
-                    <input type="checkbox" name="politique-confidentialite" id="user-check-input" class="text-input input input-check" value="refusee" required oninput="input_validation_check_box(this); update_app(this)">
+                    <input type="checkbox" name="politique-confidentialite" id="user-check-input" class="text-input input input-check" value="refusee" required>
                     <span class="check-box-custom"></span>
                     <label id="user-check-input-label" for="user-check-input" class="text-label input-label">J'ai lu et j'accepte <a class="text-hyperlink" href="#" target="_blank">la politique de confidentialité</a><span class="required-asterisk">*</span></label>
                 </div>
