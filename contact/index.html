@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/colors.css">
     <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/input.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/nav(830).css">
     <link rel="stylesheet" href="../css/sections.css">
     <link rel="stylesheet" href="../css/sections(1100).css">
-    <link rel="stylesheet" href="../css/about-main.css">
-    <link rel="stylesheet" href="../css/about-main(830).css">
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body onscroll="scrollfunction();" id="page-about" class="page">
 <nav id="navigation-bar" class="navigation-bar">
@@ -121,71 +121,36 @@
         </ul>
     </div>
 </nav>
-<section id="conviction-section" class="page-section" tabindex="0">
-    <div id="content-box-conviction" class="content-box-page-section">
-        <h2 id="conviction-title" class="text-small-header section-title">Notre conviction</h2>
-        <ul class="quote-cards-list">
-            <li class="quote-card">
-                <span title="Photo de Mohamed LAZRAK" class="quote-card-photo" id="quote-card-photo-1"></span>
-                <span class="quote-card-name text-big-body">Mohamed LAZRAK</span>
-                <span class="quote-card-role text-notification">SOLUSAAS co-fondateur</span>
-                <blockquote class="quote-card-body text-min-body">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</blockquote>
-                <adress class="quote-card-author text-notification">_Mohamed LAZRAK</adress>
-            </li>
-            <li class="quote-card">
-                <span title="Photo de Redouane NASSER" class="quote-card-photo" id="quote-card-photo-2"></span>
-                <span class="quote-card-name text-big-body">Redouane NASSER</span>
-                <span class="quote-card-role text-notification">RKCZ Directeur Général</span>
-                <blockquote class="quote-card-body text-min-body">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</blockquote>
-                <adress class="quote-card-author text-notification">_Redouane NASSER</adress>
-            </li>
-            <li class="quote-card">
-                <span title="Photo de Rachid ALAMI" class="quote-card-photo" id="quote-card-photo-3"></span>
-                <span class="quote-card-name text-big-body">Rachid ALAMI</span>
-                <span class="quote-card-role text-notification">Digital Vision PDG</span>
-                <blockquote class="quote-card-body text-min-body">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</blockquote>
-                <adress class="quote-card-author text-notification">_Rachid ALAMI</adress>
-            </li>
-        </ul>
-    </div>
-</section>
-<section id="values-section" class="page-section" tabindex="0">
-    <div id="content-box-values" class="content-box-page-section">
-        <h2 id="values-title" class="text-small-header section-title">Nos valeurs</h2>
-        <div id="values-body">
-            <ul id="values-list">
-                <li class="value">
-                    <h3 class="value-title text-big-body">Écologie</h3>
-                    <p class="value-description text-small-body">Nous nous soucions de rendre la maison française plus écologique.</p>
-                </li>
-                <li class="value">
-                    <h3 class="value-title text-big-body">Confort</h3>
-                    <p class="value-description text-small-body">Nous nous soucions de rendre la maison française plus confortable.</p>
-                </li>
-                <li class="value">
-                    <h3 class="value-title text-big-body">Économie</h3>
-                    <p class="value-description text-small-body">Nous nous soucions d'économiser les frais et le coût de la rénovation énergétique pour la famille française.</p>
-                </li>
-            </ul>
-            <span class="section-image" id="section-image-values"></span>
+<section id="contact-section" class="page-section" tabindex="0">
+    <div id="content-box-contact" class="content-box-page-section">
+        <div id="form-sub-section">
+            <h2 id="contact-title" class="text-small-header section-title">Contactez nous</h2>
+            <form class="input-multiple-form" id="contact-form" action="">
+                <div class="input-box input-text-box">
+                    <label id="user-name-input-label" for="user-name-input" class="text-label input-label input-label-required">Votre nom complet<span class="required-asterisk">*</span></label>
+                    <input type="text" name="nom" id="user-name-input" class="text-input input input-text" placeholder="Nom Prénom" required oninput="update_app(this)">
+                    <p id="user-name-input-hint" class="text-input-hint input-hint">Ce champs est requis.</p>
+                </div>
+                <div class="input-box input-email-box">
+                    <label id="user-email-input-label" for="user-email-input" class="text-label input-label input-label-required">Votre email<span class="required-asterisk">*</span></label>
+                    <input type="email" name="email" id="user-email-input" class="text-input input input-email" placeholder="exemple@exemple.com" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required onchange="update_app(this)">
+                    <p id="user-email-input-hint" class="text-input-hint input-hint">Entrer une adresse électronique valide.</p>
+                </div>
+                <div class="input-box input-text-box">
+                    <label id="user-message-input-label" for="user-name-input" class="text-label input-label input-label-required">Votre message<span class="required-asterisk">*</span></label>
+                    <textarea name="message" id="user-message-input" class="text-input input input-text" placeholder="Saisissez votre message ici..." required oninput="update_app(this)" rows="5"></textarea>
+                    <p id="user-message-input-hint" class="text-input-hint input-hint">Ce champs est requis.</p>
+                </div>
+                <div class="input-box input-check-box">
+                    <input type="checkbox" name="politique-confidentialite" id="user-check-input" class="text-input input input-check" value="refusee" required oninput="input_validation_check_box(this); update_app(this)">
+                    <span class="check-box-custom"></span>
+                    <label id="user-check-input-label" for="user-check-input" class="text-label input-label">J'ai lu et j'accepte <a class="text-hyperlink" href="#" target="_blank">la politique de confidentialité</a><span class="required-asterisk">*</span></label>
+                </div>
+                <div id="contact-form-submit-box"><input type="submit" id="contact-form-submit" value="Envoyer" class="text-button button button-primary-special-private" tabindex="0" aria-label="Envoyer"></div>
+            </form>
         </div>
-    </div>
-</section>
-<section id="mission-section" class="page-section" tabindex="0">
-    <div id="content-box-mission" class="content-box-page-section">
-        <h2 id="mission-title" class="text-small-header section-title">Notre mission</h2>
-        <div id="mission-body">
-            <blockquote id="section-quote-mission" class="section-quote text-big-body">Notre mission est de rendre la maison de la famille française plus confortable et plus respectueuse de l'environnement. </blockquote>
-            <span class="section-image" id="section-image-mission"></span>
-        </div>
-    </div>
-</section>
-<section id="vision-section" class="page-section" tabindex="0">
-    <div id="content-box-vision" class="content-box-page-section">
-        <h2 id="vision-title" class="text-small-header section-title">Notre vision</h2>
-        <div id="vision-body">
-            <blockquote id="section-quote-vision" class="section-quote text-big-body">Notre vision est de transformer un million de maisons françaises en une maison écologique au cours des dix prochaines années.</blockquote>
-            <span class="section-image" id="section-image-vision"></span>
+        <div id="map-sub-section">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373053!2d2.206977064368058!3d48.858774103123785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sma!4v1612794821510!5m2!1sfr!2sma" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </div>
 </section>

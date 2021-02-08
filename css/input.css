@@ -272,3 +272,13 @@
 .input-check:checked:focus + .check-box-custom {
     background-position: 100px 100px, center center;
 }
+
+/* textarea */
+
+#user-message-input {
+    height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    resize: none;
+    text-indent: 0;
+}
