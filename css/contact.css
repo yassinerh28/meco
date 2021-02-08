@@ -1,3 +1,11 @@
+body {
+    background-size: 150px;
+}
+
+#page-contact {
+    background-image: url(../images/patterns/arrow-blue-light-pattern.svg);
+}
+
 #content-box-contact {
     margin-top: 100px;
 }
