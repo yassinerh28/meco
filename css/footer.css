@@ -38,3 +38,14 @@
     color: var(--meco-white);
     font-weight: 400;
 }
+
+#copyright-notice a {
+    color: var(--meco-white);
+    box-shadow: none;
+    transition: box-shadow 0.1s;
+}
+
+#copyright-notice a:hover,
+#copyright-notice a:focus {
+    box-shadow: var(--meco-white) 0 2px;
+}

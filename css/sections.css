@@ -37,8 +37,7 @@
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    padding: 0 20px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .quote-card {
@@ -48,6 +47,10 @@
     width: 300px;
     margin: 0 30px;
     margin-bottom: 50px;
+}
+
+.quote-card-body {
+    color: var(--meco-gray-dark);
 }
 
 .quote-card-photo {
@@ -110,8 +113,8 @@
     background-image: url(../images/patterns/arrow-blue-pattern.svg);
     background-size: 150px;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
-    width: 600px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 #page-chauffage .section-image::before {
@@ -130,14 +133,35 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 400px;
-    width: 600px;
-    /* border: solid 2px var(--meco-accent-blue); */
-    background-image: var(--meco-off-white);
+    height: 300px;
+    width: 300px;
+    border: solid 2px var(--meco-accent-blue);
+    background-color: var(--meco-white);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
-div.jsx-3572108039.eactc-main-component.eactc-main-show > div > div.jsx-3139387662.eactc-window-component.eactc-window-show > div:nth-child(3) {
-    display: none !important;
-    }
+#section-image-isolation::after {
+    background-image: url(../images/services/isolation_des_combles.jpg);
+}
+
+#section-image-chauffage::after {
+    background-image: url(../images/services/changer_mon_chauffage.jpg);
+}
+
+#section-image-energie::after {
+    background-image: url(../images/services/installation_panneaux_solaires.jpg);
+}
+
+#section-image-values::after {
+    background-image: url(../images/about/valeurs.jpg);
+}
+
+#section-image-mission::after {
+    background-image: url(../images/about/mission.jpg);
+}
+
+#section-image-vision::after {
+    background-image: url(../images/about/vision.jpg);
+}
