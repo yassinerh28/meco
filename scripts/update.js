@@ -58,8 +58,8 @@ function go_to_page(number) {
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.remove("questions-box-appear-left");
     if (number == 1) {
-        localStorage.setItem("1", service);
         if (service == "isolation" || service == "chauffage" || service == "energie") {
+            localStorage.setItem("service", service);
             go_to_page((service == "isolation") ? 7: ((service == "chauffage") ? 2: 13));
             return false;
         }
@@ -143,19 +143,19 @@ function go_to_page(number) {
                     /* app-29 autofill time - end*/
 
                 }
-                var current_app_id = number;
-                load_local_data(current_app_id);
+                var current_app_name = document.getElementById("app-" + number).getAttribute("name");
+                load_local_data(current_app_name);
                 if (document.getElementsByClassName("input-increment")[0]) {
                     update_arrows(document.getElementsByClassName("input-increment")[0]);
                 }
                 if (number == 30) {
                     var info_box_date = document.getElementById("info-box-date");
                     var info_box_time = document.getElementById("info-box-time");
-                    var date = new Date(collected_data["29"].jour);
+                    var date = new Date(collected_data.contact.jour);
                     info_box_date.innerHTML = format_date(date);
-                    info_box_time.innerHTML = collected_data["29"].duree.replace("à", "<span style='font-weight: normal;'>à</span>");
+                    info_box_time.innerHTML = collected_data.contact.duree.replace("à", "<span style='font-weight: normal;'>à</span>");
                 }
-                right_button_update(current_app_id);
+                right_button_update(current_app_name);
                 questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
                 questions_box.classList.remove("questions-box-disappear-right");
                 questions_box.classList.remove("questions-box-disappear-left");
@@ -193,11 +193,11 @@ function get_month_name(month) {
 }
 
 
-function load_local_data(app_id) {
+function load_local_data(app_name) {
     console.log("start--loading_local_data...");
     var current_app = document.getElementById("app-" + current_app_page);
-    if (localStorage.getItem(app_id)) {
-        var localStorage_item = localStorage.getItem(app_id);
+    if (localStorage.getItem(app_name)) {
+        var localStorage_item = localStorage.getItem(app_name);
         var choices = document.getElementsByClassName('choice');
         var inputs = document.getElementsByClassName("input");
         if (current_app.classList.contains("radio-choices") || current_app.classList.contains("multiple-choices")) {
@@ -315,7 +315,7 @@ function update_app(e) {
             const choice = choices[index];
             choice.classList.remove("choice-selected");
         }
-        localStorage.setItem(current_app.getAttribute("id").slice(4), e.getAttribute("value"));
+        localStorage.setItem(current_app.getAttribute("name"), e.getAttribute("value"));
         e.classList.add("choice-selected");
     } else if (e.classList.contains("multiple-choice")) {
         var choices = document.getElementsByClassName("choice");
@@ -325,7 +325,7 @@ function update_app(e) {
         } else {
             array_remove_value(selected_choices_values, e.getAttribute("value"));
         }
-        localStorage.setItem(current_app.getAttribute("id").slice(4), selected_choices_values);
+        localStorage.setItem(current_app.getAttribute("name"), selected_choices_values);
     } else if (e.classList.contains("input") && current_app.classList.contains("input-multiple-choice")) {
         var inputs = document.getElementsByClassName("input");
         selected_choices_values = {};
@@ -335,9 +335,9 @@ function update_app(e) {
             var input_value = input.value;
             selected_choices_values[input_name] = input_value;
         }
-        localStorage.setItem(current_app.getAttribute("id").slice(4), JSON.stringify(selected_choices_values));
+        localStorage.setItem(current_app.getAttribute("name"), JSON.stringify(selected_choices_values));
     } else if (e.classList.contains("input")) {
-        localStorage.setItem(current_app.getAttribute("id").slice(4), e.value);
+        localStorage.setItem(current_app.getAttribute("name"), e.value);
     }
 
     add_pending_pages();
