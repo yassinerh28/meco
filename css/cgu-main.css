@@ -48,7 +48,7 @@ body {
     width: -moz-fit-content;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: var(--meco-gray-dark);
+    color: var(--meco-accent-blue);
     cursor: pointer;
 }
 
@@ -59,7 +59,11 @@ body {
 }
 
 #cgu-article h2 a {
-    color: inherit;
+    color: var(--meco-accent-blue);
+}
+
+#cgu-article h2 a span {
+    color: var(--meco-gray-dark);
 }
 
 #cgu-article h3 {
