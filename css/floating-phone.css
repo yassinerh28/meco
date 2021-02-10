@@ -1,0 +1,150 @@
+#floating-phone {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+
+#floating-phone-card {
+    display: none;
+    background-color: var(--meco-white);
+    padding: 30px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 3px 0px var(--meco-accent-blue);
+    border-radius: 5px;
+}
+
+.floating-phone-active #floating-phone-card {
+    display: flex;
+    animation: floating-phone-reveal 0.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    transform-origin: right bottom;
+}
+
+@keyframes floating-phone-reveal {
+    0% {transform: scale(0); opacity: 0;}
+    60% {transform: scale(1.05)}
+    100% {transform: scale(1); opacity: 1;}
+}
+
+#floating-phone-card-image {
+    background-color: var(--meco-blue-light);
+    background-image: url(../images/about/valeurs.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#floating-phone-card-title {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--meco-gray-dark);
+}
+
+#floating-phone-card-sub-title {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--meco-gray);
+    margin-bottom: 20px;
+}
+
+#floating-phone-card-number {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--meco-blue);
+    color: var(--meco-white);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#floating-phone-card-number:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#floating-phone-icon {
+    position: relative;
+    background-color: var(--meco-blue);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../images/graphic-elements/call.svg), url(../images/graphic-elements/clear.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center, 100px;
+    animation: vibrate 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+#floating-phone-icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background: none;
+    border: solid 2px var(--meco-blue);
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: var(--meco-blue);
+    animation: wave 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.floating-phone-active #floating-phone-icon::after {
+    animation: none;
+}
+
+@keyframes wave {
+    0% {opacity: 0; transform: scale(1);}
+    20% {opacity: 0.5}
+    40% {opacity: 0; transform: scale(1.4);}
+    100% {opacity: 0; transform: scale(1);}
+}
+
+.floating-phone-active #floating-phone-icon {
+    background-position: 100px, center;
+    animation: clear-icon-scale 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes clear-icon-scale {
+    0% {transform: rotateZ(20deg);}
+    90% {transform: rotateZ(-5deg);}
+    100% {transform: rotateZ(0deg);}
+}
+
+@keyframes vibrate {
+    0% {transform: rotateZ(0deg);}
+    2% {transform: rotateZ(10deg);}
+    4% {transform: rotateZ(0deg);}
+    6% {transform: rotateZ(10deg);}
+    8% {transform: rotateZ(0deg);}
+    10% {transform: rotateZ(5deg);}
+    12% {transform: rotateZ(0deg);}
+    14% {transform: rotateZ(5deg);}
+    16% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(0deg);}
+}
