@@ -132,8 +132,7 @@ body {
 }
 
 #cgu-article h3 {
-    margin: 30px 0 10px;
-    padding-left: 20px;
+    padding: 30px 0 10px 20px;
     color: var(--meco-blue-dark);
 }
 
