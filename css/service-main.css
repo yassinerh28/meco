@@ -30,12 +30,13 @@ body {
 .section-body {
     display: flex;
     flex-direction: column;
-    max-width: 720px;
+    max-width: 830px;
 }
 
 .section-title {
     color: var(--meco-blue-dark);
     margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .section-description {
