@@ -35,7 +35,7 @@
 
 #floating-phone-card-image {
     background-color: var(--meco-blue-light);
-    background-image: url(../images/about/service_clients);
+    background-image: url(../images/about/service_clients.jpg);
     background-size: cover;
     background-position: center;
     height: 60px;
