@@ -5,6 +5,10 @@ var button_left = document.getElementById("button-left");
 var button_right = document.getElementById("button-right");
 var progress_bar = document.getElementById("progress");
 
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+var service = urlParams.get("service");
+
 var current_app_page = 1;
 var pending_pages = [];
 var visited_pages = [1];
@@ -12,6 +16,10 @@ var next_page = 1;
 var previous_page = 0;
 
 var selected_choices_values = [];
+
+var min_hour = 10;
+var max_hour = 18;
+var max_day = 7;
 
 function array_min(array) {
     var array_min_return = array[0];
@@ -49,10 +57,15 @@ function go_to_page(number) {
     var choices_container = document.getElementById("choices-container");
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.remove("questions-box-appear-left");
-    if (number != 1) {
+    if (number == 1) {
+        if (service == "isolation" || service == "chauffage" || service == "energie") {
+            localStorage.setItem("service", service);
+            go_to_page((service == "isolation") ? 7: ((service == "chauffage") ? 2: 13));
+            return false;
+        }
+    } else {
         questions_box.classList.remove("questions-box-appear-right");
     }
-    
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -74,24 +87,43 @@ function go_to_page(number) {
                 button_right.innerHTML = app_page.dataset.button_right;
                 button_left.className = "text-clickable button";
                 button_right.className = "text-clickable button";
-                button_left.classList.add(app_page.dataset.button_left_type);
+                if (service == "isolation" || service == "chauffage" || service == "energie") {
+                    if (number == 2 || number == 7 || number == 13) {
+                        button_left.classList.add("button-display-none");
+                    } else {
+                        button_left.disabled = false;
+                        button_left.classList.add(app_page.dataset.button_left_type);
+                    }
+                } else {
+                    button_left.disabled = false;
+                    button_left.classList.add(app_page.dataset.button_left_type);
+                }
                 button_right.classList.add(app_page.dataset.button_right_type);
                 progress_bar.style.width = app_page.dataset.progress + "%";
                 current_app_page = number;
                 previous_page = array_max(visited_pages.slice(0, -1));
                 add_pending_pages();
                 if (number == 29) {
+
                     var contact_date_input = document.getElementById("contact-date-input");
+
                     var today = new Date();
+                    var first_day = today;
                     var date_drop_down = "";
-                    var max_day = 7;
+
+                    /* autofill date */
+
+                    if ((first_day.getHours() > max_hour)) {
+                        first_day.setDate(first_day.getDate() + 1);
+                    }
                     for (let index = 0; index < max_day; index++) {
-                        const date = new Date(today)
-                        date.setDate(date.getDate() + index + 1);
+                        const date = new Date(first_day)
+                        date.setDate(date.getDate() + index);
                         if (date.getDay() == 0) {
                             max_day++;
                             continue;
                         }
+                        console.log(date.getHours());
                         var dd = String(date.getDate()).padStart(2, '0');
                         var mm = String(date.getMonth() + 1).padStart(2, '0');
                         var yyyy = date.getFullYear();
@@ -99,6 +131,17 @@ function go_to_page(number) {
                         date_drop_down += '<option class="input-drop-down-choice text-clickable" value="' + date_string + '">&nbsp;&nbsp;' + format_date(date) +'</option>';
                     }
                     contact_date_input.innerHTML += date_drop_down;
+
+                    /* app-29 autofill time */
+                    var contact_time_input = document.getElementById("contact-time-input");
+                    contact_time_input.innerHTML = '<option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>';
+                    var today = new Date();
+                    for (let index = (format_date(new Date(contact_date_input.value)) == format_date(today) && today.getHours() >= min_hour) ? today.getHours() : min_hour; index < max_hour; index++) {
+                        var contact_time = String(index).padStart(2, '0') + ":00 à " + String(index + 1).padStart(2, '0') + ":00";
+                        contact_time_input.innerHTML += '<option class="input-drop-down-choice text-clickable" value="' + contact_time + '">&nbsp;&nbsp;' + contact_time + '</option>'
+                    }
+                    /* app-29 autofill time - end*/
+
                 }
                 var current_app_name = document.getElementById("app-" + number).getAttribute("name");
                 load_local_data(current_app_name);
@@ -110,32 +153,28 @@ function go_to_page(number) {
                     var info_box_time = document.getElementById("info-box-time");
                     var date = new Date(collected_data.contact.jour);
                     info_box_date.innerHTML = format_date(date);
-                    info_box_time.innerHTML = collected_data.contact.duree;
-                    
-                    xhr = new XMLHttpRequest();
-                    url = '/sendemail.php';
-                    xhr.open("POST", url, true);
-                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-                    xhr.send("collected_data="+JSON.stringify(collected_data));
+                    info_box_time.innerHTML = collected_data.contact.duree.replace("à", "<span style='font-weight: normal;'>à</span>");
                 }
                 right_button_update(current_app_name);
                 questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
                 questions_box.classList.remove("questions-box-disappear-right");
                 questions_box.classList.remove("questions-box-disappear-left");
+
+                if (document.getElementsByClassName("input")[0]) {
+                    update_app(document.getElementsByClassName("input")[0]);
+                }
+
                 console.log("log--pending_pages: " + pending_pages);
                 console.log("log--next_page: " + next_page);
                 console.log("log--visited_pages: " + visited_pages);
                 console.log("log--previous_page: " + previous_page);
                 console.log("end--going_to_page_" + number + "...");
-                
             }
             setTimeout(go, 500);
         }
     };
-
     xhttp.open("GET", "app-" + number + ".html", true);
     xhttp.send();
-    
 }
 
 function format_date(date) {
@@ -143,7 +182,8 @@ function format_date(date) {
 }
 
 function get_day_name(day) {
-    days_names = ["Dimanche", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Lundi"];
+    days_names = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
+    console.log("day: " + day + "; name: " + days_names[day]);
     return days_names[day];
 }
 
@@ -258,6 +298,17 @@ function update_app(e) {
     console.log("----------------");
     console.log("start--update...");
     var current_app = document.getElementById("app-" + current_app_page);
+    /* app-29 autofill time */
+    if (e.getAttribute("id") == "contact-date-input") {
+        var contact_time_input = document.getElementById("contact-time-input");
+        contact_time_input.innerHTML = '<option class="input-drop-down-choice text-clickable" value="" selected>&nbsp;&nbsp;Selectionner un choix</option>';
+        var today = new Date();
+        for (let index = (format_date(new Date(e.value)) == format_date(today) && today.getHours() >= min_hour) ? today.getHours() : min_hour; index < max_hour; index++) {
+            var contact_time = String(index).padStart(2, '0') + ":00 à " + String(index + 1).padStart(2, '0') + ":00";
+            contact_time_input.innerHTML += '<option class="input-drop-down-choice text-clickable" value="' + contact_time + '">&nbsp;&nbsp;' + contact_time + '</option>'
+        }
+    }
+    /* app-29 autofill time - end*/
     if (e.classList.contains("radio-choice")) {
         var choices = document.getElementsByClassName("choice");
         for (let index = 0; index < choices.length; index++) {
@@ -309,6 +360,7 @@ function left_button_action() {
         button_left.click();
         return false;
     }
+    button_left.disabled = true;
     var questions_box = document.getElementById("questions-box");
     questions_box.classList.add("questions-box-disappear-left");
     console.log("----------------");
@@ -336,7 +388,6 @@ function right_button_action() {
     array_remove_value(pending_pages, array_min(pending_pages));
     visited_pages.push(next_page);
     selected_choices_values = [];
-    console.log(current_app, "current_app", current_app_page, "current_app_page")
     button_right.setAttribute("onclick", "right_button_action()");
 }
 
