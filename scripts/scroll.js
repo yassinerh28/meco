@@ -5,6 +5,7 @@ var page_heading = document.getElementById("page-heading");
 var cta_nav_link = document.getElementById("cta-nav-link");
 var page = document.getElementsByClassName("page")[0];
 var logo_nav_link = document.getElementById("logo-nav-link");
+var cta_href = cta_nav_link.getAttribute("href");
 
 function scrollfunction() {
     if (window.pageYOffset == 0) {
@@ -12,10 +13,12 @@ function scrollfunction() {
             navigation_bar.classList.add("navigation-bar-scroll");
         } else {
             navigation_bar.classList.remove("navigation-bar-scroll");
+            cta_nav_link.removeAttribute("href");
         }
         logo_nav_link.classList.remove("logo-nav-link-after-scroll");
     } else {
         cta_nav_link.classList.add("cta-nav-link-after-scroll");
+        cta_nav_link.setAttribute("href", cta_href);
         navigation_bar.classList.add("navigation-bar-scroll");
         logo_nav_link.classList.add("logo-nav-link-after-scroll");
     }

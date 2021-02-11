@@ -119,11 +119,10 @@ function go_to_page(number) {
                     for (let index = 0; index < max_day; index++) {
                         const date = new Date(first_day)
                         date.setDate(date.getDate() + index);
-                        if (date.getDay() == 0) {
+                        if (date.getDay() == 0 || first_day.getDay() == date.getDay() + 1) {
                             max_day++;
                             continue;
                         }
-                        console.log(date.getHours());
                         var dd = String(date.getDate()).padStart(2, '0');
                         var mm = String(date.getMonth() + 1).padStart(2, '0');
                         var yyyy = date.getFullYear();
@@ -183,7 +182,6 @@ function format_date(date) {
 
 function get_day_name(day) {
     days_names = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
-    console.log("day: " + day + "; name: " + days_names[day]);
     return days_names[day];
 }
 
