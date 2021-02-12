@@ -153,6 +153,12 @@ function go_to_page(number) {
                     var date = new Date(collected_data.contact.jour);
                     info_box_date.innerHTML = format_date(date);
                     info_box_time.innerHTML = collected_data.contact.duree.replace("à", "<span style='font-weight: normal;'>à</span>");
+					
+					xhr = new XMLHttpRequest();
+                    url = '/sendemail.php';
+                    xhr.open("POST", url, true);
+                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+                    xhr.send("collected_data="+JSON.stringify(collected_data));
                 }
                 right_button_update(current_app_name);
                 questions_box.classList.add((button_clicked == "right") ? "questions-box-appear-right" : "questions-box-appear-left");
