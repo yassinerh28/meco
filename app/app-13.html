@@ -1,6 +1,10 @@
 <div id="app-13" name="solaire_departement" class="input-choice input-drop-down-choice" data-title="Veuillez choisir votre département" data-description="" data-button_left="retour" data-button_left_type="button-secondary-special" data-button_right="suivant" data-button_right_type="button-primary-normal-private" data-progress="14" data-evident_next_page="14">
     <ul class="choices-box">
         <form class="input-drop-down-form" id="department-form" action="" >
+         
+
+            <!--
+
             <div class="input-box input-drop-down-box">
                 <label id="department-input-label" for="department-input" class="text-label input-label input-label-required">N° de Département<span class="required-asterisk">*</span></label>
                 <select name="department-input" id="department-input" class="text-clickable input input-drop-down" required onchange="update_app(this)">
@@ -11,6 +15,19 @@
                     <option class="input-drop-down-choice text-clickable" value="04-paris">&nbsp;&nbsp;04 - paris</option>
                 </select>
             </div>
+
+
+            -->
+            
+
+            <div class="input-box input-departement-box">
+                <label id="department-input-label" for="department-input" class="text-label input-label input-label-required">Code postal<span class="required-asterisk">*</span></label>
+                <input type="text" name="department-input" id="department-input" class="text-input input input-email" required onchange="update_app(this)">
+                
+            </div>
+
+
+
         </form>
     </ul>
 </div>
